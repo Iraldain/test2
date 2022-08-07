@@ -1,4 +1,4 @@
-[
+export const bestiary = [
     {
         "name": "Aknosom",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2084266193",
