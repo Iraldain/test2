@@ -1,4 +1,4 @@
-export default weaponList = [
+[
     {
         "name": "Defender Great Sword I",
         "weaponType": "Great Sword",
