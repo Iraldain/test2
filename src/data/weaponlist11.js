@@ -1,4 +1,4 @@
-[
+export default insectGlaiveWeaponList = [
     {
         "name": "Defender Glaive I",
         "weaponType": "Insect Glaive",

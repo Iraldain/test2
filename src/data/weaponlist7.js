@@ -1,4 +1,4 @@
-[
+export const lanceWeaponList = [
     {
         "name": "Defender Lance I",
         "weaponType": "Lance",

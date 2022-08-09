@@ -1,4 +1,4 @@
-[
+export default huntingHornWeaponList = [
     {
         "name": "Defender Horn I",
         "weaponType": "Hunting Horn",

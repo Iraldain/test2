@@ -1,4 +1,4 @@
-[
+export default gunLanceWeaponList = [
     {
         "name": "Defender Gunlance I",
         "weaponType": "Gunlance",

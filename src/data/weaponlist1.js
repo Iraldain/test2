@@ -1,4 +1,4 @@
-[
+export default greatswordWeaponList = [
     {
         "name": "Defender Great Sword I",
         "weaponType": "Great Sword",

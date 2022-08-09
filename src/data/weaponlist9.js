@@ -1,4 +1,4 @@
-[
+export default switchAxeWeaponList = [
     {
         "name": "Defender Switch Axe I",
         "weaponType": "Switch Axe",

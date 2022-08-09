@@ -1,4 +1,5 @@
-[
+export default dualBladesWeaponList = [
+    [
     {
         "name": "Defender Dual Blades I",
         "weaponType": "Dual Blades",

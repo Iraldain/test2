@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { weaponClasses } from "./WeaponClasses";
-
+import { bestiary } from "../data/bestiary";
 
 
 type WeaponProps = {
@@ -110,7 +110,8 @@ const WeaponSelector = () => {
 };
 
 const populateWeaponSelector = (weaponListName: string) => {
-
+  const selector = document.getElementById("WeaponSelector");
+  
 }
 
 

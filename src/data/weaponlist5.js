@@ -1,4 +1,4 @@
-[
+export default hammerWeaponList = [
     {
         "name": "Defender Hammer I",
         "weaponType": "Hammer",

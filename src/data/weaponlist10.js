@@ -1,4 +1,4 @@
-[
+export default chargeBladeWeaponList = [
     {
         "name": "Defender Charge Blade I",
         "weaponType": "Charge Blade",
