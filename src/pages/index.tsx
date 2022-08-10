@@ -37,7 +37,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="" />
       </Head>
 
-      <main className="flex-col ">
+      <main>
         <WeaponCard />
         <SkillCard />
         <MonsterCard />
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
 
 const WeaponCard = () => {
   return (
-    <div className='w-1/3 h-1/2 bg-black inline-grid'>
+    <div className='w-1/3 h-40 bg-black inline-grid'>
       <WeaponClassSelector />
       <WeaponSelector />
     </div>
@@ -60,13 +60,13 @@ const WeaponCard = () => {
 
 const SkillCard = () => {
   return (
-    <div className="w-1/3 h-1/2 bg-black border border-white rounded-lg inline-grid" />
+    <div className="w-1/3 h-40 bg-black border border-white rounded-lg inline-grid" />
   );
 };
 
 const MonsterCard = () => {
   return (
-    <div className="w-1/3 h-1/2 bg-black border border-white rounded-lg inline-grid" />
+    <div className="w-1/3 h-40 bg-black border border-white rounded-lg inline-grid" />
   );
 };
 
@@ -85,7 +85,7 @@ const WeaponClassSelector = () => {
   };
 
   return (
-  <div className='min-w-fit bg-gray-700 border border-black rounded-lg hover:bg-gray-600 hover:border-white inline-grid'>
+  <div className='min-w-fit h-full bg-gray-700 border border-black rounded-lg hover:bg-gray-600 hover:border-white inline-grid'>
     <select id='weaponClassSelector' onChange={populateWeaponSelector} className="bg-gray-300 rounded-sm place-self-center">
       {options.map((element, index) => <option key={index}>{element}</option>)}
     </select>
@@ -101,7 +101,7 @@ const WeaponSelector = () => {
   };
 
   return (
-  <div className='min-w-fit bg-gray-700 border border-black rounded-lg hover:bg-gray-600 hover:border-white inline-grid'>
+  <div className='min-w-fit h-full bg-gray-700 border border-black rounded-lg hover:bg-gray-600 hover:border-white inline-grid'>
     <select id='weaponClassSelector' className="bg-gray-300 w-fit rounded-sm place-self-center">
       {options.map((element, index) => <option key={index}>{element}</option>)}
     </select>
@@ -111,6 +111,7 @@ const WeaponSelector = () => {
 
 const populateWeaponSelector = (weaponListName: string) => {
   const selector = document.getElementById("WeaponSelector");
+  selector.value = 
   
 }
 
