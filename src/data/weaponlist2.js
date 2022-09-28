@@ -1,4 +1,4 @@
-export default swordAndShieldWeaponList = [[
+export const swordAndShieldWeaponList = [
     {
         "name": "Defender Sword I",
         "weaponType": "Sword & Shield",
@@ -560,9 +560,38 @@ export default swordAndShieldWeaponList = [[
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2009886523.webp"
     },
     {
-        "name": "Hana no Nagoriwo I",
+        "name": "Phecda's Asterism",
         "weaponType": "Sword & Shield",
         "id": 22,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 11
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 10,
+            "purple": 70
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/384417393.webp"
+    },
+    {
+        "name": "Hana no Nagoriwo I",
+        "weaponType": "Sword & Shield",
+        "id": 23,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 15,
@@ -588,7 +617,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hana no Nagoriwo II",
         "weaponType": "Sword & Shield",
-        "id": 23,
+        "id": 24,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 15,
@@ -616,7 +645,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Kurenawi Ougi",
         "weaponType": "Sword & Shield",
-        "id": 24,
+        "id": 25,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 15,
@@ -644,7 +673,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Kurenawi Ougi+",
         "weaponType": "Sword & Shield",
-        "id": 25,
+        "id": 26,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 15,
@@ -672,7 +701,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Kurenawi Kunpuu",
         "weaponType": "Sword & Shield",
-        "id": 26,
+        "id": 27,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 15,
@@ -700,7 +729,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Kurenawi Kunpuu+",
         "weaponType": "Sword & Shield",
-        "id": 27,
+        "id": 28,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 15,
@@ -728,7 +757,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Exorcising Sword I",
         "weaponType": "Sword & Shield",
-        "id": 28,
+        "id": 29,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -752,7 +781,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Exorcising Sword II",
         "weaponType": "Sword & Shield",
-        "id": 29,
+        "id": 30,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -778,7 +807,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Shaucha Pureblade",
         "weaponType": "Sword & Shield",
-        "id": 30,
+        "id": 31,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -804,7 +833,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Crown of the Protector",
         "weaponType": "Sword & Shield",
-        "id": 31,
+        "id": 32,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -830,7 +859,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Crown of the Protector+",
         "weaponType": "Sword & Shield",
-        "id": 32,
+        "id": 33,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -856,7 +885,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Heavenly King's Sword",
         "weaponType": "Sword & Shield",
-        "id": 33,
+        "id": 34,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -883,7 +912,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Shaucha Gloryblade",
         "weaponType": "Sword & Shield",
-        "id": 34,
+        "id": 35,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -911,7 +940,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Shaucha Gloryblade+",
         "weaponType": "Sword & Shield",
-        "id": 35,
+        "id": 36,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -939,7 +968,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Shaucha Divine Gloryblade",
         "weaponType": "Sword & Shield",
-        "id": 36,
+        "id": 37,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -967,7 +996,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Usurper's Firebolt I",
         "weaponType": "Sword & Shield",
-        "id": 37,
+        "id": 38,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -993,7 +1022,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Usurper's Firebolt II",
         "weaponType": "Sword & Shield",
-        "id": 38,
+        "id": 39,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -1022,7 +1051,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Despot's Crookbolt",
         "weaponType": "Sword & Shield",
-        "id": 39,
+        "id": 40,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -1051,7 +1080,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Despot's Crookbolt+",
         "weaponType": "Sword & Shield",
-        "id": 40,
+        "id": 41,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1080,7 +1109,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Oppressor's Bounty",
         "weaponType": "Sword & Shield",
-        "id": 41,
+        "id": 42,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1109,7 +1138,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dirty Baron I",
         "weaponType": "Sword & Shield",
-        "id": 42,
+        "id": 43,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -1135,7 +1164,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dirty Baron II",
         "weaponType": "Sword & Shield",
-        "id": 43,
+        "id": 44,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -1161,7 +1190,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dirty Marquis",
         "weaponType": "Sword & Shield",
-        "id": 44,
+        "id": 45,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -1190,7 +1219,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dirty Marquis+",
         "weaponType": "Sword & Shield",
-        "id": 45,
+        "id": 46,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1219,7 +1248,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dirty Graf",
         "weaponType": "Sword & Shield",
-        "id": 46,
+        "id": 47,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -1248,7 +1277,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Claw I",
         "weaponType": "Sword & Shield",
-        "id": 47,
+        "id": 48,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -1274,7 +1303,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Claw II",
         "weaponType": "Sword & Shield",
-        "id": 48,
+        "id": 49,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1300,7 +1329,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Ludroth Claw",
         "weaponType": "Sword & Shield",
-        "id": 49,
+        "id": 50,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -1330,7 +1359,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Ludroth Claw+",
         "weaponType": "Sword & Shield",
-        "id": 50,
+        "id": 51,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -1360,7 +1389,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Waterclaw",
         "weaponType": "Sword & Shield",
-        "id": 51,
+        "id": 52,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -1390,7 +1419,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Waterclaw+",
         "weaponType": "Sword & Shield",
-        "id": 52,
+        "id": 53,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1420,7 +1449,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Golm Sword",
         "weaponType": "Sword & Shield",
-        "id": 53,
+        "id": 54,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1448,7 +1477,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Golm Sword+",
         "weaponType": "Sword & Shield",
-        "id": 54,
+        "id": 55,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1476,7 +1505,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Giant's Sword \"Goltsneit\"",
         "weaponType": "Sword & Shield",
-        "id": 55,
+        "id": 56,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -1504,7 +1533,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rex Talon I",
         "weaponType": "Sword & Shield",
-        "id": 56,
+        "id": 57,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -20,
@@ -1528,7 +1557,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rex Talon II",
         "weaponType": "Sword & Shield",
-        "id": 57,
+        "id": 58,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -1552,7 +1581,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Tigrex Sword",
         "weaponType": "Sword & Shield",
-        "id": 58,
+        "id": 59,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -1576,7 +1605,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Tigrex Sword+",
         "weaponType": "Sword & Shield",
-        "id": 59,
+        "id": 60,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -1600,7 +1629,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Great Tigrex Sword",
         "weaponType": "Sword & Shield",
-        "id": 60,
+        "id": 61,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -1624,7 +1653,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Great Tigrex Sword+",
         "weaponType": "Sword & Shield",
-        "id": 61,
+        "id": 62,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -15,
@@ -1648,7 +1677,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Frost Edge I",
         "weaponType": "Sword & Shield",
-        "id": 62,
+        "id": 63,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -1674,7 +1703,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Frost Edge II",
         "weaponType": "Sword & Shield",
-        "id": 63,
+        "id": 64,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -1700,7 +1729,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hi Frost Edge",
         "weaponType": "Sword & Shield",
-        "id": 64,
+        "id": 65,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -1730,7 +1759,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Crystallized Edge",
         "weaponType": "Sword & Shield",
-        "id": 65,
+        "id": 66,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -1760,7 +1789,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Crystallized Edge+",
         "weaponType": "Sword & Shield",
-        "id": 66,
+        "id": 67,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -1790,7 +1819,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Permafrost Edge",
         "weaponType": "Sword & Shield",
-        "id": 67,
+        "id": 68,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -1820,7 +1849,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Frostmoon Hatchet",
         "weaponType": "Sword & Shield",
-        "id": 68,
+        "id": 69,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -1849,7 +1878,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Frostmoon Hatchet+",
         "weaponType": "Sword & Shield",
-        "id": 69,
+        "id": 70,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -1878,7 +1907,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Winter's Feast Hatchet",
         "weaponType": "Sword & Shield",
-        "id": 70,
+        "id": 71,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1907,7 +1936,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hunter's Knife I",
         "weaponType": "Sword & Shield",
-        "id": 71,
+        "id": 72,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -1931,7 +1960,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hunter's Knife II",
         "weaponType": "Sword & Shield",
-        "id": 72,
+        "id": 73,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1955,7 +1984,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Fighter Sword",
         "weaponType": "Sword & Shield",
-        "id": 73,
+        "id": 74,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -1979,7 +2008,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Iron Beater I",
         "weaponType": "Sword & Shield",
-        "id": 74,
+        "id": 75,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -2003,7 +2032,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Iron Beater II",
         "weaponType": "Sword & Shield",
-        "id": 75,
+        "id": 76,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2029,7 +2058,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Smithy's Pride",
         "weaponType": "Sword & Shield",
-        "id": 76,
+        "id": 77,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -2055,7 +2084,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sarganas Rapier",
         "weaponType": "Sword & Shield",
-        "id": 77,
+        "id": 78,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2083,7 +2112,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sarganas Rapier+",
         "weaponType": "Sword & Shield",
-        "id": 78,
+        "id": 79,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -2111,7 +2140,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Astalos Rapier",
         "weaponType": "Sword & Shield",
-        "id": 79,
+        "id": 80,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2139,7 +2168,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Soldier's Dagger I",
         "weaponType": "Sword & Shield",
-        "id": 80,
+        "id": 81,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -2165,7 +2194,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Soldier's Dagger II",
         "weaponType": "Sword & Shield",
-        "id": 81,
+        "id": 82,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -2192,7 +2221,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Commander's Dagger",
         "weaponType": "Sword & Shield",
-        "id": 82,
+        "id": 83,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 0,
@@ -2219,7 +2248,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Commander's Dagger+",
         "weaponType": "Sword & Shield",
-        "id": 83,
+        "id": 84,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -2246,7 +2275,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Elite Dagger",
         "weaponType": "Sword & Shield",
-        "id": 84,
+        "id": 85,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -2273,7 +2302,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Odyssey Blade I",
         "weaponType": "Sword & Shield",
-        "id": 85,
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -2301,7 +2330,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Odyssey Blade II",
         "weaponType": "Sword & Shield",
-        "id": 86,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2329,7 +2358,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Master Odyssey",
         "weaponType": "Sword & Shield",
-        "id": 87,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2357,7 +2386,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Oresteia",
         "weaponType": "Sword & Shield",
-        "id": 88,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -2385,7 +2414,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Oresteia+",
         "weaponType": "Sword & Shield",
-        "id": 89,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -2413,7 +2442,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Agamemnon",
         "weaponType": "Sword & Shield",
-        "id": 90,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2441,7 +2470,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Pukei Sword I",
         "weaponType": "Sword & Shield",
-        "id": 91,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -2467,7 +2496,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Pukei Sword II",
         "weaponType": "Sword & Shield",
-        "id": 92,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2496,7 +2525,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Venomedge",
         "weaponType": "Sword & Shield",
-        "id": 93,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2525,7 +2554,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Venomedge+",
         "weaponType": "Sword & Shield",
-        "id": 94,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -2554,7 +2583,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Datura Splitter",
         "weaponType": "Sword & Shield",
-        "id": 95,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -2583,7 +2612,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Datura Splitter+",
         "weaponType": "Sword & Shield",
-        "id": 96,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2612,7 +2641,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Djinn I",
         "weaponType": "Sword & Shield",
-        "id": 97,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -2638,7 +2667,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Djinn II",
         "weaponType": "Sword & Shield",
-        "id": 98,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -2664,7 +2693,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Blazing Falchion",
         "weaponType": "Sword & Shield",
-        "id": 99,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -2690,7 +2719,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Blazing Falchion+",
         "weaponType": "Sword & Shield",
-        "id": 100,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -2716,7 +2745,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Enspirited Ifrit",
         "weaponType": "Sword & Shield",
-        "id": 101,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2740,9 +2769,37 @@ export default swordAndShieldWeaponList = [[
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/229257546.webp"
     },
     {
+        "name": "Shining Wyvern Blade",
+        "weaponType": "Sword & Shield",
+        "id": 103,
+        "isBlademaster": true,
+        "baseRaw": 310,
+        "baseAffinity": 35,
+        "elements": {
+            "fire": 42
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 20,
+            "green": 50,
+            "blue": 60,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "3"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1785048722.webp"
+    },
+    {
         "name": "Icicle Spike I",
         "weaponType": "Sword & Shield",
-        "id": 102,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 30,
@@ -2768,7 +2825,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Icicle Spike II",
         "weaponType": "Sword & Shield",
-        "id": 103,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 30,
@@ -2794,7 +2851,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Nardebosche",
         "weaponType": "Sword & Shield",
-        "id": 104,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 35,
@@ -2823,7 +2880,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Nardeglacon",
         "weaponType": "Sword & Shield",
-        "id": 105,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 35,
@@ -2852,7 +2909,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Nardeglacon+",
         "weaponType": "Sword & Shield",
-        "id": 106,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 35,
@@ -2881,7 +2938,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Never Event",
         "weaponType": "Sword & Shield",
-        "id": 107,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 35,
@@ -2910,7 +2967,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Cunning Riposte I",
         "weaponType": "Sword & Shield",
-        "id": 108,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2936,7 +2993,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Cunning Riposte II",
         "weaponType": "Sword & Shield",
-        "id": 109,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -2962,7 +3019,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Guard Breaker",
         "weaponType": "Sword & Shield",
-        "id": 110,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2990,7 +3047,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Guard Breaker+",
         "weaponType": "Sword & Shield",
-        "id": 111,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -3018,7 +3075,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "True Guard Breaker",
         "weaponType": "Sword & Shield",
-        "id": 112,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3046,7 +3103,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "True Guard Breaker+",
         "weaponType": "Sword & Shield",
-        "id": 113,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3074,7 +3131,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Khezu Razor I",
         "weaponType": "Sword & Shield",
-        "id": 114,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 10,
@@ -3100,7 +3157,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Khezu Razor II",
         "weaponType": "Sword & Shield",
-        "id": 115,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -3126,7 +3183,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Painful Razor",
         "weaponType": "Sword & Shield",
-        "id": 116,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 15,
@@ -3155,7 +3212,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Painful Razor+",
         "weaponType": "Sword & Shield",
-        "id": 117,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 15,
@@ -3184,7 +3241,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dread Razor",
         "weaponType": "Sword & Shield",
-        "id": 118,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 15,
@@ -3213,7 +3270,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dread Razor+",
         "weaponType": "Sword & Shield",
-        "id": 119,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 15,
@@ -3242,7 +3299,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hypnos Knife I",
         "weaponType": "Sword & Shield",
-        "id": 120,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -3268,7 +3325,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hypnos Knife II",
         "weaponType": "Sword & Shield",
-        "id": 121,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3294,7 +3351,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Morpheus Knife",
         "weaponType": "Sword & Shield",
-        "id": 122,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -3323,7 +3380,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Morpheus Knife+",
         "weaponType": "Sword & Shield",
-        "id": 123,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -3352,7 +3409,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Karmanight",
         "weaponType": "Sword & Shield",
-        "id": 124,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3381,7 +3438,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bone Kukri I",
         "weaponType": "Sword & Shield",
-        "id": 125,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3405,7 +3462,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bone Kukri II",
         "weaponType": "Sword & Shield",
-        "id": 126,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3429,7 +3486,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Chief Kukri",
         "weaponType": "Sword & Shield",
-        "id": 127,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -3453,7 +3510,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bone Barong I",
         "weaponType": "Sword & Shield",
-        "id": 128,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3477,7 +3534,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bone Barong II",
         "weaponType": "Sword & Shield",
-        "id": 129,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3501,7 +3558,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Grand Barong",
         "weaponType": "Sword & Shield",
-        "id": 130,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -3525,7 +3582,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Grand Barong+",
         "weaponType": "Sword & Shield",
-        "id": 131,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -3549,7 +3606,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Barong Kutot",
         "weaponType": "Sword & Shield",
-        "id": 132,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3573,7 +3630,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Barong Kutot+",
         "weaponType": "Sword & Shield",
-        "id": 133,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -3597,7 +3654,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dual Carapace",
         "weaponType": "Sword & Shield",
-        "id": 134,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3625,7 +3682,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dual Carapace+",
         "weaponType": "Sword & Shield",
-        "id": 135,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3653,7 +3710,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dual Scissors",
         "weaponType": "Sword & Shield",
-        "id": 136,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3682,7 +3739,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Princess Rapier I",
         "weaponType": "Sword & Shield",
-        "id": 137,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -3708,7 +3765,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Princess Rapier II",
         "weaponType": "Sword & Shield",
-        "id": 138,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 10,
@@ -3734,7 +3791,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Queen Rapier",
         "weaponType": "Sword & Shield",
-        "id": 139,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 10,
@@ -3760,7 +3817,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Queen Rapier+",
         "weaponType": "Sword & Shield",
-        "id": 140,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 10,
@@ -3786,7 +3843,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Empress Rapier",
         "weaponType": "Sword & Shield",
-        "id": 141,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3812,7 +3869,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Empress Rapier+",
         "weaponType": "Sword & Shield",
-        "id": 142,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -3836,9 +3893,37 @@ export default swordAndShieldWeaponList = [[
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/615282398.webp"
     },
     {
+        "name": "Lunatic Rose",
+        "weaponType": "Sword & Shield",
+        "id": 145,
+        "isBlademaster": true,
+        "baseRaw": 320,
+        "baseAffinity": 30,
+        "elements": {
+            "poison": 33
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 100,
+            "orange": 20,
+            "yellow": 100,
+            "green": 20,
+            "blue": 40,
+            "white": 100,
+            "purple": 20
+        },
+        "slots": [
+            "3"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1799298739.webp"
+    },
+    {
         "name": "Rosenmesser",
         "weaponType": "Sword & Shield",
-        "id": 143,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -3864,7 +3949,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rosenmesser+",
         "weaponType": "Sword & Shield",
-        "id": 144,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -3890,7 +3975,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rosengedien",
         "weaponType": "Sword & Shield",
-        "id": 145,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -3916,7 +4001,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bone Tabar I",
         "weaponType": "Sword & Shield",
-        "id": 146,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -25,
@@ -3940,7 +4025,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bone Tabar II",
         "weaponType": "Sword & Shield",
-        "id": 147,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -25,
@@ -3966,7 +4051,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Ragdos Tabar",
         "weaponType": "Sword & Shield",
-        "id": 148,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -25,
@@ -3992,7 +4077,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Ragdos Tabar+",
         "weaponType": "Sword & Shield",
-        "id": 149,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": -25,
@@ -4018,7 +4103,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bonebreaker Tabar",
         "weaponType": "Sword & Shield",
-        "id": 150,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -25,
@@ -4044,7 +4129,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bonebreaker Tabar+",
         "weaponType": "Sword & Shield",
-        "id": 151,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 370,
         "baseAffinity": -25,
@@ -4070,7 +4155,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Naab Sword",
         "weaponType": "Sword & Shield",
-        "id": 152,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -4096,7 +4181,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Naab Sword+",
         "weaponType": "Sword & Shield",
-        "id": 153,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -4122,7 +4207,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Feral Fangs",
         "weaponType": "Sword & Shield",
-        "id": 154,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -4148,7 +4233,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Carapace Mace I",
         "weaponType": "Sword & Shield",
-        "id": 155,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": -20,
@@ -4172,7 +4257,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Carapace Mace II",
         "weaponType": "Sword & Shield",
-        "id": 156,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": -20,
@@ -4196,7 +4281,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Barroth Club",
         "weaponType": "Sword & Shield",
-        "id": 157,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -4223,7 +4308,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Barrotherang",
         "weaponType": "Sword & Shield",
-        "id": 158,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -20,
@@ -4250,7 +4335,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Barrotherang+",
         "weaponType": "Sword & Shield",
-        "id": 159,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -20,
@@ -4277,7 +4362,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Pneumatic Drillblade",
         "weaponType": "Sword & Shield",
-        "id": 160,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -20,
@@ -4304,7 +4389,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Studded Club I",
         "weaponType": "Sword & Shield",
-        "id": 161,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -5,
@@ -4328,7 +4413,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Studded Club II",
         "weaponType": "Sword & Shield",
-        "id": 162,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -5,
@@ -4352,7 +4437,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Spiked Bat",
         "weaponType": "Sword & Shield",
-        "id": 163,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -5,
@@ -4376,7 +4461,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Spiked Bat+",
         "weaponType": "Sword & Shield",
-        "id": 164,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -5,
@@ -4400,7 +4485,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Barbarian Terror",
         "weaponType": "Sword & Shield",
-        "id": 165,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 370,
         "baseAffinity": -5,
@@ -4424,7 +4509,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Barbarian Terror+",
         "weaponType": "Sword & Shield",
-        "id": 166,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 380,
         "baseAffinity": -5,
@@ -4448,7 +4533,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Brash Buddies I",
         "weaponType": "Sword & Shield",
-        "id": 167,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -4472,7 +4557,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Brash Buddies II",
         "weaponType": "Sword & Shield",
-        "id": 168,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -4496,7 +4581,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Cocky Comrades",
         "weaponType": "Sword & Shield",
-        "id": 169,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4524,7 +4609,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Flammensucher I",
         "weaponType": "Sword & Shield",
-        "id": 170,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -4553,7 +4638,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Flammensucher II",
         "weaponType": "Sword & Shield",
-        "id": 171,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -20,
@@ -4582,7 +4667,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Gnashing Flammensucher",
         "weaponType": "Sword & Shield",
-        "id": 172,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -20,
@@ -4611,7 +4696,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Gnashing Flammensucher+",
         "weaponType": "Sword & Shield",
-        "id": 173,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -20,
@@ -4640,7 +4725,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Lohensieger",
         "weaponType": "Sword & Shield",
-        "id": 174,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -20,
@@ -4669,7 +4754,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Lohensieger+",
         "weaponType": "Sword & Shield",
-        "id": 175,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -4698,7 +4783,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Mincing Blade I",
         "weaponType": "Sword & Shield",
-        "id": 176,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -15,
@@ -4724,7 +4809,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Mincing Blade II",
         "weaponType": "Sword & Shield",
-        "id": 177,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -4752,7 +4837,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Chef's Knife",
         "weaponType": "Sword & Shield",
-        "id": 178,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -4780,7 +4865,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Chef's Best Knife",
         "weaponType": "Sword & Shield",
-        "id": 179,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -15,
@@ -4808,7 +4893,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Chef's Best Knife+",
         "weaponType": "Sword & Shield",
-        "id": 180,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -4836,7 +4921,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Chef's Ultimate Knife",
         "weaponType": "Sword & Shield",
-        "id": 181,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -4864,7 +4949,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Izuchi Sickle I",
         "weaponType": "Sword & Shield",
-        "id": 182,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 60,
         "baseAffinity": 10,
@@ -4888,7 +4973,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Izuchi Sickle II",
         "weaponType": "Sword & Shield",
-        "id": 183,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 12,
@@ -4912,7 +4997,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Snapper Sickle",
         "weaponType": "Sword & Shield",
-        "id": 184,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 15,
@@ -4939,7 +5024,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Snapper Sickle+",
         "weaponType": "Sword & Shield",
-        "id": 185,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 15,
@@ -4966,7 +5051,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Blower's Scythes",
         "weaponType": "Sword & Shield",
-        "id": 186,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 15,
@@ -4993,7 +5078,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Lava Pick I",
         "weaponType": "Sword & Shield",
-        "id": 187,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -5019,7 +5104,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Lava Pick II",
         "weaponType": "Sword & Shield",
-        "id": 188,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -5045,7 +5130,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Burly Beak",
         "weaponType": "Sword & Shield",
-        "id": 189,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5075,7 +5160,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Burly Beak+",
         "weaponType": "Sword & Shield",
-        "id": 190,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5105,7 +5190,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Bruising Beak",
         "weaponType": "Sword & Shield",
-        "id": 191,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5135,7 +5220,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo I",
         "weaponType": "Sword & Shield",
-        "id": 192,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -5159,7 +5244,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Unu",
         "weaponType": "Sword & Shield",
-        "id": 193,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5183,7 +5268,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo White I",
         "weaponType": "Sword & Shield",
-        "id": 194,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -5209,7 +5294,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Unu White",
         "weaponType": "Sword & Shield",
-        "id": 195,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5238,7 +5323,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Du White",
         "weaponType": "Sword & Shield",
-        "id": 196,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5267,7 +5352,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Tre White",
         "weaponType": "Sword & Shield",
-        "id": 197,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5297,7 +5382,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo Black I",
         "weaponType": "Sword & Shield",
-        "id": 198,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5326,7 +5411,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo Black II",
         "weaponType": "Sword & Shield",
-        "id": 199,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5355,7 +5440,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Unu Black",
         "weaponType": "Sword & Shield",
-        "id": 200,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5384,7 +5469,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Du Black",
         "weaponType": "Sword & Shield",
-        "id": 201,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5413,7 +5498,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Tre Black",
         "weaponType": "Sword & Shield",
-        "id": 202,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5443,7 +5528,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo Green I",
         "weaponType": "Sword & Shield",
-        "id": 203,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5469,7 +5554,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Unu Green",
         "weaponType": "Sword & Shield",
-        "id": 204,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5499,7 +5584,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Du Green",
         "weaponType": "Sword & Shield",
-        "id": 205,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -5529,7 +5614,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Tre Green",
         "weaponType": "Sword & Shield",
-        "id": 206,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5559,7 +5644,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo Yellow I",
         "weaponType": "Sword & Shield",
-        "id": 207,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5585,7 +5670,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Unu Yellow",
         "weaponType": "Sword & Shield",
-        "id": 208,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5614,7 +5699,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Du Yellow",
         "weaponType": "Sword & Shield",
-        "id": 209,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5643,7 +5728,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Tre Yellow",
         "weaponType": "Sword & Shield",
-        "id": 210,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5673,7 +5758,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo Red I",
         "weaponType": "Sword & Shield",
-        "id": 211,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -5699,7 +5784,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Nulo Red II",
         "weaponType": "Sword & Shield",
-        "id": 212,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5725,7 +5810,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Unu Red",
         "weaponType": "Sword & Shield",
-        "id": 213,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5754,7 +5839,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Du Red",
         "weaponType": "Sword & Shield",
-        "id": 214,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5783,7 +5868,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Secta Tre Red",
         "weaponType": "Sword & Shield",
-        "id": 215,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5813,7 +5898,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sinister Sword I",
         "weaponType": "Sword & Shield",
-        "id": 216,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5839,7 +5924,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sinister Sword II",
         "weaponType": "Sword & Shield",
-        "id": 217,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5865,7 +5950,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sinister Shadekeeper",
         "weaponType": "Sword & Shield",
-        "id": 218,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5894,7 +5979,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sinister Shadekeeper+",
         "weaponType": "Sword & Shield",
-        "id": 219,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5923,7 +6008,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Tormented Shadekeeper",
         "weaponType": "Sword & Shield",
-        "id": 220,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5952,7 +6037,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Spirit Stealer",
         "weaponType": "Sword & Shield",
-        "id": 221,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5981,7 +6066,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sucher-Ankh",
         "weaponType": "Sword & Shield",
-        "id": 222,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 15,
@@ -6009,7 +6094,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sucher-Ankh+",
         "weaponType": "Sword & Shield",
-        "id": 223,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 15,
@@ -6037,7 +6122,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sieger-Ankh",
         "weaponType": "Sword & Shield",
-        "id": 224,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 15,
@@ -6065,7 +6150,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Le D\u00e9tecteur",
         "weaponType": "Sword & Shield",
-        "id": 225,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 35,
@@ -6091,7 +6176,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Le Limier",
         "weaponType": "Sword & Shield",
-        "id": 226,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -6117,7 +6202,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rajang Club I",
         "weaponType": "Sword & Shield",
-        "id": 227,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -6143,7 +6228,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rajang Club II",
         "weaponType": "Sword & Shield",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -6171,7 +6256,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Banned Rajang Club",
         "weaponType": "Sword & Shield",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6199,7 +6284,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Banned Rajang Club+",
         "weaponType": "Sword & Shield",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -6227,7 +6312,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Cursed Rajang Club",
         "weaponType": "Sword & Shield",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -10,
@@ -6255,7 +6340,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Demonlord Bludgeon",
         "weaponType": "Sword & Shield",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6284,7 +6369,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Azure Elder Sword I",
         "weaponType": "Sword & Shield",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6310,7 +6395,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Azure Elder Sword II",
         "weaponType": "Sword & Shield",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6336,7 +6421,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Abyssal Gale Shredder",
         "weaponType": "Sword & Shield",
-        "id": 235,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6362,7 +6447,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Windchaser",
         "weaponType": "Sword & Shield",
-        "id": 236,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6388,7 +6473,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Thunderbolt Sword I",
         "weaponType": "Sword & Shield",
-        "id": 237,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6414,7 +6499,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Abyssal Storm Shredder",
         "weaponType": "Sword & Shield",
-        "id": 238,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6440,7 +6525,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Atomic Mind",
         "weaponType": "Sword & Shield",
-        "id": 239,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6466,7 +6551,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Icesteel Dagger I",
         "weaponType": "Sword & Shield",
-        "id": 240,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 5,
@@ -6494,7 +6579,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Daora's Razor",
         "weaponType": "Sword & Shield",
-        "id": 241,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6522,7 +6607,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Daora's Razor+",
         "weaponType": "Sword & Shield",
-        "id": 242,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -6550,7 +6635,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Daora's Maelstrom",
         "weaponType": "Sword & Shield",
-        "id": 243,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -6578,7 +6663,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Teostra's Spada I",
         "weaponType": "Sword & Shield",
-        "id": 244,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6604,7 +6689,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Teostra's Emblem",
         "weaponType": "Sword & Shield",
-        "id": 245,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6630,7 +6715,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Teostra's Emblem+",
         "weaponType": "Sword & Shield",
-        "id": 246,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6656,7 +6741,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Teostra's Medal",
         "weaponType": "Sword & Shield",
-        "id": 247,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6682,7 +6767,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Redwing Swiftblade I",
         "weaponType": "Sword & Shield",
-        "id": 248,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6710,7 +6795,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Vermilion Orgul",
         "weaponType": "Sword & Shield",
-        "id": 249,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6738,7 +6823,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Gates of Heaven",
         "weaponType": "Sword & Shield",
-        "id": 250,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6766,7 +6851,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Abyssal Sunburst",
         "weaponType": "Sword & Shield",
-        "id": 251,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -25,
@@ -6792,7 +6877,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sleepy Shellsword I",
         "weaponType": "Sword & Shield",
-        "id": 252,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6818,7 +6903,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Sleepy Shellsword II",
         "weaponType": "Sword & Shield",
-        "id": 253,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6844,7 +6929,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Waking Nightmare",
         "weaponType": "Sword & Shield",
-        "id": 254,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6872,7 +6957,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Waking Nightmare+",
         "weaponType": "Sword & Shield",
-        "id": 255,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6900,7 +6985,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Dreamwaver",
         "weaponType": "Sword & Shield",
-        "id": 256,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6928,7 +7013,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Catspaw I",
         "weaponType": "Sword & Shield",
-        "id": 257,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -6954,7 +7039,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Catspaw II",
         "weaponType": "Sword & Shield",
-        "id": 258,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6980,7 +7065,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Catburglar",
         "weaponType": "Sword & Shield",
-        "id": 259,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -7008,7 +7093,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Catburglar+",
         "weaponType": "Sword & Shield",
-        "id": 260,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -7036,7 +7121,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Catlike Tread",
         "weaponType": "Sword & Shield",
-        "id": 261,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -7064,7 +7149,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Ninja Sword I",
         "weaponType": "Sword & Shield",
-        "id": 262,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 50,
@@ -7092,7 +7177,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hi Ninja Sword",
         "weaponType": "Sword & Shield",
-        "id": 263,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 100,
@@ -7120,7 +7205,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Hi Ninja Sword+",
         "weaponType": "Sword & Shield",
-        "id": 264,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 100,
@@ -7148,7 +7233,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Ninja Master Sword",
         "weaponType": "Sword & Shield",
-        "id": 265,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 100,
@@ -7176,7 +7261,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Order's Sword",
         "weaponType": "Sword & Shield",
-        "id": 266,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 10,
@@ -7202,7 +7287,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Royal Order's Sword+",
         "weaponType": "Sword & Shield",
-        "id": 267,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -7229,7 +7314,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Antique Machina SS",
         "weaponType": "Sword & Shield",
-        "id": 268,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7255,7 +7340,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rampage Sword I",
         "weaponType": "Sword & Shield",
-        "id": 269,
+        "id": 272,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7279,7 +7364,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rampage Sword II",
         "weaponType": "Sword & Shield",
-        "id": 270,
+        "id": 273,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7303,7 +7388,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rampage Sword III",
         "weaponType": "Sword & Shield",
-        "id": 271,
+        "id": 274,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7327,7 +7412,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rampage Sword IV",
         "weaponType": "Sword & Shield",
-        "id": 272,
+        "id": 275,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7351,7 +7436,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rampage Sword V",
         "weaponType": "Sword & Shield",
-        "id": 273,
+        "id": 276,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7375,7 +7460,7 @@ export default swordAndShieldWeaponList = [[
     {
         "name": "Rampage Sword S",
         "weaponType": "Sword & Shield",
-        "id": 274,
+        "id": 277,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

@@ -2077,9 +2077,38 @@ export const lanceWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/282485531.webp"
     },
     {
-        "name": "Growling Wyvern I",
+        "name": "Dubhe's Asterism",
         "weaponType": "Lance",
         "id": 78,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 15
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 20,
+            "purple": 60
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/372702709.webp"
+    },
+    {
+        "name": "Growling Wyvern I",
+        "weaponType": "Lance",
+        "id": 79,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -2105,7 +2134,7 @@ export const lanceWeaponList = [
     {
         "name": "Growling Wyvern II",
         "weaponType": "Lance",
-        "id": 79,
+        "id": 80,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2134,7 +2163,7 @@ export const lanceWeaponList = [
     {
         "name": "Roaring Wyvern",
         "weaponType": "Lance",
-        "id": 80,
+        "id": 81,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -2163,7 +2192,7 @@ export const lanceWeaponList = [
     {
         "name": "Roaring Wyvern+",
         "weaponType": "Lance",
-        "id": 81,
+        "id": 82,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2192,7 +2221,7 @@ export const lanceWeaponList = [
     {
         "name": "Raging Wyvern",
         "weaponType": "Lance",
-        "id": 82,
+        "id": 83,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -2221,7 +2250,7 @@ export const lanceWeaponList = [
     {
         "name": "Raging Wyvern+",
         "weaponType": "Lance",
-        "id": 83,
+        "id": 84,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2250,7 +2279,7 @@ export const lanceWeaponList = [
     {
         "name": "Kadachi Lance I",
         "weaponType": "Lance",
-        "id": 84,
+        "id": 85,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -2276,7 +2305,7 @@ export const lanceWeaponList = [
     {
         "name": "Kadachi Lance II",
         "weaponType": "Lance",
-        "id": 85,
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 15,
@@ -2304,7 +2333,7 @@ export const lanceWeaponList = [
     {
         "name": "Shockspear",
         "weaponType": "Lance",
-        "id": 86,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 15,
@@ -2332,7 +2361,7 @@ export const lanceWeaponList = [
     {
         "name": "Shockspear+",
         "weaponType": "Lance",
-        "id": 87,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 15,
@@ -2360,7 +2389,7 @@ export const lanceWeaponList = [
     {
         "name": "Thunderlance",
         "weaponType": "Lance",
-        "id": 88,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 15,
@@ -2388,7 +2417,7 @@ export const lanceWeaponList = [
     {
         "name": "Thunderlance+",
         "weaponType": "Lance",
-        "id": 89,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 15,
@@ -2416,7 +2445,7 @@ export const lanceWeaponList = [
     {
         "name": "Aknosom Lance I",
         "weaponType": "Lance",
-        "id": 90,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2442,7 +2471,7 @@ export const lanceWeaponList = [
     {
         "name": "Aknosom Lance II",
         "weaponType": "Lance",
-        "id": 91,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -2468,7 +2497,7 @@ export const lanceWeaponList = [
     {
         "name": "Aknosom Lance III",
         "weaponType": "Lance",
-        "id": 92,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -2496,7 +2525,7 @@ export const lanceWeaponList = [
     {
         "name": "Dawnbreaker Lance",
         "weaponType": "Lance",
-        "id": 93,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -2524,7 +2553,7 @@ export const lanceWeaponList = [
     {
         "name": "Dawnmoon Lance",
         "weaponType": "Lance",
-        "id": 94,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -2552,7 +2581,7 @@ export const lanceWeaponList = [
     {
         "name": "Dawnmoon Lance+",
         "weaponType": "Lance",
-        "id": 95,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2580,7 +2609,7 @@ export const lanceWeaponList = [
     {
         "name": "Dawnmoon Piercer",
         "weaponType": "Lance",
-        "id": 96,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2608,7 +2637,7 @@ export const lanceWeaponList = [
     {
         "name": "Rugged Lance I",
         "weaponType": "Lance",
-        "id": 97,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": -20,
@@ -2632,7 +2661,7 @@ export const lanceWeaponList = [
     {
         "name": "Rugged Lance II",
         "weaponType": "Lance",
-        "id": 98,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": -20,
@@ -2656,7 +2685,7 @@ export const lanceWeaponList = [
     {
         "name": "Barroth Carver",
         "weaponType": "Lance",
-        "id": 99,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -2683,7 +2712,7 @@ export const lanceWeaponList = [
     {
         "name": "Niter Spear",
         "weaponType": "Lance",
-        "id": 100,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -20,
@@ -2710,7 +2739,7 @@ export const lanceWeaponList = [
     {
         "name": "Niter Spear+",
         "weaponType": "Lance",
-        "id": 101,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -20,
@@ -2737,7 +2766,7 @@ export const lanceWeaponList = [
     {
         "name": "Barroth Borer",
         "weaponType": "Lance",
-        "id": 102,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -20,
@@ -2764,7 +2793,7 @@ export const lanceWeaponList = [
     {
         "name": "Drill Lance I",
         "weaponType": "Lance",
-        "id": 103,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 10,
@@ -2794,7 +2823,7 @@ export const lanceWeaponList = [
     {
         "name": "Drill Lance II",
         "weaponType": "Lance",
-        "id": 104,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -2824,7 +2853,7 @@ export const lanceWeaponList = [
     {
         "name": "Gigadrill Lance",
         "weaponType": "Lance",
-        "id": 105,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 10,
@@ -2854,7 +2883,7 @@ export const lanceWeaponList = [
     {
         "name": "Gigadrill Lance+",
         "weaponType": "Lance",
-        "id": 106,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 10,
@@ -2884,7 +2913,7 @@ export const lanceWeaponList = [
     {
         "name": "Exadrill Lance",
         "weaponType": "Lance",
-        "id": 107,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -2914,7 +2943,7 @@ export const lanceWeaponList = [
     {
         "name": "Exadrill Lance+",
         "weaponType": "Lance",
-        "id": 108,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -2944,7 +2973,7 @@ export const lanceWeaponList = [
     {
         "name": "Veil of Lightning",
         "weaponType": "Lance",
-        "id": 109,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2972,7 +3001,7 @@ export const lanceWeaponList = [
     {
         "name": "Veil of Lightning+",
         "weaponType": "Lance",
-        "id": 110,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -3000,7 +3029,7 @@ export const lanceWeaponList = [
     {
         "name": "Verdant Lightning",
         "weaponType": "Lance",
-        "id": 111,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -3028,7 +3057,7 @@ export const lanceWeaponList = [
     {
         "name": "Volvi Stroke I",
         "weaponType": "Lance",
-        "id": 112,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3054,7 +3083,7 @@ export const lanceWeaponList = [
     {
         "name": "Volvi Stroke II",
         "weaponType": "Lance",
-        "id": 113,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -3083,7 +3112,7 @@ export const lanceWeaponList = [
     {
         "name": "Volvi Sweep",
         "weaponType": "Lance",
-        "id": 114,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -3112,7 +3141,7 @@ export const lanceWeaponList = [
     {
         "name": "Volvi Sweep+",
         "weaponType": "Lance",
-        "id": 115,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3141,7 +3170,7 @@ export const lanceWeaponList = [
     {
         "name": "Volvi Swindler",
         "weaponType": "Lance",
-        "id": 116,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -3170,7 +3199,7 @@ export const lanceWeaponList = [
     {
         "name": "Volvi Swindler+",
         "weaponType": "Lance",
-        "id": 117,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3199,7 +3228,7 @@ export const lanceWeaponList = [
     {
         "name": "Heat Lance I",
         "weaponType": "Lance",
-        "id": 118,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": -10,
@@ -3225,7 +3254,7 @@ export const lanceWeaponList = [
     {
         "name": "Heat Lance II",
         "weaponType": "Lance",
-        "id": 119,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -10,
@@ -3251,7 +3280,7 @@ export const lanceWeaponList = [
     {
         "name": "Heatstinger",
         "weaponType": "Lance",
-        "id": 120,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -3281,7 +3310,7 @@ export const lanceWeaponList = [
     {
         "name": "Heatstinger+",
         "weaponType": "Lance",
-        "id": 121,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -10,
@@ -3311,7 +3340,7 @@ export const lanceWeaponList = [
     {
         "name": "Heat Impaler",
         "weaponType": "Lance",
-        "id": 122,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -3341,7 +3370,7 @@ export const lanceWeaponList = [
     {
         "name": "Bone Lance I",
         "weaponType": "Lance",
-        "id": 123,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3365,7 +3394,7 @@ export const lanceWeaponList = [
     {
         "name": "Hard Bone Lance",
         "weaponType": "Lance",
-        "id": 124,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3389,7 +3418,7 @@ export const lanceWeaponList = [
     {
         "name": "Longhorn Spear I",
         "weaponType": "Lance",
-        "id": 125,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -3413,7 +3442,7 @@ export const lanceWeaponList = [
     {
         "name": "Longtusk Spear",
         "weaponType": "Lance",
-        "id": 126,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3437,7 +3466,7 @@ export const lanceWeaponList = [
     {
         "name": "Barbarian Tusk I",
         "weaponType": "Lance",
-        "id": 127,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3461,7 +3490,7 @@ export const lanceWeaponList = [
     {
         "name": "Barbarian Fang",
         "weaponType": "Lance",
-        "id": 128,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3485,7 +3514,7 @@ export const lanceWeaponList = [
     {
         "name": "Harbah Lance",
         "weaponType": "Lance",
-        "id": 129,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3511,7 +3540,7 @@ export const lanceWeaponList = [
     {
         "name": "Harbah Lance+",
         "weaponType": "Lance",
-        "id": 130,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -3537,7 +3566,7 @@ export const lanceWeaponList = [
     {
         "name": "Turbulent Lance",
         "weaponType": "Lance",
-        "id": 131,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -3563,7 +3592,7 @@ export const lanceWeaponList = [
     {
         "name": "Bone Claw Lance",
         "weaponType": "Lance",
-        "id": 132,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3591,7 +3620,7 @@ export const lanceWeaponList = [
     {
         "name": "Bone Claw Lance+",
         "weaponType": "Lance",
-        "id": 133,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3619,7 +3648,7 @@ export const lanceWeaponList = [
     {
         "name": "Red Lord Lance",
         "weaponType": "Lance",
-        "id": 134,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3647,7 +3676,7 @@ export const lanceWeaponList = [
     {
         "name": "Ceanataur Stinger",
         "weaponType": "Lance",
-        "id": 135,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3675,7 +3704,7 @@ export const lanceWeaponList = [
     {
         "name": "Ceanataur Stinger+",
         "weaponType": "Lance",
-        "id": 136,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3703,7 +3732,7 @@ export const lanceWeaponList = [
     {
         "name": "Ceanataur Piercer",
         "weaponType": "Lance",
-        "id": 137,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3731,7 +3760,7 @@ export const lanceWeaponList = [
     {
         "name": "Tiger Stinger I",
         "weaponType": "Lance",
-        "id": 138,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -20,
@@ -3755,7 +3784,7 @@ export const lanceWeaponList = [
     {
         "name": "Tiger Stinger II",
         "weaponType": "Lance",
-        "id": 139,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -3781,7 +3810,7 @@ export const lanceWeaponList = [
     {
         "name": "Tigrex Lance",
         "weaponType": "Lance",
-        "id": 140,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -3807,7 +3836,7 @@ export const lanceWeaponList = [
     {
         "name": "Tigrex Lance+",
         "weaponType": "Lance",
-        "id": 141,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -3833,7 +3862,7 @@ export const lanceWeaponList = [
     {
         "name": "Great Tigrex Lance",
         "weaponType": "Lance",
-        "id": 142,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -3859,7 +3888,7 @@ export const lanceWeaponList = [
     {
         "name": "Great Tigrex Lance+",
         "weaponType": "Lance",
-        "id": 143,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -3885,7 +3914,7 @@ export const lanceWeaponList = [
     {
         "name": "Tusk Lance I",
         "weaponType": "Lance",
-        "id": 144,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 30,
@@ -3911,7 +3940,7 @@ export const lanceWeaponList = [
     {
         "name": "Tusk Lance II",
         "weaponType": "Lance",
-        "id": 145,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 35,
@@ -3940,7 +3969,7 @@ export const lanceWeaponList = [
     {
         "name": "Sabertooth",
         "weaponType": "Lance",
-        "id": 146,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 40,
@@ -3969,7 +3998,7 @@ export const lanceWeaponList = [
     {
         "name": "Frosttooth",
         "weaponType": "Lance",
-        "id": 147,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 40,
@@ -3998,7 +4027,7 @@ export const lanceWeaponList = [
     {
         "name": "Frosttooth+",
         "weaponType": "Lance",
-        "id": 148,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 40,
@@ -4027,7 +4056,7 @@ export const lanceWeaponList = [
     {
         "name": "Ivory Ice",
         "weaponType": "Lance",
-        "id": 149,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 40,
@@ -4056,7 +4085,7 @@ export const lanceWeaponList = [
     {
         "name": "Pukei Spear I",
         "weaponType": "Lance",
-        "id": 150,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -4082,7 +4111,7 @@ export const lanceWeaponList = [
     {
         "name": "Pukei Spear II",
         "weaponType": "Lance",
-        "id": 151,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -4111,7 +4140,7 @@ export const lanceWeaponList = [
     {
         "name": "Datura Spear",
         "weaponType": "Lance",
-        "id": 152,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4140,7 +4169,7 @@ export const lanceWeaponList = [
     {
         "name": "Datura Spear+",
         "weaponType": "Lance",
-        "id": 153,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -4169,7 +4198,7 @@ export const lanceWeaponList = [
     {
         "name": "Datura Stellaspear",
         "weaponType": "Lance",
-        "id": 154,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -4198,7 +4227,7 @@ export const lanceWeaponList = [
     {
         "name": "Datura Stellaspear+",
         "weaponType": "Lance",
-        "id": 155,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4227,7 +4256,7 @@ export const lanceWeaponList = [
     {
         "name": "Red Tail I",
         "weaponType": "Lance",
-        "id": 156,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -4253,7 +4282,7 @@ export const lanceWeaponList = [
     {
         "name": "Red Tail II",
         "weaponType": "Lance",
-        "id": 157,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4281,7 +4310,7 @@ export const lanceWeaponList = [
     {
         "name": "Spear of Prominence",
         "weaponType": "Lance",
-        "id": 158,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4309,7 +4338,7 @@ export const lanceWeaponList = [
     {
         "name": "Spear of Prominence+",
         "weaponType": "Lance",
-        "id": 159,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4337,7 +4366,7 @@ export const lanceWeaponList = [
     {
         "name": "Lejeu Prominence",
         "weaponType": "Lance",
-        "id": 160,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4363,9 +4392,37 @@ export const lanceWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/784086442.webp"
     },
     {
+        "name": "Silver Prominence",
+        "weaponType": "Lance",
+        "id": 162,
+        "isBlademaster": true,
+        "baseRaw": 310,
+        "baseAffinity": 35,
+        "elements": {
+            "fire": 52
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 30,
+            "green": 50,
+            "blue": 60,
+            "white": 80,
+            "purple": 20
+        },
+        "slots": [
+            "3"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/344219191.webp"
+    },
+    {
         "name": "Rosenranze",
         "weaponType": "Lance",
-        "id": 161,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -4391,7 +4448,7 @@ export const lanceWeaponList = [
     {
         "name": "Rosenranze+",
         "weaponType": "Lance",
-        "id": 162,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -4417,7 +4474,7 @@ export const lanceWeaponList = [
     {
         "name": "Rosenbegierde",
         "weaponType": "Lance",
-        "id": 163,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -4445,7 +4502,7 @@ export const lanceWeaponList = [
     {
         "name": "Spiral Lance I",
         "weaponType": "Lance",
-        "id": 164,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4471,7 +4528,7 @@ export const lanceWeaponList = [
     {
         "name": "Spiral Lance II",
         "weaponType": "Lance",
-        "id": 165,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -4497,7 +4554,7 @@ export const lanceWeaponList = [
     {
         "name": "Spiral Splash",
         "weaponType": "Lance",
-        "id": 166,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -4527,7 +4584,7 @@ export const lanceWeaponList = [
     {
         "name": "Spiral Splash+",
         "weaponType": "Lance",
-        "id": 167,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -4557,7 +4614,7 @@ export const lanceWeaponList = [
     {
         "name": "Spiral Vortex",
         "weaponType": "Lance",
-        "id": 168,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4587,7 +4644,7 @@ export const lanceWeaponList = [
     {
         "name": "Spiral Vortex+",
         "weaponType": "Lance",
-        "id": 169,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4617,7 +4674,7 @@ export const lanceWeaponList = [
     {
         "name": "Golm Tower",
         "weaponType": "Lance",
-        "id": 170,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4645,7 +4702,7 @@ export const lanceWeaponList = [
     {
         "name": "Golm Tower+",
         "weaponType": "Lance",
-        "id": 171,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4673,7 +4730,7 @@ export const lanceWeaponList = [
     {
         "name": "Gorkotos",
         "weaponType": "Lance",
-        "id": 172,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -4701,7 +4758,7 @@ export const lanceWeaponList = [
     {
         "name": "Ploshasta I",
         "weaponType": "Lance",
-        "id": 173,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": -10,
@@ -4725,7 +4782,7 @@ export const lanceWeaponList = [
     {
         "name": "Ploshasta II",
         "weaponType": "Lance",
-        "id": 174,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": -10,
@@ -4751,7 +4808,7 @@ export const lanceWeaponList = [
     {
         "name": "Rhenohasta",
         "weaponType": "Lance",
-        "id": 175,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -4777,7 +4834,7 @@ export const lanceWeaponList = [
     {
         "name": "Rhenohasta+",
         "weaponType": "Lance",
-        "id": 176,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -10,
@@ -4803,7 +4860,7 @@ export const lanceWeaponList = [
     {
         "name": "Rhenoplos Spear",
         "weaponType": "Lance",
-        "id": 177,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -4829,7 +4886,7 @@ export const lanceWeaponList = [
     {
         "name": "Diablos Lance I",
         "weaponType": "Lance",
-        "id": 178,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -30,
@@ -4853,7 +4910,7 @@ export const lanceWeaponList = [
     {
         "name": "Diablos Lance II",
         "weaponType": "Lance",
-        "id": 179,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": -30,
@@ -4877,7 +4934,7 @@ export const lanceWeaponList = [
     {
         "name": "Diablos Spear",
         "weaponType": "Lance",
-        "id": 180,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": -30,
@@ -4901,7 +4958,7 @@ export const lanceWeaponList = [
     {
         "name": "Diablos Spear+",
         "weaponType": "Lance",
-        "id": 181,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -30,
@@ -4925,7 +4982,7 @@ export const lanceWeaponList = [
     {
         "name": "Cera Creos",
         "weaponType": "Lance",
-        "id": 182,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -30,
@@ -4949,7 +5006,7 @@ export const lanceWeaponList = [
     {
         "name": "Cera Creos+",
         "weaponType": "Lance",
-        "id": 183,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 370,
         "baseAffinity": -30,
@@ -4973,7 +5030,7 @@ export const lanceWeaponList = [
     {
         "name": "Kulu Spear I",
         "weaponType": "Lance",
-        "id": 184,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 15,
@@ -4997,7 +5054,7 @@ export const lanceWeaponList = [
     {
         "name": "Kulu Spear II",
         "weaponType": "Lance",
-        "id": 185,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 15,
@@ -5021,7 +5078,7 @@ export const lanceWeaponList = [
     {
         "name": "Kulu Skewer",
         "weaponType": "Lance",
-        "id": 186,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 25,
@@ -5049,7 +5106,7 @@ export const lanceWeaponList = [
     {
         "name": "Kulu Skewer+",
         "weaponType": "Lance",
-        "id": 187,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 25,
@@ -5077,7 +5134,7 @@ export const lanceWeaponList = [
     {
         "name": "Kulu Katolos Spear",
         "weaponType": "Lance",
-        "id": 188,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 25,
@@ -5105,7 +5162,7 @@ export const lanceWeaponList = [
     {
         "name": "Usurper's Coming I",
         "weaponType": "Lance",
-        "id": 189,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -5131,7 +5188,7 @@ export const lanceWeaponList = [
     {
         "name": "Usurper's Coming II",
         "weaponType": "Lance",
-        "id": 190,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5160,7 +5217,7 @@ export const lanceWeaponList = [
     {
         "name": "Despot's Cacophony",
         "weaponType": "Lance",
-        "id": 191,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5189,7 +5246,7 @@ export const lanceWeaponList = [
     {
         "name": "Despot's Cacophony+",
         "weaponType": "Lance",
-        "id": 192,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5218,7 +5275,7 @@ export const lanceWeaponList = [
     {
         "name": "Oppressor's Genesis",
         "weaponType": "Lance",
-        "id": 193,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5247,7 +5304,7 @@ export const lanceWeaponList = [
     {
         "name": "Azure Crest I",
         "weaponType": "Lance",
-        "id": 194,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 70,
         "baseAffinity": 0,
@@ -5273,7 +5330,7 @@ export const lanceWeaponList = [
     {
         "name": "Azure Crest II",
         "weaponType": "Lance",
-        "id": 195,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5299,7 +5356,7 @@ export const lanceWeaponList = [
     {
         "name": "Azure Crest III",
         "weaponType": "Lance",
-        "id": 196,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5327,7 +5384,7 @@ export const lanceWeaponList = [
     {
         "name": "Great Azure",
         "weaponType": "Lance",
-        "id": 197,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5355,7 +5412,7 @@ export const lanceWeaponList = [
     {
         "name": "Great Azure+",
         "weaponType": "Lance",
-        "id": 198,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5383,7 +5440,7 @@ export const lanceWeaponList = [
     {
         "name": "Bandera Azul",
         "weaponType": "Lance",
-        "id": 199,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5411,7 +5468,7 @@ export const lanceWeaponList = [
     {
         "name": "Sinister Spear I",
         "weaponType": "Lance",
-        "id": 200,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5437,7 +5494,7 @@ export const lanceWeaponList = [
     {
         "name": "Sinister Spear II",
         "weaponType": "Lance",
-        "id": 201,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5463,7 +5520,7 @@ export const lanceWeaponList = [
     {
         "name": "Sinister Shadespear",
         "weaponType": "Lance",
-        "id": 202,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5492,7 +5549,7 @@ export const lanceWeaponList = [
     {
         "name": "Sinister Shadespear+",
         "weaponType": "Lance",
-        "id": 203,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5521,7 +5578,7 @@ export const lanceWeaponList = [
     {
         "name": "Mighty Soulscreamer",
         "weaponType": "Lance",
-        "id": 204,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5550,7 +5607,7 @@ export const lanceWeaponList = [
     {
         "name": "Devil's Deliverance",
         "weaponType": "Lance",
-        "id": 205,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5579,7 +5636,7 @@ export const lanceWeaponList = [
     {
         "name": "Eiferschild",
         "weaponType": "Lance",
-        "id": 206,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -5605,7 +5662,7 @@ export const lanceWeaponList = [
     {
         "name": "Eiferschild+",
         "weaponType": "Lance",
-        "id": 207,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5631,7 +5688,7 @@ export const lanceWeaponList = [
     {
         "name": "Zornesschild",
         "weaponType": "Lance",
-        "id": 208,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -5659,7 +5716,7 @@ export const lanceWeaponList = [
     {
         "name": "L'\u00c9gide",
         "weaponType": "Lance",
-        "id": 209,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -5685,7 +5742,7 @@ export const lanceWeaponList = [
     {
         "name": "Le Paladin",
         "weaponType": "Lance",
-        "id": 210,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 35,
@@ -5711,7 +5768,7 @@ export const lanceWeaponList = [
     {
         "name": "Demon Lance I",
         "weaponType": "Lance",
-        "id": 211,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5737,7 +5794,7 @@ export const lanceWeaponList = [
     {
         "name": "Demon Lance II",
         "weaponType": "Lance",
-        "id": 212,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -5765,7 +5822,7 @@ export const lanceWeaponList = [
     {
         "name": "Great Demon Lance",
         "weaponType": "Lance",
-        "id": 213,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 0,
@@ -5793,7 +5850,7 @@ export const lanceWeaponList = [
     {
         "name": "Great Demon Lance+",
         "weaponType": "Lance",
-        "id": 214,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5821,7 +5878,7 @@ export const lanceWeaponList = [
     {
         "name": "Raging Demon Lance",
         "weaponType": "Lance",
-        "id": 215,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5849,7 +5906,7 @@ export const lanceWeaponList = [
     {
         "name": "Demonlord Rajang",
         "weaponType": "Lance",
-        "id": 216,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5878,7 +5935,7 @@ export const lanceWeaponList = [
     {
         "name": "Azure Elder Spear I",
         "weaponType": "Lance",
-        "id": 217,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5904,7 +5961,7 @@ export const lanceWeaponList = [
     {
         "name": "Azure Elder Spear II",
         "weaponType": "Lance",
-        "id": 218,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5930,7 +5987,7 @@ export const lanceWeaponList = [
     {
         "name": "Abyssal Gale Lance",
         "weaponType": "Lance",
-        "id": 219,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -5956,7 +6013,7 @@ export const lanceWeaponList = [
     {
         "name": "Skybore Twister",
         "weaponType": "Lance",
-        "id": 220,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5982,7 +6039,7 @@ export const lanceWeaponList = [
     {
         "name": "Thunderbolt Spear I",
         "weaponType": "Lance",
-        "id": 221,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6008,7 +6065,7 @@ export const lanceWeaponList = [
     {
         "name": "Abyssal Storm Lance",
         "weaponType": "Lance",
-        "id": 222,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6034,7 +6091,7 @@ export const lanceWeaponList = [
     {
         "name": "Skybore Discharge",
         "weaponType": "Lance",
-        "id": 223,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6060,7 +6117,7 @@ export const lanceWeaponList = [
     {
         "name": "Rookslayer Lance I",
         "weaponType": "Lance",
-        "id": 224,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -6088,7 +6145,7 @@ export const lanceWeaponList = [
     {
         "name": "Rookslayer Lance II",
         "weaponType": "Lance",
-        "id": 225,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -6116,7 +6173,7 @@ export const lanceWeaponList = [
     {
         "name": "Bazel Myniad Lance",
         "weaponType": "Lance",
-        "id": 226,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6144,7 +6201,7 @@ export const lanceWeaponList = [
     {
         "name": "Bazel Myniad Queentaker",
         "weaponType": "Lance",
-        "id": 227,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -6170,9 +6227,37 @@ export const lanceWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1330797015.webp"
     },
     {
+        "name": "Bazel Rocket Rooksearer",
+        "weaponType": "Lance",
+        "id": 230,
+        "isBlademaster": true,
+        "baseRaw": 350,
+        "baseAffinity": -10,
+        "elements": {
+            "blast": 20
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 40,
+            "orange": 80,
+            "yellow": 80,
+            "green": 40,
+            "blue": 30,
+            "white": 80,
+            "purple": 50
+        },
+        "slots": [
+            "1"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1210812916.webp"
+    },
+    {
         "name": "Icesteel Spear I",
         "weaponType": "Lance",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6200,7 +6285,7 @@ export const lanceWeaponList = [
     {
         "name": "Daora's Fang",
         "weaponType": "Lance",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 10,
@@ -6228,7 +6313,7 @@ export const lanceWeaponList = [
     {
         "name": "Daora's Fang+",
         "weaponType": "Lance",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -6256,7 +6341,7 @@ export const lanceWeaponList = [
     {
         "name": "Daora's Regulus",
         "weaponType": "Lance",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -6284,7 +6369,7 @@ export const lanceWeaponList = [
     {
         "name": "Teostra's Howl I",
         "weaponType": "Lance",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6310,7 +6395,7 @@ export const lanceWeaponList = [
     {
         "name": "Teostra's Roar",
         "weaponType": "Lance",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6336,7 +6421,7 @@ export const lanceWeaponList = [
     {
         "name": "Teostra's Roar+",
         "weaponType": "Lance",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6362,7 +6447,7 @@ export const lanceWeaponList = [
     {
         "name": "Teostra's Fire",
         "weaponType": "Lance",
-        "id": 235,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6388,7 +6473,7 @@ export const lanceWeaponList = [
     {
         "name": "Redwing Spear I",
         "weaponType": "Lance",
-        "id": 236,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6416,7 +6501,7 @@ export const lanceWeaponList = [
     {
         "name": "Reddnaught Spear",
         "weaponType": "Lance",
-        "id": 237,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6444,7 +6529,7 @@ export const lanceWeaponList = [
     {
         "name": "Crimson Sharpwing",
         "weaponType": "Lance",
-        "id": 238,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6472,7 +6557,7 @@ export const lanceWeaponList = [
     {
         "name": "Abyssal Icicle",
         "weaponType": "Lance",
-        "id": 239,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -6498,7 +6583,7 @@ export const lanceWeaponList = [
     {
         "name": "Dark Lance",
         "weaponType": "Lance",
-        "id": 240,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -6524,7 +6609,7 @@ export const lanceWeaponList = [
     {
         "name": "Dark Lance+",
         "weaponType": "Lance",
-        "id": 241,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -6550,7 +6635,7 @@ export const lanceWeaponList = [
     {
         "name": "Dark Spear",
         "weaponType": "Lance",
-        "id": 242,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6576,7 +6661,7 @@ export const lanceWeaponList = [
     {
         "name": "Plegis Needle I",
         "weaponType": "Lance",
-        "id": 243,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6602,7 +6687,7 @@ export const lanceWeaponList = [
     {
         "name": "Plegis Needle II",
         "weaponType": "Lance",
-        "id": 244,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6628,7 +6713,7 @@ export const lanceWeaponList = [
     {
         "name": "Mighty Plegis",
         "weaponType": "Lance",
-        "id": 245,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6654,7 +6739,7 @@ export const lanceWeaponList = [
     {
         "name": "Mighty Plegis+",
         "weaponType": "Lance",
-        "id": 246,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -6680,7 +6765,7 @@ export const lanceWeaponList = [
     {
         "name": "Mycetic Stupor",
         "weaponType": "Lance",
-        "id": 247,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 370,
         "baseAffinity": 0,
@@ -6706,7 +6791,7 @@ export const lanceWeaponList = [
     {
         "name": "Alacrantze I",
         "weaponType": "Lance",
-        "id": 248,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -6732,7 +6817,7 @@ export const lanceWeaponList = [
     {
         "name": "Alacrantze II",
         "weaponType": "Lance",
-        "id": 249,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -6758,7 +6843,7 @@ export const lanceWeaponList = [
     {
         "name": "Alacrantze III",
         "weaponType": "Lance",
-        "id": 250,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6786,7 +6871,7 @@ export const lanceWeaponList = [
     {
         "name": "Scorpion Lance",
         "weaponType": "Lance",
-        "id": 251,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6814,7 +6899,7 @@ export const lanceWeaponList = [
     {
         "name": "Scorpion Lance+",
         "weaponType": "Lance",
-        "id": 252,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6842,7 +6927,7 @@ export const lanceWeaponList = [
     {
         "name": "Hadrurus Lance",
         "weaponType": "Lance",
-        "id": 253,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6870,7 +6955,7 @@ export const lanceWeaponList = [
     {
         "name": "Fragrance I",
         "weaponType": "Lance",
-        "id": 254,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -6896,7 +6981,7 @@ export const lanceWeaponList = [
     {
         "name": "Fragrance II",
         "weaponType": "Lance",
-        "id": 255,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -6922,7 +7007,7 @@ export const lanceWeaponList = [
     {
         "name": "Classy Fragrance",
         "weaponType": "Lance",
-        "id": 256,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6952,7 +7037,7 @@ export const lanceWeaponList = [
     {
         "name": "Classy Fragrance+",
         "weaponType": "Lance",
-        "id": 257,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -6982,7 +7067,7 @@ export const lanceWeaponList = [
     {
         "name": "Elegant Fragrance",
         "weaponType": "Lance",
-        "id": 258,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -7012,7 +7097,7 @@ export const lanceWeaponList = [
     {
         "name": "Royal Order's Guard",
         "weaponType": "Lance",
-        "id": 259,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -7038,7 +7123,7 @@ export const lanceWeaponList = [
     {
         "name": "Royal Order's Guard+",
         "weaponType": "Lance",
-        "id": 260,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -7065,7 +7150,7 @@ export const lanceWeaponList = [
     {
         "name": "Antique Machina L",
         "weaponType": "Lance",
-        "id": 261,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7091,7 +7176,7 @@ export const lanceWeaponList = [
     {
         "name": "Rampage Spear I",
         "weaponType": "Lance",
-        "id": 262,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7115,7 +7200,7 @@ export const lanceWeaponList = [
     {
         "name": "Rampage Spear II",
         "weaponType": "Lance",
-        "id": 263,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7139,7 +7224,7 @@ export const lanceWeaponList = [
     {
         "name": "Rampage Spear III",
         "weaponType": "Lance",
-        "id": 264,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7163,7 +7248,7 @@ export const lanceWeaponList = [
     {
         "name": "Rampage Spear IV",
         "weaponType": "Lance",
-        "id": 265,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7187,7 +7272,7 @@ export const lanceWeaponList = [
     {
         "name": "Rampage Spear V",
         "weaponType": "Lance",
-        "id": 266,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7211,7 +7296,7 @@ export const lanceWeaponList = [
     {
         "name": "Rampage Spear S",
         "weaponType": "Lance",
-        "id": 267,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

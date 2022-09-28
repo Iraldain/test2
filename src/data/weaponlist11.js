@@ -1,4 +1,4 @@
-export default insectGlaiveWeaponList = [
+export const insectGlaiveWeaponList = [
     {
         "name": "Defender Glaive I",
         "weaponType": "Insect Glaive",
@@ -560,9 +560,38 @@ export default insectGlaiveWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1124011769.webp"
     },
     {
-        "name": "Fox Halberd I",
+        "name": "Aoul al Sadirah's Asterism",
         "weaponType": "Insect Glaive",
         "id": 22,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 16
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 10,
+            "purple": 70
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2121821982.webp"
+    },
+    {
+        "name": "Fox Halberd I",
+        "weaponType": "Insect Glaive",
+        "id": 23,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 10,
@@ -588,7 +617,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Fox Halberd II",
         "weaponType": "Insect Glaive",
-        "id": 23,
+        "id": 24,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -616,7 +645,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Curved Naganagi",
         "weaponType": "Insect Glaive",
-        "id": 24,
+        "id": 25,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 15,
@@ -645,7 +674,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Curved Naganagi+",
         "weaponType": "Insect Glaive",
-        "id": 25,
+        "id": 26,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 15,
@@ -674,7 +703,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Eventide Kazanagi",
         "weaponType": "Insect Glaive",
-        "id": 26,
+        "id": 27,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 15,
@@ -703,7 +732,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Eventide Kazanagi+",
         "weaponType": "Insect Glaive",
-        "id": 27,
+        "id": 28,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 15,
@@ -732,7 +761,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Frilled Jab I",
         "weaponType": "Insect Glaive",
-        "id": 28,
+        "id": 29,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -758,7 +787,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Frilled Jab II",
         "weaponType": "Insect Glaive",
-        "id": 29,
+        "id": 30,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -784,7 +813,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Illusory Frilled Jab",
         "weaponType": "Insect Glaive",
-        "id": 30,
+        "id": 31,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -813,7 +842,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Illusory Frilled Jab+",
         "weaponType": "Insect Glaive",
-        "id": 31,
+        "id": 32,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -842,7 +871,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Nightmare Frilled Jab",
         "weaponType": "Insect Glaive",
-        "id": 32,
+        "id": 33,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -871,7 +900,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Nightmare Frilled Jab+",
         "weaponType": "Insect Glaive",
-        "id": 33,
+        "id": 34,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -900,7 +929,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Bloom Snow Jab",
         "weaponType": "Insect Glaive",
-        "id": 34,
+        "id": 35,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -929,7 +958,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Bloom Snow Jab+",
         "weaponType": "Insect Glaive",
-        "id": 35,
+        "id": 36,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -958,7 +987,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Flicker Blizzard Jab",
         "weaponType": "Insect Glaive",
-        "id": 36,
+        "id": 37,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -987,7 +1016,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Tigrex Kaina I",
         "weaponType": "Insect Glaive",
-        "id": 37,
+        "id": 38,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -15,
@@ -1011,7 +1040,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Tigrex Kaina II",
         "weaponType": "Insect Glaive",
-        "id": 38,
+        "id": 39,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -1035,7 +1064,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Tigerclaw Glaive",
         "weaponType": "Insect Glaive",
-        "id": 39,
+        "id": 40,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -1061,7 +1090,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Tigerclaw Glaive+",
         "weaponType": "Insect Glaive",
-        "id": 40,
+        "id": 41,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -10,
@@ -1087,7 +1116,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Great Tigerclaw Glaive",
         "weaponType": "Insect Glaive",
-        "id": 41,
+        "id": 42,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -1113,7 +1142,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Great Tigerclaw Glaive+",
         "weaponType": "Insect Glaive",
-        "id": 42,
+        "id": 43,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -1139,7 +1168,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Leaping Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 43,
+        "id": 44,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1165,7 +1194,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Leaping Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 44,
+        "id": 45,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -1193,7 +1222,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Leapfrog",
         "weaponType": "Insect Glaive",
-        "id": 45,
+        "id": 46,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -1221,7 +1250,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Leapfrog+",
         "weaponType": "Insect Glaive",
-        "id": 46,
+        "id": 47,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -1249,7 +1278,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "True Leapfrog",
         "weaponType": "Insect Glaive",
-        "id": 47,
+        "id": 48,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -1277,7 +1306,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "True Leapfrog+",
         "weaponType": "Insect Glaive",
-        "id": 48,
+        "id": 49,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -1305,7 +1334,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Iron Blade I",
         "weaponType": "Insect Glaive",
-        "id": 49,
+        "id": 50,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -1329,7 +1358,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Iron Blade II",
         "weaponType": "Insect Glaive",
-        "id": 50,
+        "id": 51,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1353,7 +1382,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Steel Blade",
         "weaponType": "Insect Glaive",
-        "id": 51,
+        "id": 52,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -1377,7 +1406,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Iron Bayonet I",
         "weaponType": "Insect Glaive",
-        "id": 52,
+        "id": 53,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -1401,7 +1430,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Iron Bayonet II",
         "weaponType": "Insect Glaive",
-        "id": 53,
+        "id": 54,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -1427,7 +1456,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Hiten Blade",
         "weaponType": "Insect Glaive",
-        "id": 54,
+        "id": 55,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -1453,7 +1482,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Dauntless Bayonet",
         "weaponType": "Insect Glaive",
-        "id": 55,
+        "id": 56,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1479,7 +1508,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Dauntless Bayonet+",
         "weaponType": "Insect Glaive",
-        "id": 56,
+        "id": 57,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1505,7 +1534,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Steel Dauntless Bayonet",
         "weaponType": "Insect Glaive",
-        "id": 57,
+        "id": 58,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -1531,7 +1560,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Frostmoon Razorglaive",
         "weaponType": "Insect Glaive",
-        "id": 58,
+        "id": 59,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -1560,7 +1589,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Frostmoon Razorglaive+",
         "weaponType": "Insect Glaive",
-        "id": 59,
+        "id": 60,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1589,7 +1618,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Iceberg Tunggul",
         "weaponType": "Insect Glaive",
-        "id": 60,
+        "id": 61,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1618,7 +1647,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Thunder Tusk",
         "weaponType": "Insect Glaive",
-        "id": 61,
+        "id": 62,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -1646,7 +1675,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Thunder Tusk+",
         "weaponType": "Insect Glaive",
-        "id": 62,
+        "id": 63,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -1674,7 +1703,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Thunder Dragon",
         "weaponType": "Insect Glaive",
-        "id": 63,
+        "id": 64,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -1702,7 +1731,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rathmaul I",
         "weaponType": "Insect Glaive",
-        "id": 64,
+        "id": 65,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -1730,7 +1759,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rathmaul II",
         "weaponType": "Insect Glaive",
-        "id": 65,
+        "id": 66,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -1758,7 +1787,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Firedance Rathmaul",
         "weaponType": "Insect Glaive",
-        "id": 66,
+        "id": 67,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -1786,7 +1815,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Firedance Rathmaul+",
         "weaponType": "Insect Glaive",
-        "id": 67,
+        "id": 68,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1814,7 +1843,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Fiery Rath",
         "weaponType": "Insect Glaive",
-        "id": 68,
+        "id": 69,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -1840,9 +1869,37 @@ export default insectGlaiveWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1642238884.webp"
     },
     {
+        "name": "Heaven's Rath Glaive",
+        "weaponType": "Insect Glaive",
+        "id": 70,
+        "isBlademaster": true,
+        "baseRaw": 310,
+        "baseAffinity": 30,
+        "elements": {
+            "fire": 39
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 20,
+            "green": 50,
+            "blue": 60,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "2"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2093862744.webp"
+    },
+    {
         "name": "Bolt Chamber I",
         "weaponType": "Insect Glaive",
-        "id": 69,
+        "id": 71,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -1870,7 +1927,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Bolt Chamber II",
         "weaponType": "Insect Glaive",
-        "id": 70,
+        "id": 72,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -1898,7 +1955,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Full Bolt Chamber",
         "weaponType": "Insect Glaive",
-        "id": 71,
+        "id": 73,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -1927,7 +1984,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Full Bolt Chamber+",
         "weaponType": "Insect Glaive",
-        "id": 72,
+        "id": 74,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1956,7 +2013,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Surge Chamber",
         "weaponType": "Insect Glaive",
-        "id": 73,
+        "id": 75,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -1985,7 +2042,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Surge Chamber+",
         "weaponType": "Insect Glaive",
-        "id": 74,
+        "id": 76,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2014,7 +2071,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Princess Regalia I",
         "weaponType": "Insect Glaive",
-        "id": 75,
+        "id": 77,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -2040,7 +2097,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Princess Regalia II",
         "weaponType": "Insect Glaive",
-        "id": 76,
+        "id": 78,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2066,7 +2123,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Queen Regalia",
         "weaponType": "Insect Glaive",
-        "id": 77,
+        "id": 79,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -2092,7 +2149,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Queen Regalia+",
         "weaponType": "Insect Glaive",
-        "id": 78,
+        "id": 80,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -2120,7 +2177,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Empress Regalia",
         "weaponType": "Insect Glaive",
-        "id": 79,
+        "id": 81,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -2148,7 +2205,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Empress Regalia+",
         "weaponType": "Insect Glaive",
-        "id": 80,
+        "id": 82,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -2176,7 +2233,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rosenstange",
         "weaponType": "Insect Glaive",
-        "id": 81,
+        "id": 83,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2204,7 +2261,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rosenstange+",
         "weaponType": "Insect Glaive",
-        "id": 82,
+        "id": 84,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -2232,7 +2289,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rosenspringen",
         "weaponType": "Insect Glaive",
-        "id": 83,
+        "id": 85,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2260,7 +2317,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Aknosom Pike I",
         "weaponType": "Insect Glaive",
-        "id": 84,
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2286,7 +2343,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Aknosom Pike II",
         "weaponType": "Insect Glaive",
-        "id": 85,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -2312,7 +2369,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Daybreak Glaive",
         "weaponType": "Insect Glaive",
-        "id": 86,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -2340,7 +2397,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Dawnmoon Glaive",
         "weaponType": "Insect Glaive",
-        "id": 87,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -2368,7 +2425,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Dawnmoon Glaive+",
         "weaponType": "Insect Glaive",
-        "id": 88,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2396,7 +2453,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Dawnmoon Beambreak",
         "weaponType": "Insect Glaive",
-        "id": 89,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2424,7 +2481,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Kulu Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 90,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -2448,7 +2505,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Kulu Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 91,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 10,
@@ -2472,7 +2529,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Kulu Pike",
         "weaponType": "Insect Glaive",
-        "id": 92,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 15,
@@ -2500,7 +2557,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Kulu Pike+",
         "weaponType": "Insect Glaive",
-        "id": 93,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 15,
@@ -2528,7 +2585,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Kulu Katolos Pike",
         "weaponType": "Insect Glaive",
-        "id": 94,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 15,
@@ -2556,7 +2613,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Kadachi Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 95,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -2582,7 +2639,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Kadachi Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 96,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 10,
@@ -2608,7 +2665,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Shocking Pike",
         "weaponType": "Insect Glaive",
-        "id": 97,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -2636,7 +2693,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Shocking Pike+",
         "weaponType": "Insect Glaive",
-        "id": 98,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 10,
@@ -2664,7 +2721,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Thundering Pike",
         "weaponType": "Insect Glaive",
-        "id": 99,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 10,
@@ -2692,7 +2749,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Thundering Pike+",
         "weaponType": "Insect Glaive",
-        "id": 100,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -2721,7 +2778,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Lagombaglaive I",
         "weaponType": "Insect Glaive",
-        "id": 101,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -2747,7 +2804,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Lagombaglaive II",
         "weaponType": "Insect Glaive",
-        "id": 102,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -2776,7 +2833,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Lagombavarice",
         "weaponType": "Insect Glaive",
-        "id": 103,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2805,7 +2862,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Lagombavarice+",
         "weaponType": "Insect Glaive",
-        "id": 104,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -2834,7 +2891,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sawtooth",
         "weaponType": "Insect Glaive",
-        "id": 105,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2863,7 +2920,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Bone Staff I",
         "weaponType": "Insect Glaive",
-        "id": 106,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -2887,7 +2944,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Bone Staff II",
         "weaponType": "Insect Glaive",
-        "id": 107,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -2911,7 +2968,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Aerial Glaive",
         "weaponType": "Insect Glaive",
-        "id": 108,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -2935,7 +2992,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sturdy Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 109,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -2959,7 +3016,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sturdy Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 110,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2983,7 +3040,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sturdy Glaive Redux",
         "weaponType": "Insect Glaive",
-        "id": 111,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 0,
@@ -3007,7 +3064,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sturdy Glaive Redux+",
         "weaponType": "Insect Glaive",
-        "id": 112,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -3031,7 +3088,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Stalwart Glaive",
         "weaponType": "Insect Glaive",
-        "id": 113,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3055,7 +3112,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Stalwart Glaive+",
         "weaponType": "Insect Glaive",
-        "id": 114,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -3079,7 +3136,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Altair",
         "weaponType": "Insect Glaive",
-        "id": 115,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3105,7 +3162,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Altair+",
         "weaponType": "Insect Glaive",
-        "id": 116,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -3131,7 +3188,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Alteal",
         "weaponType": "Insect Glaive",
-        "id": 117,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -3157,7 +3214,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Shell Intoner",
         "weaponType": "Insect Glaive",
-        "id": 118,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -3185,7 +3242,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Shell Intoner+",
         "weaponType": "Insect Glaive",
-        "id": 119,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -3213,7 +3270,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Crab Intoner",
         "weaponType": "Insect Glaive",
-        "id": 120,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3241,7 +3298,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sky-High Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 121,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -3269,7 +3326,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sky-High Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 122,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3297,7 +3354,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Highest of Glaives",
         "weaponType": "Insect Glaive",
-        "id": 123,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -3325,7 +3382,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Highest of Glaives+",
         "weaponType": "Insect Glaive",
-        "id": 124,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3353,7 +3410,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Stratosphere Glaive",
         "weaponType": "Insect Glaive",
-        "id": 125,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3381,7 +3438,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Stratosphere Glaive+",
         "weaponType": "Insect Glaive",
-        "id": 126,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3409,7 +3466,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Diablos Rod I",
         "weaponType": "Insect Glaive",
-        "id": 127,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -3433,7 +3490,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Diablos Rod II",
         "weaponType": "Insect Glaive",
-        "id": 128,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -3457,7 +3514,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Tyrant Rod",
         "weaponType": "Insect Glaive",
-        "id": 129,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -10,
@@ -3481,7 +3538,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Tyrant Rod+",
         "weaponType": "Insect Glaive",
-        "id": 130,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -3505,7 +3562,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Horned Tyrant",
         "weaponType": "Insect Glaive",
-        "id": 131,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -3529,7 +3586,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Horned Tyrant+",
         "weaponType": "Insect Glaive",
-        "id": 132,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -10,
@@ -3553,7 +3610,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Flammenkaefer I",
         "weaponType": "Insect Glaive",
-        "id": 133,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": -15,
@@ -3579,7 +3636,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Flammenkaefer II",
         "weaponType": "Insect Glaive",
-        "id": 134,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -3608,7 +3665,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Gnashing Flammenkaefer",
         "weaponType": "Insect Glaive",
-        "id": 135,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -3637,7 +3694,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Gnashing Flammenkaefer+",
         "weaponType": "Insect Glaive",
-        "id": 136,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -15,
@@ -3666,7 +3723,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Lohenspire",
         "weaponType": "Insect Glaive",
-        "id": 137,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -3695,7 +3752,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Lohenspire+",
         "weaponType": "Insect Glaive",
-        "id": 138,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -3724,7 +3781,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Gossglaive I",
         "weaponType": "Insect Glaive",
-        "id": 139,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -20,
@@ -3750,7 +3807,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Gossglaive II",
         "weaponType": "Insect Glaive",
-        "id": 140,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -20,
@@ -3778,7 +3835,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Abominable Glaive",
         "weaponType": "Insect Glaive",
-        "id": 141,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -20,
@@ -3806,7 +3863,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Abominable Snowpole",
         "weaponType": "Insect Glaive",
-        "id": 142,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -20,
@@ -3834,7 +3891,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Abominable Snowpole+",
         "weaponType": "Insect Glaive",
-        "id": 143,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -20,
@@ -3862,7 +3919,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Far North Pole",
         "weaponType": "Insect Glaive",
-        "id": 144,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -3890,7 +3947,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Pukei Rod I",
         "weaponType": "Insect Glaive",
-        "id": 145,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -3916,7 +3973,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Pukei Rod II",
         "weaponType": "Insect Glaive",
-        "id": 146,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3945,7 +4002,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Datura Pike",
         "weaponType": "Insect Glaive",
-        "id": 147,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -3974,7 +4031,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Datura Pike+",
         "weaponType": "Insect Glaive",
-        "id": 148,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4003,7 +4060,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Datura Plume",
         "weaponType": "Insect Glaive",
-        "id": 149,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4032,7 +4089,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Datura Plume+",
         "weaponType": "Insect Glaive",
-        "id": 150,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4061,7 +4118,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Amber Piton I",
         "weaponType": "Insect Glaive",
-        "id": 151,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 15,
@@ -4087,7 +4144,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Amber Piton II",
         "weaponType": "Insect Glaive",
-        "id": 152,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 15,
@@ -4117,7 +4174,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Fenrir Storm",
         "weaponType": "Insect Glaive",
-        "id": 153,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 15,
@@ -4147,7 +4204,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Midgard Storm",
         "weaponType": "Insect Glaive",
-        "id": 154,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 15,
@@ -4177,7 +4234,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Midgard Storm+",
         "weaponType": "Insect Glaive",
-        "id": 155,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 15,
@@ -4207,7 +4264,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Pure Helltone",
         "weaponType": "Insect Glaive",
-        "id": 156,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 15,
@@ -4237,7 +4294,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Royal Bloom I",
         "weaponType": "Insect Glaive",
-        "id": 157,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4263,7 +4320,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Royal Bloom II",
         "weaponType": "Insect Glaive",
-        "id": 158,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -4289,7 +4346,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Bloom Royale",
         "weaponType": "Insect Glaive",
-        "id": 159,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -4319,7 +4376,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Bloom Royale+",
         "weaponType": "Insect Glaive",
-        "id": 160,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -4349,7 +4406,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Waterspout Bloom",
         "weaponType": "Insect Glaive",
-        "id": 161,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4379,7 +4436,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Waterspout Bloom+",
         "weaponType": "Insect Glaive",
-        "id": 162,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4409,7 +4466,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Golm Glaive",
         "weaponType": "Insect Glaive",
-        "id": 163,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4437,7 +4494,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Golm Glaive+",
         "weaponType": "Insect Glaive",
-        "id": 164,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4465,7 +4522,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Maneater",
         "weaponType": "Insect Glaive",
-        "id": 165,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -4493,7 +4550,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Royal Bolt Scepter I",
         "weaponType": "Insect Glaive",
-        "id": 166,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -4519,7 +4576,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Royal Bolt Scepter II",
         "weaponType": "Insect Glaive",
-        "id": 167,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4545,7 +4602,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Despot's Twinbolt",
         "weaponType": "Insect Glaive",
-        "id": 168,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -4574,7 +4631,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Despot's Twinbolt+",
         "weaponType": "Insect Glaive",
-        "id": 169,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4603,7 +4660,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Despot's Twindart",
         "weaponType": "Insect Glaive",
-        "id": 170,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4632,7 +4689,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Hortadent I",
         "weaponType": "Insect Glaive",
-        "id": 171,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4656,7 +4713,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Hortadent II",
         "weaponType": "Insect Glaive",
-        "id": 172,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -4680,7 +4737,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Hortadent Brada",
         "weaponType": "Insect Glaive",
-        "id": 173,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -4708,7 +4765,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Hortadent Brada+",
         "weaponType": "Insect Glaive",
-        "id": 174,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -4736,7 +4793,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Altaroth Trident",
         "weaponType": "Insect Glaive",
-        "id": 175,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4764,7 +4821,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Altaroth Trident+",
         "weaponType": "Insect Glaive",
-        "id": 176,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4792,7 +4849,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo I",
         "weaponType": "Insect Glaive",
-        "id": 177,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4816,7 +4873,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo II",
         "weaponType": "Insect Glaive",
-        "id": 178,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -4840,7 +4897,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Unu",
         "weaponType": "Insect Glaive",
-        "id": 179,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -4864,7 +4921,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo Red I",
         "weaponType": "Insect Glaive",
-        "id": 180,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -4893,7 +4950,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo Red II",
         "weaponType": "Insect Glaive",
-        "id": 181,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -4922,7 +4979,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Vermiglio",
         "weaponType": "Insect Glaive",
-        "id": 182,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4951,7 +5008,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Du Red",
         "weaponType": "Insect Glaive",
-        "id": 183,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -4980,7 +5037,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Tre Red",
         "weaponType": "Insect Glaive",
-        "id": 184,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -5009,7 +5066,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Kvar Red",
         "weaponType": "Insect Glaive",
-        "id": 185,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5039,7 +5096,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo Black I",
         "weaponType": "Insect Glaive",
-        "id": 186,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5068,7 +5125,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo Black II",
         "weaponType": "Insect Glaive",
-        "id": 187,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5097,7 +5154,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nerissimo",
         "weaponType": "Insect Glaive",
-        "id": 188,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5126,7 +5183,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Du Black",
         "weaponType": "Insect Glaive",
-        "id": 189,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -5155,7 +5212,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Tre Black",
         "weaponType": "Insect Glaive",
-        "id": 190,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5185,7 +5242,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo White I",
         "weaponType": "Insect Glaive",
-        "id": 191,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -5211,7 +5268,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo White II",
         "weaponType": "Insect Glaive",
-        "id": 192,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5240,7 +5297,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Unu White",
         "weaponType": "Insect Glaive",
-        "id": 193,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5269,7 +5326,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Du White",
         "weaponType": "Insect Glaive",
-        "id": 194,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -5298,7 +5355,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Tre White",
         "weaponType": "Insect Glaive",
-        "id": 195,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5328,7 +5385,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo Green I",
         "weaponType": "Insect Glaive",
-        "id": 196,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5354,7 +5411,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Nulo Green II",
         "weaponType": "Insect Glaive",
-        "id": 197,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5384,7 +5441,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Unu Green",
         "weaponType": "Insect Glaive",
-        "id": 198,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5414,7 +5471,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Du Green",
         "weaponType": "Insect Glaive",
-        "id": 199,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5444,7 +5501,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rielle Tre Green",
         "weaponType": "Insect Glaive",
-        "id": 200,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5474,7 +5531,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sinister Staff I",
         "weaponType": "Insect Glaive",
-        "id": 201,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5500,7 +5557,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sinister Staff II",
         "weaponType": "Insect Glaive",
-        "id": 202,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5526,7 +5583,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sinister Shadowstaff",
         "weaponType": "Insect Glaive",
-        "id": 203,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5555,7 +5612,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Sinister Shadowstaff+",
         "weaponType": "Insect Glaive",
-        "id": 204,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5584,7 +5641,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Mighty Soulromancer",
         "weaponType": "Insect Glaive",
-        "id": 205,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5613,7 +5670,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Devil's Halberd",
         "weaponType": "Insect Glaive",
-        "id": 206,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5642,7 +5699,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Leumundslist",
         "weaponType": "Insect Glaive",
-        "id": 207,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -5670,7 +5727,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Leumundslist+",
         "weaponType": "Insect Glaive",
-        "id": 208,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5698,7 +5755,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Leumundsbruch",
         "weaponType": "Insect Glaive",
-        "id": 209,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -5726,7 +5783,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Le Traqueur",
         "weaponType": "Insect Glaive",
-        "id": 210,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -5752,7 +5809,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Le Miracle",
         "weaponType": "Insect Glaive",
-        "id": 211,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 35,
@@ -5778,7 +5835,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Metal Mauler I",
         "weaponType": "Insect Glaive",
-        "id": 212,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": -20,
@@ -5804,7 +5861,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Metal Mauler II",
         "weaponType": "Insect Glaive",
-        "id": 213,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -5832,7 +5889,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Metalmangler",
         "weaponType": "Insect Glaive",
-        "id": 214,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -20,
@@ -5860,7 +5917,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Metalmangler+",
         "weaponType": "Insect Glaive",
-        "id": 215,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -5888,7 +5945,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Metal Mutilator",
         "weaponType": "Insect Glaive",
-        "id": 216,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -20,
@@ -5916,7 +5973,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Demonlord Cudgel",
         "weaponType": "Insect Glaive",
-        "id": 217,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5945,7 +6002,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Azure Elder Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 218,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5971,7 +6028,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Azure Elder Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 219,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5997,7 +6054,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Abyssal Gale Glaive",
         "weaponType": "Insect Glaive",
-        "id": 220,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6023,7 +6080,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Skysoar Hurricane",
         "weaponType": "Insect Glaive",
-        "id": 221,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6049,7 +6106,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Thunderbolt Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 222,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6075,7 +6132,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Abyssal Storm Glaive",
         "weaponType": "Insect Glaive",
-        "id": 223,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6101,7 +6158,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Skysoar Flash",
         "weaponType": "Insect Glaive",
-        "id": 224,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6127,7 +6184,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Daora's Entom I",
         "weaponType": "Insect Glaive",
-        "id": 225,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6155,7 +6212,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Daora's Tethidine",
         "weaponType": "Insect Glaive",
-        "id": 226,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6183,7 +6240,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Daora's Tethidine+",
         "weaponType": "Insect Glaive",
-        "id": 227,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6211,7 +6268,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Daora's Samudra",
         "weaponType": "Insect Glaive",
-        "id": 228,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6239,7 +6296,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Caster's Rod I",
         "weaponType": "Insect Glaive",
-        "id": 229,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6269,7 +6326,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Hazy Caster",
         "weaponType": "Insect Glaive",
-        "id": 230,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6299,7 +6356,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Hazy Caster+",
         "weaponType": "Insect Glaive",
-        "id": 231,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6329,7 +6386,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Veil Caster",
         "weaponType": "Insect Glaive",
-        "id": 232,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6359,7 +6416,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Redwing Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 233,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6387,7 +6444,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Reddnaught Shuma",
         "weaponType": "Insect Glaive",
-        "id": 234,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6415,7 +6472,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Crimson Springwing",
         "weaponType": "Insect Glaive",
-        "id": 235,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6443,7 +6500,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Abyssal Insectoid",
         "weaponType": "Insect Glaive",
-        "id": 236,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -25,
@@ -6469,7 +6526,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Deathport Staff I",
         "weaponType": "Insect Glaive",
-        "id": 237,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6495,7 +6552,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Deathport Staff II",
         "weaponType": "Insect Glaive",
-        "id": 238,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6524,7 +6581,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Garamorse",
         "weaponType": "Insect Glaive",
-        "id": 239,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6553,7 +6610,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Garamorse+",
         "weaponType": "Insect Glaive",
-        "id": 240,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -6582,7 +6639,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Darkmorse",
         "weaponType": "Insect Glaive",
-        "id": 241,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6611,7 +6668,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Magia Pitareen I",
         "weaponType": "Insect Glaive",
-        "id": 242,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 70,
         "baseAffinity": 0,
@@ -6637,7 +6694,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Magia Pitareen II",
         "weaponType": "Insect Glaive",
-        "id": 243,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6663,7 +6720,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Magia Pitareen III",
         "weaponType": "Insect Glaive",
-        "id": 244,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6693,7 +6750,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Magia Crescent",
         "weaponType": "Insect Glaive",
-        "id": 245,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6723,7 +6780,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Magia Crescent+",
         "weaponType": "Insect Glaive",
-        "id": 246,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -6753,7 +6810,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Staff of Laertes",
         "weaponType": "Insect Glaive",
-        "id": 247,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6783,7 +6840,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Brush Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 248,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -6811,7 +6868,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Brush Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 249,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -6839,7 +6896,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Watercolor Glaive",
         "weaponType": "Insect Glaive",
-        "id": 250,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6867,7 +6924,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "New World Brush Glaive",
         "weaponType": "Insect Glaive",
-        "id": 251,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -10,
@@ -6895,7 +6952,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Poet's Brush Glaive",
         "weaponType": "Insect Glaive",
-        "id": 252,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -6923,7 +6980,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Royal Order's Glaive",
         "weaponType": "Insect Glaive",
-        "id": 253,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 10,
@@ -6949,7 +7006,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Royal Order's Glaive+",
         "weaponType": "Insect Glaive",
-        "id": 254,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -6976,7 +7033,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Antique Machina IG",
         "weaponType": "Insect Glaive",
-        "id": 255,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7002,7 +7059,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rampage Glaive I",
         "weaponType": "Insect Glaive",
-        "id": 256,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7026,7 +7083,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rampage Glaive II",
         "weaponType": "Insect Glaive",
-        "id": 257,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7050,7 +7107,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rampage Glaive III",
         "weaponType": "Insect Glaive",
-        "id": 258,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7074,7 +7131,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rampage Glaive IV",
         "weaponType": "Insect Glaive",
-        "id": 259,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7098,7 +7155,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rampage Glaive V",
         "weaponType": "Insect Glaive",
-        "id": 260,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7122,7 +7179,7 @@ export default insectGlaiveWeaponList = [
     {
         "name": "Rampage Glaive S",
         "weaponType": "Insect Glaive",
-        "id": 261,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

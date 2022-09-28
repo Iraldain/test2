@@ -1,4 +1,4 @@
-export const greatswordWeaponList = [
+export const greatswordWeaponList: Array<Object> = [
     {
         "name": "Defender Great Sword I",
         "weaponType": "Great Sword",
@@ -1701,38 +1701,9 @@ export const greatswordWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1801108578.webp"
     },
     {
-        "name": "Merak's Asterism",
-        "weaponType": "Great Sword",
-        "id": 65,
-        "isBlademaster": true,
-        "baseRaw": 340,
-        "baseAffinity": 0,
-        "elements": {
-            "poison": 20
-        },
-        "sharpness": {
-            "startsMaxed": false,
-            "red": 50,
-            "orange": 90,
-            "yellow": 60,
-            "green": 60,
-            "blue": 60,
-            "white": 20,
-            "purple": 60
-        },
-        "slots": [
-            "4",
-            "2"
-        ],
-        "rampageSlot": "1",
-        "defenseBonus": 0,
-        "unique": [],
-        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/313810487.webp"
-    },
-    {
         "name": "Frilled Blade I",
         "weaponType": "Great Sword",
-        "id": 66,
+        "id": 65,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -1758,7 +1729,7 @@ export const greatswordWeaponList = [
     {
         "name": "Frilled Blade II",
         "weaponType": "Great Sword",
-        "id": 67,
+        "id": 66,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -1787,7 +1758,7 @@ export const greatswordWeaponList = [
     {
         "name": "Illusory Frilled Blade",
         "weaponType": "Great Sword",
-        "id": 68,
+        "id": 67,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -1816,7 +1787,7 @@ export const greatswordWeaponList = [
     {
         "name": "Illusory Frilled Blade+",
         "weaponType": "Great Sword",
-        "id": 69,
+        "id": 68,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1845,7 +1816,7 @@ export const greatswordWeaponList = [
     {
         "name": "Nightmare Frilled Blade",
         "weaponType": "Great Sword",
-        "id": 70,
+        "id": 69,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -1874,7 +1845,7 @@ export const greatswordWeaponList = [
     {
         "name": "Nightmare Frilled Blade+",
         "weaponType": "Great Sword",
-        "id": 71,
+        "id": 70,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -1903,7 +1874,7 @@ export const greatswordWeaponList = [
     {
         "name": "Bloom Snow Blade",
         "weaponType": "Great Sword",
-        "id": 72,
+        "id": 71,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -1932,7 +1903,7 @@ export const greatswordWeaponList = [
     {
         "name": "Bloom Snow Blade+",
         "weaponType": "Great Sword",
-        "id": 73,
+        "id": 72,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1961,7 +1932,7 @@ export const greatswordWeaponList = [
     {
         "name": "Flicker Blizzard Blade",
         "weaponType": "Great Sword",
-        "id": 74,
+        "id": 73,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -1990,7 +1961,7 @@ export const greatswordWeaponList = [
     {
         "name": "Iron Sword I",
         "weaponType": "Great Sword",
-        "id": 75,
+        "id": 74,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -2014,7 +1985,7 @@ export const greatswordWeaponList = [
     {
         "name": "Steel Sword",
         "weaponType": "Great Sword",
-        "id": 76,
+        "id": 75,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2038,7 +2009,7 @@ export const greatswordWeaponList = [
     {
         "name": "Buster Sword I",
         "weaponType": "Great Sword",
-        "id": 77,
+        "id": 76,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -2062,7 +2033,7 @@ export const greatswordWeaponList = [
     {
         "name": "Buster Blade",
         "weaponType": "Great Sword",
-        "id": 78,
+        "id": 77,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -2086,7 +2057,7 @@ export const greatswordWeaponList = [
     {
         "name": "Chrome Razor I",
         "weaponType": "Great Sword",
-        "id": 79,
+        "id": 78,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2115,7 +2086,7 @@ export const greatswordWeaponList = [
     {
         "name": "Chrome Quietus",
         "weaponType": "Great Sword",
-        "id": 80,
+        "id": 79,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2144,7 +2115,7 @@ export const greatswordWeaponList = [
     {
         "name": "Chrome Hell",
         "weaponType": "Great Sword",
-        "id": 81,
+        "id": 80,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 10,
@@ -2173,7 +2144,7 @@ export const greatswordWeaponList = [
     {
         "name": "Chrome Hell+",
         "weaponType": "Great Sword",
-        "id": 82,
+        "id": 81,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 10,
@@ -2202,7 +2173,7 @@ export const greatswordWeaponList = [
     {
         "name": "Chrome Heaven",
         "weaponType": "Great Sword",
-        "id": 83,
+        "id": 82,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 10,
@@ -2232,7 +2203,7 @@ export const greatswordWeaponList = [
     {
         "name": "Astalos Crashblade",
         "weaponType": "Great Sword",
-        "id": 84,
+        "id": 83,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2260,7 +2231,7 @@ export const greatswordWeaponList = [
     {
         "name": "Astalos Crashblade+",
         "weaponType": "Great Sword",
-        "id": 85,
+        "id": 84,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -2288,7 +2259,7 @@ export const greatswordWeaponList = [
     {
         "name": "Astalos Arcblade",
         "weaponType": "Great Sword",
-        "id": 86,
+        "id": 85,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2316,7 +2287,7 @@ export const greatswordWeaponList = [
     {
         "name": "Barbaroi Blade I",
         "weaponType": "Great Sword",
-        "id": 87,
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2342,7 +2313,7 @@ export const greatswordWeaponList = [
     {
         "name": "Barbaroi Blade II",
         "weaponType": "Great Sword",
-        "id": 88,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -2368,7 +2339,7 @@ export const greatswordWeaponList = [
     {
         "name": "Crimson Goat",
         "weaponType": "Great Sword",
-        "id": 89,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2397,7 +2368,7 @@ export const greatswordWeaponList = [
     {
         "name": "Inferno Goat",
         "weaponType": "Great Sword",
-        "id": 90,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2426,7 +2397,7 @@ export const greatswordWeaponList = [
     {
         "name": "Inferno Goat+",
         "weaponType": "Great Sword",
-        "id": 91,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2455,7 +2426,7 @@ export const greatswordWeaponList = [
     {
         "name": "Blood Baph",
         "weaponType": "Great Sword",
-        "id": 92,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2484,7 +2455,7 @@ export const greatswordWeaponList = [
     {
         "name": "Pukei Edge I",
         "weaponType": "Great Sword",
-        "id": 93,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2510,7 +2481,7 @@ export const greatswordWeaponList = [
     {
         "name": "Pukei Edge II",
         "weaponType": "Great Sword",
-        "id": 94,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -2536,7 +2507,7 @@ export const greatswordWeaponList = [
     {
         "name": "Datura Cleaver",
         "weaponType": "Great Sword",
-        "id": 95,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2565,7 +2536,7 @@ export const greatswordWeaponList = [
     {
         "name": "Datura Cleaver+",
         "weaponType": "Great Sword",
-        "id": 96,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -2594,7 +2565,7 @@ export const greatswordWeaponList = [
     {
         "name": "Datura Slasher",
         "weaponType": "Great Sword",
-        "id": 97,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -2623,7 +2594,7 @@ export const greatswordWeaponList = [
     {
         "name": "Datura Slasher+",
         "weaponType": "Great Sword",
-        "id": 98,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2652,7 +2623,7 @@ export const greatswordWeaponList = [
     {
         "name": "Icicle Fang I",
         "weaponType": "Great Sword",
-        "id": 99,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 30,
@@ -2678,7 +2649,7 @@ export const greatswordWeaponList = [
     {
         "name": "Icicle Fang II",
         "weaponType": "Great Sword",
-        "id": 100,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 30,
@@ -2704,7 +2675,7 @@ export const greatswordWeaponList = [
     {
         "name": "Paladire",
         "weaponType": "Great Sword",
-        "id": 101,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 35,
@@ -2732,7 +2703,7 @@ export const greatswordWeaponList = [
     {
         "name": "Glaciator",
         "weaponType": "Great Sword",
-        "id": 102,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 35,
@@ -2760,7 +2731,7 @@ export const greatswordWeaponList = [
     {
         "name": "Glaciator+",
         "weaponType": "Great Sword",
-        "id": 103,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -2788,7 +2759,7 @@ export const greatswordWeaponList = [
     {
         "name": "Blizzard Biter",
         "weaponType": "Great Sword",
-        "id": 104,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 35,
@@ -2816,7 +2787,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sword of Winter Moon",
         "weaponType": "Great Sword",
-        "id": 105,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2844,7 +2815,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sword of Winter Moon+",
         "weaponType": "Great Sword",
-        "id": 106,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -2872,7 +2843,7 @@ export const greatswordWeaponList = [
     {
         "name": "Vadel Frostedge",
         "weaponType": "Great Sword",
-        "id": 107,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2900,7 +2871,7 @@ export const greatswordWeaponList = [
     {
         "name": "Aknosom Blade I",
         "weaponType": "Great Sword",
-        "id": 108,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2926,7 +2897,7 @@ export const greatswordWeaponList = [
     {
         "name": "Aknosom Blade II",
         "weaponType": "Great Sword",
-        "id": 109,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -2952,7 +2923,7 @@ export const greatswordWeaponList = [
     {
         "name": "Daybreak Cleaver",
         "weaponType": "Great Sword",
-        "id": 110,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2980,7 +2951,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dawnmoon Cleaver",
         "weaponType": "Great Sword",
-        "id": 111,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -3008,7 +2979,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dawnmoon Cleaver+",
         "weaponType": "Great Sword",
-        "id": 112,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -3036,7 +3007,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dawnmoon Hopebeam",
         "weaponType": "Great Sword",
-        "id": 113,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3064,7 +3035,7 @@ export const greatswordWeaponList = [
     {
         "name": "Tetranadon Edge I",
         "weaponType": "Great Sword",
-        "id": 114,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3090,7 +3061,7 @@ export const greatswordWeaponList = [
     {
         "name": "Tetranadon Edge II",
         "weaponType": "Great Sword",
-        "id": 115,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -3116,7 +3087,7 @@ export const greatswordWeaponList = [
     {
         "name": "Tetranadon Cutter",
         "weaponType": "Great Sword",
-        "id": 116,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -3144,7 +3115,7 @@ export const greatswordWeaponList = [
     {
         "name": "Tetranadon Cutter+",
         "weaponType": "Great Sword",
-        "id": 117,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -3172,7 +3143,7 @@ export const greatswordWeaponList = [
     {
         "name": "True Tetranadon Cutter",
         "weaponType": "Great Sword",
-        "id": 118,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -3200,7 +3171,7 @@ export const greatswordWeaponList = [
     {
         "name": "True Tetranadon Cutter+",
         "weaponType": "Great Sword",
-        "id": 119,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3228,7 +3199,7 @@ export const greatswordWeaponList = [
     {
         "name": "Bone Cleaver I",
         "weaponType": "Great Sword",
-        "id": 120,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3252,7 +3223,7 @@ export const greatswordWeaponList = [
     {
         "name": "Bone Slasher",
         "weaponType": "Great Sword",
-        "id": 121,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3276,7 +3247,7 @@ export const greatswordWeaponList = [
     {
         "name": "Jawblade I",
         "weaponType": "Great Sword",
-        "id": 122,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -3300,7 +3271,7 @@ export const greatswordWeaponList = [
     {
         "name": "Giant Jawblade",
         "weaponType": "Great Sword",
-        "id": 123,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -3324,7 +3295,7 @@ export const greatswordWeaponList = [
     {
         "name": "Wyvern Fang I",
         "weaponType": "Great Sword",
-        "id": 124,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3350,7 +3321,7 @@ export const greatswordWeaponList = [
     {
         "name": "Great Wyvern Fang",
         "weaponType": "Great Sword",
-        "id": 125,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3379,7 +3350,7 @@ export const greatswordWeaponList = [
     {
         "name": "Great Wyvern Fang+",
         "weaponType": "Great Sword",
-        "id": 126,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3409,7 +3380,7 @@ export const greatswordWeaponList = [
     {
         "name": "Wyvern Gnasher",
         "weaponType": "Great Sword",
-        "id": 127,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3439,7 +3410,7 @@ export const greatswordWeaponList = [
     {
         "name": "Wyvern Gnasher+",
         "weaponType": "Great Sword",
-        "id": 128,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3469,7 +3440,7 @@ export const greatswordWeaponList = [
     {
         "name": "Red Pincer",
         "weaponType": "Great Sword",
-        "id": 129,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -3497,7 +3468,7 @@ export const greatswordWeaponList = [
     {
         "name": "Red Pincer+",
         "weaponType": "Great Sword",
-        "id": 130,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -3526,7 +3497,7 @@ export const greatswordWeaponList = [
     {
         "name": "Great Pincer",
         "weaponType": "Great Sword",
-        "id": 131,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3555,7 +3526,7 @@ export const greatswordWeaponList = [
     {
         "name": "Ceanataur Blade",
         "weaponType": "Great Sword",
-        "id": 132,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3584,7 +3555,7 @@ export const greatswordWeaponList = [
     {
         "name": "Ceanataur Blade+",
         "weaponType": "Great Sword",
-        "id": 133,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3613,7 +3584,7 @@ export const greatswordWeaponList = [
     {
         "name": "Killer's Scythe",
         "weaponType": "Great Sword",
-        "id": 134,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3642,7 +3613,7 @@ export const greatswordWeaponList = [
     {
         "name": "Golem Blade I",
         "weaponType": "Great Sword",
-        "id": 135,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3666,7 +3637,7 @@ export const greatswordWeaponList = [
     {
         "name": "Blade of Talos",
         "weaponType": "Great Sword",
-        "id": 136,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3690,7 +3661,7 @@ export const greatswordWeaponList = [
     {
         "name": "Blade of Talos+",
         "weaponType": "Great Sword",
-        "id": 137,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3714,7 +3685,7 @@ export const greatswordWeaponList = [
     {
         "name": "Blade of Tartarus",
         "weaponType": "Great Sword",
-        "id": 138,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3738,7 +3709,7 @@ export const greatswordWeaponList = [
     {
         "name": "Blade of Tartarus+",
         "weaponType": "Great Sword",
-        "id": 139,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -3762,7 +3733,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cheda Blade",
         "weaponType": "Great Sword",
-        "id": 140,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3788,7 +3759,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cheda Blade+",
         "weaponType": "Great Sword",
-        "id": 141,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -3814,7 +3785,7 @@ export const greatswordWeaponList = [
     {
         "name": "Impudent Cheda",
         "weaponType": "Great Sword",
-        "id": 142,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -3840,7 +3811,7 @@ export const greatswordWeaponList = [
     {
         "name": "Valkyrie Blade I",
         "weaponType": "Great Sword",
-        "id": 143,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -3866,7 +3837,7 @@ export const greatswordWeaponList = [
     {
         "name": "Valkyrie Blade II",
         "weaponType": "Great Sword",
-        "id": 144,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3892,7 +3863,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sieglinde",
         "weaponType": "Great Sword",
-        "id": 145,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -3918,7 +3889,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sieglinde+",
         "weaponType": "Great Sword",
-        "id": 146,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -3944,7 +3915,7 @@ export const greatswordWeaponList = [
     {
         "name": "High Sieglinde",
         "weaponType": "Great Sword",
-        "id": 147,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3970,7 +3941,7 @@ export const greatswordWeaponList = [
     {
         "name": "High Sieglinde+",
         "weaponType": "Great Sword",
-        "id": 148,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3996,7 +3967,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rosenbrett",
         "weaponType": "Great Sword",
-        "id": 149,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -4024,7 +3995,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rosenbrett+",
         "weaponType": "Great Sword",
-        "id": 150,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -4052,7 +4023,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rosenkraft",
         "weaponType": "Great Sword",
-        "id": 151,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -4080,7 +4051,7 @@ export const greatswordWeaponList = [
     {
         "name": "Jyura Mudblade I",
         "weaponType": "Great Sword",
-        "id": 152,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -4106,7 +4077,7 @@ export const greatswordWeaponList = [
     {
         "name": "Jyura Mudblade II",
         "weaponType": "Great Sword",
-        "id": 153,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -4132,7 +4103,7 @@ export const greatswordWeaponList = [
     {
         "name": "Terracutter",
         "weaponType": "Great Sword",
-        "id": 154,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -4158,7 +4129,7 @@ export const greatswordWeaponList = [
     {
         "name": "Terracutter+",
         "weaponType": "Great Sword",
-        "id": 155,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -10,
@@ -4186,7 +4157,7 @@ export const greatswordWeaponList = [
     {
         "name": "Valtos Rapier",
         "weaponType": "Great Sword",
-        "id": 156,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -10,
@@ -4215,7 +4186,7 @@ export const greatswordWeaponList = [
     {
         "name": "Valtos Rapier+",
         "weaponType": "Great Sword",
-        "id": 157,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -4244,7 +4215,7 @@ export const greatswordWeaponList = [
     {
         "name": "Red Wing I",
         "weaponType": "Great Sword",
-        "id": 158,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4272,7 +4243,7 @@ export const greatswordWeaponList = [
     {
         "name": "Red Wing II",
         "weaponType": "Great Sword",
-        "id": 159,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4300,7 +4271,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rathalos Firesword",
         "weaponType": "Great Sword",
-        "id": 160,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -4328,7 +4299,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rathalos Firesword+",
         "weaponType": "Great Sword",
-        "id": 161,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4356,7 +4327,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rathalos Shriekedge",
         "weaponType": "Great Sword",
-        "id": 162,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4382,37 +4353,9 @@ export const greatswordWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1424766378.webp"
     },
     {
-        "name": "Rathalos Gleamsword",
-        "weaponType": "Great Sword",
-        "id": 163,
-        "isBlademaster": true,
-        "baseRaw": 310,
-        "baseAffinity": 35,
-        "elements": {
-            "fire": 70
-        },
-        "sharpness": {
-            "startsMaxed": false,
-            "red": 130,
-            "orange": 30,
-            "yellow": 30,
-            "green": 50,
-            "blue": 60,
-            "white": 80,
-            "purple": 20
-        },
-        "slots": [
-            "3"
-        ],
-        "rampageSlot": "2",
-        "defenseBonus": 0,
-        "unique": [],
-        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/284802673.webp"
-    },
-    {
         "name": "Quarrel Hornsword I",
         "weaponType": "Great Sword",
-        "id": 164,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -25,
@@ -4436,7 +4379,7 @@ export const greatswordWeaponList = [
     {
         "name": "Quarrel Hornsword II",
         "weaponType": "Great Sword",
-        "id": 165,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -25,
@@ -4460,7 +4403,7 @@ export const greatswordWeaponList = [
     {
         "name": "Feud Hornsword",
         "weaponType": "Great Sword",
-        "id": 166,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -25,
@@ -4484,7 +4427,7 @@ export const greatswordWeaponList = [
     {
         "name": "Feud Hornsword+",
         "weaponType": "Great Sword",
-        "id": 167,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -25,
@@ -4508,7 +4451,7 @@ export const greatswordWeaponList = [
     {
         "name": "Vendetta Hornsword",
         "weaponType": "Great Sword",
-        "id": 168,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -25,
@@ -4532,7 +4475,7 @@ export const greatswordWeaponList = [
     {
         "name": "Vendetta Hornsword+",
         "weaponType": "Great Sword",
-        "id": 169,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 370,
         "baseAffinity": -25,
@@ -4556,7 +4499,7 @@ export const greatswordWeaponList = [
     {
         "name": "Hack Blade I",
         "weaponType": "Great Sword",
-        "id": 170,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -4580,7 +4523,7 @@ export const greatswordWeaponList = [
     {
         "name": "Hack Blade II",
         "weaponType": "Great Sword",
-        "id": 171,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -4604,7 +4547,7 @@ export const greatswordWeaponList = [
     {
         "name": "Jaggi Greatblade",
         "weaponType": "Great Sword",
-        "id": 172,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4628,7 +4571,7 @@ export const greatswordWeaponList = [
     {
         "name": "Jaggi Greatblade+",
         "weaponType": "Great Sword",
-        "id": 173,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4652,7 +4595,7 @@ export const greatswordWeaponList = [
     {
         "name": "Avallo Blade",
         "weaponType": "Great Sword",
-        "id": 174,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -4676,7 +4619,7 @@ export const greatswordWeaponList = [
     {
         "name": "Flammenzahn I",
         "weaponType": "Great Sword",
-        "id": 175,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": -20,
@@ -4702,7 +4645,7 @@ export const greatswordWeaponList = [
     {
         "name": "Flammenzahn II",
         "weaponType": "Great Sword",
-        "id": 176,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -4730,7 +4673,7 @@ export const greatswordWeaponList = [
     {
         "name": "Gnashing Flammenzahn",
         "weaponType": "Great Sword",
-        "id": 177,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -20,
@@ -4758,7 +4701,7 @@ export const greatswordWeaponList = [
     {
         "name": "Gnashing Flammenzahn+",
         "weaponType": "Great Sword",
-        "id": 178,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -20,
@@ -4786,7 +4729,7 @@ export const greatswordWeaponList = [
     {
         "name": "Lohenzahn",
         "weaponType": "Great Sword",
-        "id": 179,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -20,
@@ -4814,7 +4757,7 @@ export const greatswordWeaponList = [
     {
         "name": "Lohenzahn+",
         "weaponType": "Great Sword",
-        "id": 180,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -4843,7 +4786,7 @@ export const greatswordWeaponList = [
     {
         "name": "Usurper's Storm I",
         "weaponType": "Great Sword",
-        "id": 181,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -4869,7 +4812,7 @@ export const greatswordWeaponList = [
     {
         "name": "Usurper's Storm II",
         "weaponType": "Great Sword",
-        "id": 182,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -4897,7 +4840,7 @@ export const greatswordWeaponList = [
     {
         "name": "Despot's Blackstorm",
         "weaponType": "Great Sword",
-        "id": 183,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -4926,7 +4869,7 @@ export const greatswordWeaponList = [
     {
         "name": "Despot's Blackstorm+",
         "weaponType": "Great Sword",
-        "id": 184,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4955,7 +4898,7 @@ export const greatswordWeaponList = [
     {
         "name": "Oppressor's Forger",
         "weaponType": "Great Sword",
-        "id": 185,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4984,7 +4927,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cataclysm Sword I",
         "weaponType": "Great Sword",
-        "id": 186,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5010,7 +4953,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cataclysm Sword II",
         "weaponType": "Great Sword",
-        "id": 187,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5036,7 +4979,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cataclysm Blade",
         "weaponType": "Great Sword",
-        "id": 188,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5066,7 +5009,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cataclysm Blade+",
         "weaponType": "Great Sword",
-        "id": 189,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5096,7 +5039,7 @@ export const greatswordWeaponList = [
     {
         "name": "Aquatic Cataclysm",
         "weaponType": "Great Sword",
-        "id": 190,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5126,7 +5069,7 @@ export const greatswordWeaponList = [
     {
         "name": "Aquatic Cataclysm+",
         "weaponType": "Great Sword",
-        "id": 191,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5156,7 +5099,7 @@ export const greatswordWeaponList = [
     {
         "name": "Golm Blade",
         "weaponType": "Great Sword",
-        "id": 192,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5184,7 +5127,7 @@ export const greatswordWeaponList = [
     {
         "name": "Golm Blade+",
         "weaponType": "Great Sword",
-        "id": 193,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5212,7 +5155,7 @@ export const greatswordWeaponList = [
     {
         "name": "Great Gorgigas",
         "weaponType": "Great Sword",
-        "id": 194,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -5240,7 +5183,7 @@ export const greatswordWeaponList = [
     {
         "name": "Snowclad I",
         "weaponType": "Great Sword",
-        "id": 195,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5266,7 +5209,7 @@ export const greatswordWeaponList = [
     {
         "name": "Snowclad II",
         "weaponType": "Great Sword",
-        "id": 196,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5292,7 +5235,7 @@ export const greatswordWeaponList = [
     {
         "name": "Lagombi Charlotte",
         "weaponType": "Great Sword",
-        "id": 197,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -5321,7 +5264,7 @@ export const greatswordWeaponList = [
     {
         "name": "Lagombi Charlotte+",
         "weaponType": "Great Sword",
-        "id": 198,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5350,7 +5293,7 @@ export const greatswordWeaponList = [
     {
         "name": "Lagombi Decider",
         "weaponType": "Great Sword",
-        "id": 199,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5379,7 +5322,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sinister Blade I",
         "weaponType": "Great Sword",
-        "id": 200,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5405,7 +5348,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sinister Blade II",
         "weaponType": "Great Sword",
-        "id": 201,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5431,7 +5374,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sinister Shadowblade",
         "weaponType": "Great Sword",
-        "id": 202,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5460,7 +5403,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sinister Shadowblade+",
         "weaponType": "Great Sword",
-        "id": 203,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5489,7 +5432,7 @@ export const greatswordWeaponList = [
     {
         "name": "Mighty Soulquencher",
         "weaponType": "Great Sword",
-        "id": 204,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5518,7 +5461,7 @@ export const greatswordWeaponList = [
     {
         "name": "Azure Blaze Great Sword",
         "weaponType": "Great Sword",
-        "id": 205,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5547,7 +5490,7 @@ export const greatswordWeaponList = [
     {
         "name": "Schattenstolz",
         "weaponType": "Great Sword",
-        "id": 206,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -5575,7 +5518,7 @@ export const greatswordWeaponList = [
     {
         "name": "Schattenstolz+",
         "weaponType": "Great Sword",
-        "id": 207,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5603,7 +5546,7 @@ export const greatswordWeaponList = [
     {
         "name": "Verh\u00e4ngnisstolz",
         "weaponType": "Great Sword",
-        "id": 208,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -5631,7 +5574,7 @@ export const greatswordWeaponList = [
     {
         "name": "L'Apoth\u00e9ose",
         "weaponType": "Great Sword",
-        "id": 209,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 45,
@@ -5657,7 +5600,7 @@ export const greatswordWeaponList = [
     {
         "name": "L'Origine",
         "weaponType": "Great Sword",
-        "id": 210,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 45,
@@ -5683,7 +5626,7 @@ export const greatswordWeaponList = [
     {
         "name": "Demon Rod I",
         "weaponType": "Great Sword",
-        "id": 211,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -5709,7 +5652,7 @@ export const greatswordWeaponList = [
     {
         "name": "Demon Rod II",
         "weaponType": "Great Sword",
-        "id": 212,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 10,
@@ -5737,7 +5680,7 @@ export const greatswordWeaponList = [
     {
         "name": "Great Demon Rod",
         "weaponType": "Great Sword",
-        "id": 213,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 10,
@@ -5765,7 +5708,7 @@ export const greatswordWeaponList = [
     {
         "name": "Great Demon Rod+",
         "weaponType": "Great Sword",
-        "id": 214,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -5793,7 +5736,7 @@ export const greatswordWeaponList = [
     {
         "name": "Great Demon Hot Rod",
         "weaponType": "Great Sword",
-        "id": 215,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -5821,7 +5764,7 @@ export const greatswordWeaponList = [
     {
         "name": "Demonlord Goldrod",
         "weaponType": "Great Sword",
-        "id": 216,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5850,7 +5793,7 @@ export const greatswordWeaponList = [
     {
         "name": "Azure Elder Great Sword I",
         "weaponType": "Great Sword",
-        "id": 217,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5876,7 +5819,7 @@ export const greatswordWeaponList = [
     {
         "name": "Azure Elder Great Sword II",
         "weaponType": "Great Sword",
-        "id": 218,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5902,7 +5845,7 @@ export const greatswordWeaponList = [
     {
         "name": "Abyssal Galeblade",
         "weaponType": "Great Sword",
-        "id": 219,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -5928,7 +5871,7 @@ export const greatswordWeaponList = [
     {
         "name": "Skysplit Hurricane",
         "weaponType": "Great Sword",
-        "id": 220,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5954,7 +5897,7 @@ export const greatswordWeaponList = [
     {
         "name": "Thunderbolt Great Sword I",
         "weaponType": "Great Sword",
-        "id": 221,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5980,7 +5923,7 @@ export const greatswordWeaponList = [
     {
         "name": "Abyssal Storm Cleaver",
         "weaponType": "Great Sword",
-        "id": 222,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6006,7 +5949,7 @@ export const greatswordWeaponList = [
     {
         "name": "Skysplit Thunderstorm",
         "weaponType": "Great Sword",
-        "id": 223,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6032,7 +5975,7 @@ export const greatswordWeaponList = [
     {
         "name": "Icesteel Edge I",
         "weaponType": "Great Sword",
-        "id": 224,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6060,7 +6003,7 @@ export const greatswordWeaponList = [
     {
         "name": "Daora's Decimator",
         "weaponType": "Great Sword",
-        "id": 225,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 10,
@@ -6088,7 +6031,7 @@ export const greatswordWeaponList = [
     {
         "name": "Daora's Decimator+",
         "weaponType": "Great Sword",
-        "id": 226,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -6116,7 +6059,7 @@ export const greatswordWeaponList = [
     {
         "name": "Daora's Tughril Beg",
         "weaponType": "Great Sword",
-        "id": 227,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -6144,7 +6087,7 @@ export const greatswordWeaponList = [
     {
         "name": "Teostra Blade I",
         "weaponType": "Great Sword",
-        "id": 228,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6170,7 +6113,7 @@ export const greatswordWeaponList = [
     {
         "name": "King Teostra Blade",
         "weaponType": "Great Sword",
-        "id": 229,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6196,7 +6139,7 @@ export const greatswordWeaponList = [
     {
         "name": "King Teostra Blade+",
         "weaponType": "Great Sword",
-        "id": 230,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6222,7 +6165,7 @@ export const greatswordWeaponList = [
     {
         "name": "Teostra del Sol",
         "weaponType": "Great Sword",
-        "id": 231,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6248,7 +6191,7 @@ export const greatswordWeaponList = [
     {
         "name": "Grand Shamshir I",
         "weaponType": "Great Sword",
-        "id": 232,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6278,7 +6221,7 @@ export const greatswordWeaponList = [
     {
         "name": "Foreboding Shamshir",
         "weaponType": "Great Sword",
-        "id": 233,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6308,7 +6251,7 @@ export const greatswordWeaponList = [
     {
         "name": "Foreboding Shamshir+",
         "weaponType": "Great Sword",
-        "id": 234,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6338,7 +6281,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dreaded Shamshir",
         "weaponType": "Great Sword",
-        "id": 235,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6368,7 +6311,7 @@ export const greatswordWeaponList = [
     {
         "name": "Redwing Claymore I",
         "weaponType": "Great Sword",
-        "id": 236,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6396,7 +6339,7 @@ export const greatswordWeaponList = [
     {
         "name": "Reddnaught Claymore",
         "weaponType": "Great Sword",
-        "id": 237,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6424,7 +6367,7 @@ export const greatswordWeaponList = [
     {
         "name": "Crimson Vastwing",
         "weaponType": "Great Sword",
-        "id": 238,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6452,7 +6395,7 @@ export const greatswordWeaponList = [
     {
         "name": "Abyssal Eruption",
         "weaponType": "Great Sword",
-        "id": 239,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -6478,7 +6421,7 @@ export const greatswordWeaponList = [
     {
         "name": "Wyvern's Perch I",
         "weaponType": "Great Sword",
-        "id": 240,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6504,7 +6447,7 @@ export const greatswordWeaponList = [
     {
         "name": "Wyvern's Perch II",
         "weaponType": "Great Sword",
-        "id": 241,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6530,7 +6473,7 @@ export const greatswordWeaponList = [
     {
         "name": "Roguish Deathcap",
         "weaponType": "Great Sword",
-        "id": 242,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6556,7 +6499,7 @@ export const greatswordWeaponList = [
     {
         "name": "Roguish Deathcap+",
         "weaponType": "Great Sword",
-        "id": 243,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6584,7 +6527,7 @@ export const greatswordWeaponList = [
     {
         "name": "Lordly Deathcap",
         "weaponType": "Great Sword",
-        "id": 244,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6612,7 +6555,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sleepy Shellblade I",
         "weaponType": "Great Sword",
-        "id": 245,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6638,7 +6581,7 @@ export const greatswordWeaponList = [
     {
         "name": "Sleepy Shellblade II",
         "weaponType": "Great Sword",
-        "id": 246,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -6664,7 +6607,7 @@ export const greatswordWeaponList = [
     {
         "name": "Soporific Shellblade",
         "weaponType": "Great Sword",
-        "id": 247,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6693,7 +6636,7 @@ export const greatswordWeaponList = [
     {
         "name": "Soporific Shellblade+",
         "weaponType": "Great Sword",
-        "id": 248,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6723,7 +6666,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dreamdiver",
         "weaponType": "Great Sword",
-        "id": 249,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6753,7 +6696,7 @@ export const greatswordWeaponList = [
     {
         "name": "Frozen Speartuna I",
         "weaponType": "Great Sword",
-        "id": 250,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -6779,7 +6722,7 @@ export const greatswordWeaponList = [
     {
         "name": "Frozen Speartuna II",
         "weaponType": "Great Sword",
-        "id": 251,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -6805,7 +6748,7 @@ export const greatswordWeaponList = [
     {
         "name": "Freezer Speartuna",
         "weaponType": "Great Sword",
-        "id": 252,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6831,7 +6774,7 @@ export const greatswordWeaponList = [
     {
         "name": "Freezer Speartuna+",
         "weaponType": "Great Sword",
-        "id": 253,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6857,7 +6800,7 @@ export const greatswordWeaponList = [
     {
         "name": "Xiphias Gladius",
         "weaponType": "Great Sword",
-        "id": 254,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6883,7 +6826,7 @@ export const greatswordWeaponList = [
     {
         "name": "Ninja Parasol I",
         "weaponType": "Great Sword",
-        "id": 255,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6909,7 +6852,7 @@ export const greatswordWeaponList = [
     {
         "name": "Ninja Parasol II",
         "weaponType": "Great Sword",
-        "id": 256,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6939,7 +6882,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dragonslayer Parasol",
         "weaponType": "Great Sword",
-        "id": 257,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6969,7 +6912,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dragondance Parasol",
         "weaponType": "Great Sword",
-        "id": 258,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -6999,7 +6942,7 @@ export const greatswordWeaponList = [
     {
         "name": "Dragondance Parasol+",
         "weaponType": "Great Sword",
-        "id": 259,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -7029,7 +6972,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cat's Soul I",
         "weaponType": "Great Sword",
-        "id": 260,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -7057,7 +7000,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cat's Soul II",
         "weaponType": "Great Sword",
-        "id": 261,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -7085,7 +7028,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cat's Curse",
         "weaponType": "Great Sword",
-        "id": 262,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7113,7 +7056,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cat's Curse+",
         "weaponType": "Great Sword",
-        "id": 263,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 0,
@@ -7141,7 +7084,7 @@ export const greatswordWeaponList = [
     {
         "name": "Cat's King",
         "weaponType": "Great Sword",
-        "id": 264,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -7169,7 +7112,7 @@ export const greatswordWeaponList = [
     {
         "name": "Royal Order's Great Sword",
         "weaponType": "Great Sword",
-        "id": 265,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -7195,7 +7138,7 @@ export const greatswordWeaponList = [
     {
         "name": "Royal Order's Great Sword+",
         "weaponType": "Great Sword",
-        "id": 266,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -7222,7 +7165,7 @@ export const greatswordWeaponList = [
     {
         "name": "Antique Machina GS",
         "weaponType": "Great Sword",
-        "id": 267,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7248,7 +7191,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rampage Cleaver I",
         "weaponType": "Great Sword",
-        "id": 268,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7272,7 +7215,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rampage Cleaver II",
         "weaponType": "Great Sword",
-        "id": 269,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7296,7 +7239,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rampage Cleaver III",
         "weaponType": "Great Sword",
-        "id": 270,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7320,7 +7263,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rampage Cleaver IV",
         "weaponType": "Great Sword",
-        "id": 271,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7344,7 +7287,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rampage Cleaver V",
         "weaponType": "Great Sword",
-        "id": 272,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7368,7 +7311,7 @@ export const greatswordWeaponList = [
     {
         "name": "Rampage Cleaver S",
         "weaponType": "Great Sword",
-        "id": 273,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

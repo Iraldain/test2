@@ -1,4 +1,4 @@
-export default huntingHornWeaponList = [
+export const huntingHornWeaponList = [
     {
         "name": "Defender Horn I",
         "weaponType": "Hunting Horn",
@@ -2365,9 +2365,38 @@ export default huntingHornWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/376943218.webp"
     },
     {
-        "name": "Pukei Bagpipe I",
+        "name": "Namalsadirah's Asterism",
         "weaponType": "Hunting Horn",
         "id": 88,
+        "isBlademaster": true,
+        "baseRaw": 310,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 17
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 20,
+            "purple": 60
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1661832660.webp"
+    },
+    {
+        "name": "Pukei Bagpipe I",
+        "weaponType": "Hunting Horn",
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2393,7 +2422,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Pukei Bagpipe II",
         "weaponType": "Hunting Horn",
-        "id": 89,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2422,7 +2451,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Datura Lurr",
         "weaponType": "Hunting Horn",
-        "id": 90,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -2451,7 +2480,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Datura Lurr+",
         "weaponType": "Hunting Horn",
-        "id": 91,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2480,7 +2509,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Datura Accelerando",
         "weaponType": "Hunting Horn",
-        "id": 92,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -2509,7 +2538,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Datura Accelerando+",
         "weaponType": "Hunting Horn",
-        "id": 93,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2538,7 +2567,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Flammenkornett I",
         "weaponType": "Hunting Horn",
-        "id": 94,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -15,
@@ -2567,7 +2596,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Flammenkornett II",
         "weaponType": "Hunting Horn",
-        "id": 95,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -15,
@@ -2596,7 +2625,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Forte Flammenkornett",
         "weaponType": "Hunting Horn",
-        "id": 96,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -2625,7 +2654,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Forte Flammenkornett+",
         "weaponType": "Hunting Horn",
-        "id": 97,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -15,
@@ -2654,7 +2683,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Horn of the Indomitable",
         "weaponType": "Hunting Horn",
-        "id": 98,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -15,
@@ -2683,7 +2712,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Horn of the Indomitable+",
         "weaponType": "Hunting Horn",
-        "id": 99,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -2712,7 +2741,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Valkyrie Chordmaker I",
         "weaponType": "Hunting Horn",
-        "id": 100,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2738,7 +2767,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Valkyrie Chordmaker II",
         "weaponType": "Hunting Horn",
-        "id": 101,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -2764,7 +2793,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Queen Chordmaker",
         "weaponType": "Hunting Horn",
-        "id": 102,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2792,7 +2821,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Queen Chordmaker+",
         "weaponType": "Hunting Horn",
-        "id": 103,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -2820,7 +2849,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Queen's Harmonium",
         "weaponType": "Hunting Horn",
-        "id": 104,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2848,7 +2877,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Queen's Harmonium+",
         "weaponType": "Hunting Horn",
-        "id": 105,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -2874,9 +2903,37 @@ export default huntingHornWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/403923307.webp"
     },
     {
+        "name": "Gold Chordmaker",
+        "weaponType": "Hunting Horn",
+        "id": 107,
+        "isBlademaster": true,
+        "baseRaw": 320,
+        "baseAffinity": 15,
+        "elements": {
+            "fire": 40
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 100,
+            "orange": 20,
+            "yellow": 100,
+            "green": 30,
+            "blue": 40,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "3"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1632824854.webp"
+    },
+    {
         "name": "Rosengitarre",
         "weaponType": "Hunting Horn",
-        "id": 106,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 20,
@@ -2902,7 +2959,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rosengitarre+",
         "weaponType": "Hunting Horn",
-        "id": 107,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 20,
@@ -2928,7 +2985,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rosenseele",
         "weaponType": "Hunting Horn",
-        "id": 108,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -2954,7 +3011,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sandpipe I",
         "weaponType": "Hunting Horn",
-        "id": 109,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": -30,
@@ -2978,7 +3035,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sandpipe II",
         "weaponType": "Hunting Horn",
-        "id": 110,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": -30,
@@ -3002,7 +3059,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sandcrier",
         "weaponType": "Hunting Horn",
-        "id": 111,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -30,
@@ -3026,7 +3083,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sandcrier+",
         "weaponType": "Hunting Horn",
-        "id": 112,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -30,
@@ -3050,7 +3107,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sandscreecher",
         "weaponType": "Hunting Horn",
-        "id": 113,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -30,
@@ -3074,7 +3131,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sandscreecher+",
         "weaponType": "Hunting Horn",
-        "id": 114,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -30,
@@ -3098,7 +3155,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Frog Flute I",
         "weaponType": "Hunting Horn",
-        "id": 115,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -3124,7 +3181,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Frog Flute II",
         "weaponType": "Hunting Horn",
-        "id": 116,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -3152,7 +3209,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Amphibia Allargando",
         "weaponType": "Hunting Horn",
-        "id": 117,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -3180,7 +3237,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Amphibia Allargando+",
         "weaponType": "Hunting Horn",
-        "id": 118,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3208,7 +3265,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Amphibia Larghetto",
         "weaponType": "Hunting Horn",
-        "id": 119,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -3236,7 +3293,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Amphibia Larghetto+",
         "weaponType": "Hunting Horn",
-        "id": 120,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3264,7 +3321,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Wind Thief Horn I",
         "weaponType": "Hunting Horn",
-        "id": 121,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 10,
@@ -3288,7 +3345,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Wind Thief Horn II",
         "weaponType": "Hunting Horn",
-        "id": 122,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 10,
@@ -3312,7 +3369,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Gale Horn",
         "weaponType": "Hunting Horn",
-        "id": 123,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 10,
@@ -3339,7 +3396,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Gale Horn+",
         "weaponType": "Hunting Horn",
-        "id": 124,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 10,
@@ -3366,7 +3423,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Great Gale Horn",
         "weaponType": "Hunting Horn",
-        "id": 125,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3393,7 +3450,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Droth Drone I",
         "weaponType": "Hunting Horn",
-        "id": 126,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -3419,7 +3476,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Droth Drone II",
         "weaponType": "Hunting Horn",
-        "id": 127,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3445,7 +3502,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Droth Roar",
         "weaponType": "Hunting Horn",
-        "id": 128,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -3475,7 +3532,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Droth Roar+",
         "weaponType": "Hunting Horn",
-        "id": 129,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3505,7 +3562,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Echoing Droth Roar",
         "weaponType": "Hunting Horn",
-        "id": 130,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3535,7 +3592,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Echoing Droth Roar+",
         "weaponType": "Hunting Horn",
-        "id": 131,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3565,7 +3622,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Golm Drum",
         "weaponType": "Hunting Horn",
-        "id": 132,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3593,7 +3650,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Golm Drum+",
         "weaponType": "Hunting Horn",
-        "id": 133,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3621,7 +3678,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Seismic Pauken",
         "weaponType": "Hunting Horn",
-        "id": 134,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3649,7 +3706,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bone Horn I",
         "weaponType": "Hunting Horn",
-        "id": 135,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3673,7 +3730,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bone Horn II",
         "weaponType": "Hunting Horn",
-        "id": 136,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -3697,7 +3754,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Hardened Bone Horn",
         "weaponType": "Hunting Horn",
-        "id": 137,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -3721,7 +3778,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Hunter's Horn I",
         "weaponType": "Hunting Horn",
-        "id": 138,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -3745,7 +3802,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Native's Horn",
         "weaponType": "Hunting Horn",
-        "id": 139,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -3769,7 +3826,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sonic Glass",
         "weaponType": "Hunting Horn",
-        "id": 140,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3797,7 +3854,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sonic Glass+",
         "weaponType": "Hunting Horn",
-        "id": 141,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3825,7 +3882,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Glass Queen",
         "weaponType": "Hunting Horn",
-        "id": 142,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3853,7 +3910,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Shell Castanet",
         "weaponType": "Hunting Horn",
-        "id": 143,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3879,7 +3936,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Shell Castanet+",
         "weaponType": "Hunting Horn",
-        "id": 144,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -3905,7 +3962,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Colored Castanet",
         "weaponType": "Hunting Horn",
-        "id": 145,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3931,7 +3988,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vadya Muse",
         "weaponType": "Hunting Horn",
-        "id": 146,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -3957,7 +4014,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vadya Muse+",
         "weaponType": "Hunting Horn",
-        "id": 147,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3983,7 +4040,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Allysyl Muse",
         "weaponType": "Hunting Horn",
-        "id": 148,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -4009,7 +4066,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Duo Horn I",
         "weaponType": "Hunting Horn",
-        "id": 149,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -4033,7 +4090,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Duo Horn II",
         "weaponType": "Hunting Horn",
-        "id": 150,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -4057,7 +4114,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Duo Risoluto",
         "weaponType": "Hunting Horn",
-        "id": 151,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": -15,
@@ -4081,7 +4138,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Duo Risoluto+",
         "weaponType": "Hunting Horn",
-        "id": 152,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -4105,7 +4162,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Horned Tyrant's Horn",
         "weaponType": "Hunting Horn",
-        "id": 153,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -4129,7 +4186,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Horned Tyrant's Horn+",
         "weaponType": "Hunting Horn",
-        "id": 154,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -4153,7 +4210,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bull Grunt I",
         "weaponType": "Hunting Horn",
-        "id": 155,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": -5,
@@ -4177,7 +4234,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bull Grunt II",
         "weaponType": "Hunting Horn",
-        "id": 156,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -5,
@@ -4201,7 +4258,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Wild Grunt",
         "weaponType": "Hunting Horn",
-        "id": 157,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -5,
@@ -4225,7 +4282,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Feral Grunt",
         "weaponType": "Hunting Horn",
-        "id": 158,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -5,
@@ -4251,7 +4308,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Feral Grunt+",
         "weaponType": "Hunting Horn",
-        "id": 159,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -5,
@@ -4277,7 +4334,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Barbarian Grunt",
         "weaponType": "Hunting Horn",
-        "id": 160,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -5,
@@ -4303,7 +4360,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Flame Feroce I",
         "weaponType": "Hunting Horn",
-        "id": 161,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -4329,7 +4386,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Flame Feroce II",
         "weaponType": "Hunting Horn",
-        "id": 162,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -4357,7 +4414,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rathalos Feroce",
         "weaponType": "Hunting Horn",
-        "id": 163,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4385,7 +4442,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rathalos Feroce+",
         "weaponType": "Hunting Horn",
-        "id": 164,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4413,7 +4470,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Ophelia's Grace",
         "weaponType": "Hunting Horn",
-        "id": 165,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4441,7 +4498,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Kulu Mosso I",
         "weaponType": "Hunting Horn",
-        "id": 166,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 15,
@@ -4465,7 +4522,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Kulu Mosso II",
         "weaponType": "Hunting Horn",
-        "id": 167,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 15,
@@ -4489,7 +4546,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Kulu Grosso",
         "weaponType": "Hunting Horn",
-        "id": 168,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 25,
@@ -4517,7 +4574,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Kulu Grosso+",
         "weaponType": "Hunting Horn",
-        "id": 169,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 25,
@@ -4545,7 +4602,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Kulu Katolos Mosso",
         "weaponType": "Hunting Horn",
-        "id": 170,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 25,
@@ -4573,7 +4630,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Khezu Horn I",
         "weaponType": "Hunting Horn",
-        "id": 171,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4599,7 +4656,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Khezu Horn II",
         "weaponType": "Hunting Horn",
-        "id": 172,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -4625,7 +4682,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Khezu Flute",
         "weaponType": "Hunting Horn",
-        "id": 173,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -4653,7 +4710,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Khezu Flute+",
         "weaponType": "Hunting Horn",
-        "id": 174,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4681,7 +4738,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Khezu Keen",
         "weaponType": "Hunting Horn",
-        "id": 175,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -4709,7 +4766,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Khezu Keen+",
         "weaponType": "Hunting Horn",
-        "id": 176,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4737,7 +4794,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo I",
         "weaponType": "Hunting Horn",
-        "id": 177,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 60,
         "baseAffinity": 0,
@@ -4761,7 +4818,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo II",
         "weaponType": "Hunting Horn",
-        "id": 178,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4785,7 +4842,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Unu",
         "weaponType": "Hunting Horn",
-        "id": 179,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -4809,7 +4866,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo Black I",
         "weaponType": "Hunting Horn",
-        "id": 180,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -4838,7 +4895,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo Black II",
         "weaponType": "Hunting Horn",
-        "id": 181,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -4867,7 +4924,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Uno Black",
         "weaponType": "Hunting Horn",
-        "id": 182,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4896,7 +4953,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Du Black",
         "weaponType": "Hunting Horn",
-        "id": 183,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -4925,7 +4982,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Tre Black",
         "weaponType": "Hunting Horn",
-        "id": 184,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4954,7 +5011,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Kvar Black",
         "weaponType": "Hunting Horn",
-        "id": 185,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4984,7 +5041,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo Green I",
         "weaponType": "Hunting Horn",
-        "id": 186,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5010,7 +5067,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo Green II",
         "weaponType": "Hunting Horn",
-        "id": 187,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -5040,7 +5097,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Unu Green",
         "weaponType": "Hunting Horn",
-        "id": 188,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5070,7 +5127,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Du Green",
         "weaponType": "Hunting Horn",
-        "id": 189,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -5100,7 +5157,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Tre Green",
         "weaponType": "Hunting Horn",
-        "id": 190,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5130,7 +5187,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo White I",
         "weaponType": "Hunting Horn",
-        "id": 191,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -5156,7 +5213,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Nulo White II",
         "weaponType": "Hunting Horn",
-        "id": 192,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -5182,7 +5239,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Unu White",
         "weaponType": "Hunting Horn",
-        "id": 193,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5212,7 +5269,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Du White",
         "weaponType": "Hunting Horn",
-        "id": 194,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5242,7 +5299,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Vicello Tre White",
         "weaponType": "Hunting Horn",
-        "id": 195,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5272,7 +5329,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sinister Strum I",
         "weaponType": "Hunting Horn",
-        "id": 196,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -5298,7 +5355,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sinister Strum II",
         "weaponType": "Hunting Horn",
-        "id": 197,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5324,7 +5381,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sinister Shadestrum",
         "weaponType": "Hunting Horn",
-        "id": 198,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5353,7 +5410,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Sinister Shadestrum+",
         "weaponType": "Hunting Horn",
-        "id": 199,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -5382,7 +5439,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Mighty Souleraser",
         "weaponType": "Hunting Horn",
-        "id": 200,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5411,7 +5468,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Devil's Lute",
         "weaponType": "Hunting Horn",
-        "id": 201,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5440,7 +5497,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Kummerklang",
         "weaponType": "Hunting Horn",
-        "id": 202,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 25,
@@ -5468,7 +5525,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Kummerklang+",
         "weaponType": "Hunting Horn",
-        "id": 203,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 25,
@@ -5496,7 +5553,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Trauerklang",
         "weaponType": "Hunting Horn",
-        "id": 204,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 25,
@@ -5524,7 +5581,7 @@ export default huntingHornWeaponList = [
     {
         "name": "La S\u00e9pulture",
         "weaponType": "Hunting Horn",
-        "id": 205,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 40,
@@ -5550,7 +5607,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Le Gr\u00e9gorien",
         "weaponType": "Hunting Horn",
-        "id": 206,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 40,
@@ -5576,7 +5633,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Denden Daiko I",
         "weaponType": "Hunting Horn",
-        "id": 207,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -10,
@@ -5602,7 +5659,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Denden Daiko II",
         "weaponType": "Hunting Horn",
-        "id": 208,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -5630,7 +5687,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Denden Doomsounder",
         "weaponType": "Hunting Horn",
-        "id": 209,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -5658,7 +5715,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Denden Doomsounder+",
         "weaponType": "Hunting Horn",
-        "id": 210,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -10,
@@ -5686,7 +5743,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Denden Delugesong",
         "weaponType": "Hunting Horn",
-        "id": 211,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -5714,7 +5771,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Demonlord Djembe",
         "weaponType": "Hunting Horn",
-        "id": 212,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5743,7 +5800,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Azure Elder Horn I",
         "weaponType": "Hunting Horn",
-        "id": 213,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5769,7 +5826,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Azure Elder Horn II",
         "weaponType": "Hunting Horn",
-        "id": 214,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5795,7 +5852,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Abyssal Gale Horn",
         "weaponType": "Hunting Horn",
-        "id": 215,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5821,7 +5878,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Skytremor Typhoon",
         "weaponType": "Hunting Horn",
-        "id": 216,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5847,7 +5904,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Thunderbolt Horn I",
         "weaponType": "Hunting Horn",
-        "id": 217,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5873,7 +5930,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Abyssal Storm Horn",
         "weaponType": "Hunting Horn",
-        "id": 218,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5899,7 +5956,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Skytremor Rumble",
         "weaponType": "Hunting Horn",
-        "id": 219,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5925,7 +5982,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rookslayer Drum I",
         "weaponType": "Hunting Horn",
-        "id": 220,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -5951,7 +6008,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rookslayer Drum II",
         "weaponType": "Hunting Horn",
-        "id": 221,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -5977,7 +6034,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bazelreid Rookslayer",
         "weaponType": "Hunting Horn",
-        "id": 222,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6003,7 +6060,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Baselsium Rookslayer",
         "weaponType": "Hunting Horn",
-        "id": 223,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -10,
@@ -6027,9 +6084,35 @@ export default huntingHornWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1518226032.webp"
     },
     {
+        "name": "Bazel Valdi Rooksearer",
+        "weaponType": "Hunting Horn",
+        "id": 226,
+        "isBlademaster": true,
+        "baseRaw": 320,
+        "baseAffinity": -10,
+        "elements": {
+            "blast": 25
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 10,
+            "orange": 110,
+            "yellow": 80,
+            "green": 60,
+            "blue": 30,
+            "white": 60,
+            "purple": 50
+        },
+        "slots": [],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1532475921.webp"
+    },
+    {
         "name": "Daora's Taus I",
         "weaponType": "Hunting Horn",
-        "id": 224,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -6057,7 +6140,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Daora's Baphophone",
         "weaponType": "Hunting Horn",
-        "id": 225,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6085,7 +6168,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Daora's Baphophone+",
         "weaponType": "Hunting Horn",
-        "id": 226,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -6113,7 +6196,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Daora's Diabassoon",
         "weaponType": "Hunting Horn",
-        "id": 227,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -6141,7 +6224,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Teostra's Tiple I",
         "weaponType": "Hunting Horn",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6167,7 +6250,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Teostra's Orph\u00e9e",
         "weaponType": "Hunting Horn",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6193,7 +6276,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Teostra's Orph\u00e9e+",
         "weaponType": "Hunting Horn",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -6219,7 +6302,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Teostra's Musica",
         "weaponType": "Hunting Horn",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6245,7 +6328,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Blessed Ocarina I",
         "weaponType": "Hunting Horn",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6275,7 +6358,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Cursed Ocarina",
         "weaponType": "Hunting Horn",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6305,7 +6388,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Cursed Ocarina+",
         "weaponType": "Hunting Horn",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -6335,7 +6418,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Genie's Ocarina",
         "weaponType": "Hunting Horn",
-        "id": 235,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6365,7 +6448,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Redwing Flute I",
         "weaponType": "Hunting Horn",
-        "id": 236,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6393,7 +6476,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Reddnaught Ritmico",
         "weaponType": "Hunting Horn",
-        "id": 237,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6421,7 +6504,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Crimson Clearwing",
         "weaponType": "Hunting Horn",
-        "id": 238,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -6449,7 +6532,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Abyssal Hollow",
         "weaponType": "Hunting Horn",
-        "id": 239,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -20,
@@ -6475,7 +6558,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Poison Fungasax I",
         "weaponType": "Hunting Horn",
-        "id": 240,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -6501,7 +6584,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Poison Fungasax II",
         "weaponType": "Hunting Horn",
-        "id": 241,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -6527,7 +6610,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Toxic Fungasax",
         "weaponType": "Hunting Horn",
-        "id": 242,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6553,7 +6636,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Toxic Fungasax+",
         "weaponType": "Hunting Horn",
-        "id": 243,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6579,7 +6662,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Mycotoxic Fungasax",
         "weaponType": "Hunting Horn",
-        "id": 244,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6605,7 +6688,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Magia Charm I",
         "weaponType": "Hunting Horn",
-        "id": 245,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6631,7 +6714,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Magia Charm II",
         "weaponType": "Hunting Horn",
-        "id": 246,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6657,7 +6740,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Magia Charm III",
         "weaponType": "Hunting Horn",
-        "id": 247,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6685,7 +6768,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Magia Charmbell",
         "weaponType": "Hunting Horn",
-        "id": 248,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6713,7 +6796,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Magia Charmbell+",
         "weaponType": "Hunting Horn",
-        "id": 249,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -6741,7 +6824,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bell of Laertes",
         "weaponType": "Hunting Horn",
-        "id": 250,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6769,7 +6852,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Cornupion I",
         "weaponType": "Hunting Horn",
-        "id": 251,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -6795,7 +6878,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Cornupion II",
         "weaponType": "Hunting Horn",
-        "id": 252,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6821,7 +6904,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Webbed Cornupion",
         "weaponType": "Hunting Horn",
-        "id": 253,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6849,7 +6932,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Hamlet's Horn",
         "weaponType": "Hunting Horn",
-        "id": 254,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -6877,7 +6960,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Gossamer Cornupion",
         "weaponType": "Hunting Horn",
-        "id": 255,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6905,7 +6988,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Grass Flute I",
         "weaponType": "Hunting Horn",
-        "id": 256,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -6931,7 +7014,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Grass Flute II",
         "weaponType": "Hunting Horn",
-        "id": 257,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6959,7 +7042,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bombadgy's Cry",
         "weaponType": "Hunting Horn",
-        "id": 258,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6987,7 +7070,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Bombadgy's Cry+",
         "weaponType": "Hunting Horn",
-        "id": 259,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -7017,7 +7100,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Raccoon Dog Auldhorn",
         "weaponType": "Hunting Horn",
-        "id": 260,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7047,7 +7130,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Royal Order's Horn",
         "weaponType": "Hunting Horn",
-        "id": 261,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 10,
@@ -7073,7 +7156,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Royal Order's Horn+",
         "weaponType": "Hunting Horn",
-        "id": 262,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -7100,7 +7183,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Antique Machina HH",
         "weaponType": "Hunting Horn",
-        "id": 263,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -7126,7 +7209,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rampage Agitato I",
         "weaponType": "Hunting Horn",
-        "id": 264,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7150,7 +7233,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rampage Agitato II",
         "weaponType": "Hunting Horn",
-        "id": 265,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7174,7 +7257,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rampage Agitato III",
         "weaponType": "Hunting Horn",
-        "id": 266,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7198,7 +7281,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rampage Agitato IV",
         "weaponType": "Hunting Horn",
-        "id": 267,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7222,7 +7305,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rampage Agitato V",
         "weaponType": "Hunting Horn",
-        "id": 268,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7246,7 +7329,7 @@ export default huntingHornWeaponList = [
     {
         "name": "Rampage Agitato S",
         "weaponType": "Hunting Horn",
-        "id": 269,
+        "id": 272,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

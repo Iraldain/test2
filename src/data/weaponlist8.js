@@ -1,4 +1,4 @@
-export default gunLanceWeaponList = [
+export const gunLanceWeaponList = [
     {
         "name": "Defender Gunlance I",
         "weaponType": "Gunlance",
@@ -728,9 +728,37 @@ export default gunLanceWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1955876477.webp"
     },
     {
-        "name": "Rosenkanone",
+        "name": "Queen's Panoply",
         "weaponType": "Gunlance",
         "id": 28,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 10,
+        "elements": {
+            "poison": 48
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 100,
+            "orange": 20,
+            "yellow": 100,
+            "green": 30,
+            "blue": 40,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "2"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1732017917.webp"
+    },
+    {
+        "name": "Rosenkanone",
+        "weaponType": "Gunlance",
+        "id": 29,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -758,7 +786,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rosenkanone+",
         "weaponType": "Gunlance",
-        "id": 29,
+        "id": 30,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -786,7 +814,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rosenherrlich",
         "weaponType": "Gunlance",
-        "id": 30,
+        "id": 31,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -814,7 +842,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Red Rook I",
         "weaponType": "Gunlance",
-        "id": 31,
+        "id": 32,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -840,7 +868,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Red Rook II",
         "weaponType": "Gunlance",
-        "id": 32,
+        "id": 33,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -866,7 +894,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Crimson Rook",
         "weaponType": "Gunlance",
-        "id": 33,
+        "id": 34,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -892,7 +920,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Crimson Rook+",
         "weaponType": "Gunlance",
-        "id": 34,
+        "id": 35,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -918,7 +946,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Etince Chariot",
         "weaponType": "Gunlance",
-        "id": 35,
+        "id": 36,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -942,9 +970,37 @@ export default gunLanceWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1925905814.webp"
     },
     {
+        "name": "Silver Rook",
+        "weaponType": "Gunlance",
+        "id": 37,
+        "isBlademaster": true,
+        "baseRaw": 300,
+        "baseAffinity": 35,
+        "elements": {
+            "fire": 61
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 20,
+            "green": 50,
+            "blue": 60,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "3"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1717243612.webp"
+    },
+    {
         "name": "Delex Harpoon I",
         "weaponType": "Gunlance",
-        "id": 36,
+        "id": 38,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -970,7 +1026,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Delex Harpoon II",
         "weaponType": "Gunlance",
-        "id": 37,
+        "id": 39,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -996,7 +1052,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sand Blaster Gunlance",
         "weaponType": "Gunlance",
-        "id": 38,
+        "id": 40,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -1024,7 +1080,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sand Blaster Gunlance+",
         "weaponType": "Gunlance",
-        "id": 39,
+        "id": 41,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -1052,7 +1108,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sandspear",
         "weaponType": "Gunlance",
-        "id": 40,
+        "id": 42,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -1080,7 +1136,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Usurper's Roar I",
         "weaponType": "Gunlance",
-        "id": 41,
+        "id": 43,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -1106,7 +1162,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Usurper's Roar II",
         "weaponType": "Gunlance",
-        "id": 42,
+        "id": 44,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -1135,7 +1191,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Despot's Phlogiston",
         "weaponType": "Gunlance",
-        "id": 43,
+        "id": 45,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -1164,7 +1220,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Despot's Phlogiston+",
         "weaponType": "Gunlance",
-        "id": 44,
+        "id": 46,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -1193,7 +1249,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Oppressor's Skyfall",
         "weaponType": "Gunlance",
-        "id": 45,
+        "id": 47,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -1222,7 +1278,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Twinfang I",
         "weaponType": "Gunlance",
-        "id": 46,
+        "id": 48,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 30,
@@ -1248,7 +1304,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Twinfang II",
         "weaponType": "Gunlance",
-        "id": 47,
+        "id": 49,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 35,
@@ -1277,7 +1333,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Ambermarch",
         "weaponType": "Gunlance",
-        "id": 48,
+        "id": 50,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 40,
@@ -1306,7 +1362,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Amberift",
         "weaponType": "Gunlance",
-        "id": 49,
+        "id": 51,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 40,
@@ -1335,7 +1391,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Amberift+",
         "weaponType": "Gunlance",
-        "id": 50,
+        "id": 52,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 40,
@@ -1364,7 +1420,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Amber Pike Ne'erthaw",
         "weaponType": "Gunlance",
-        "id": 51,
+        "id": 53,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 40,
@@ -1393,7 +1449,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Iron Gunlance I",
         "weaponType": "Gunlance",
-        "id": 52,
+        "id": 54,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -1417,7 +1473,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Iron Gunlance II",
         "weaponType": "Gunlance",
-        "id": 53,
+        "id": 55,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1441,7 +1497,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Eizenlitter",
         "weaponType": "Gunlance",
-        "id": 54,
+        "id": 56,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -1465,7 +1521,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Striker's Gunlance I",
         "weaponType": "Gunlance",
-        "id": 55,
+        "id": 57,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -1489,7 +1545,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Striker's Gunlance II",
         "weaponType": "Gunlance",
-        "id": 56,
+        "id": 58,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -1515,7 +1571,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Imperial Guardlance",
         "weaponType": "Gunlance",
-        "id": 57,
+        "id": 59,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -1541,7 +1597,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Imperial Guardlance+",
         "weaponType": "Gunlance",
-        "id": 58,
+        "id": 60,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1567,7 +1623,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Praetorian Guardlance",
         "weaponType": "Gunlance",
-        "id": 59,
+        "id": 61,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1593,7 +1649,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Praetorian Guardlance+",
         "weaponType": "Gunlance",
-        "id": 60,
+        "id": 62,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -1619,7 +1675,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Frostmoon Gunlance",
         "weaponType": "Gunlance",
-        "id": 61,
+        "id": 63,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -1648,7 +1704,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Frostmoon Gunlance+",
         "weaponType": "Gunlance",
-        "id": 62,
+        "id": 64,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1677,7 +1733,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Pleniunio Frostpike",
         "weaponType": "Gunlance",
-        "id": 63,
+        "id": 65,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1706,7 +1762,7 @@ export default gunLanceWeaponList = [
     {
         "name": "General's Arbalance I",
         "weaponType": "Gunlance",
-        "id": 64,
+        "id": 66,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 10,
@@ -1734,7 +1790,7 @@ export default gunLanceWeaponList = [
     {
         "name": "General's Arbalance II",
         "weaponType": "Gunlance",
-        "id": 65,
+        "id": 67,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -1762,7 +1818,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Admiral's Arbalance",
         "weaponType": "Gunlance",
-        "id": 66,
+        "id": 68,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 10,
@@ -1790,7 +1846,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Admiral's Arbalance+",
         "weaponType": "Gunlance",
-        "id": 67,
+        "id": 69,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 10,
@@ -1818,7 +1874,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Imperial Swornlance",
         "weaponType": "Gunlance",
-        "id": 68,
+        "id": 70,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -1846,7 +1902,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Imperial Swornlance+",
         "weaponType": "Gunlance",
-        "id": 69,
+        "id": 71,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 10,
@@ -1874,7 +1930,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dark Chariot",
         "weaponType": "Gunlance",
-        "id": 70,
+        "id": 72,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 30,
@@ -1902,7 +1958,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dark Chariot+",
         "weaponType": "Gunlance",
-        "id": 71,
+        "id": 73,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 30,
@@ -1930,7 +1986,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Zaram Chariot",
         "weaponType": "Gunlance",
-        "id": 72,
+        "id": 74,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 30,
@@ -1958,7 +2014,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Pukei Gunlance I",
         "weaponType": "Gunlance",
-        "id": 73,
+        "id": 75,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -1987,7 +2043,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Pukei Gunlance II",
         "weaponType": "Gunlance",
-        "id": 74,
+        "id": 76,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2016,7 +2072,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Datura Gunlance",
         "weaponType": "Gunlance",
-        "id": 75,
+        "id": 77,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -2045,7 +2101,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Datura Gunlance+",
         "weaponType": "Gunlance",
-        "id": 76,
+        "id": 78,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2074,7 +2130,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Datura Grimbarb",
         "weaponType": "Gunlance",
-        "id": 77,
+        "id": 79,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2103,7 +2159,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Datura Grimbarb+",
         "weaponType": "Gunlance",
-        "id": 78,
+        "id": 80,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2132,7 +2188,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Diablos Gunlance I",
         "weaponType": "Gunlance",
-        "id": 79,
+        "id": 81,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -10,
@@ -2156,7 +2212,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Diablos Gunlance II",
         "weaponType": "Gunlance",
-        "id": 80,
+        "id": 82,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": -10,
@@ -2180,7 +2236,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Diablos Cannon",
         "weaponType": "Gunlance",
-        "id": 81,
+        "id": 83,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": -10,
@@ -2204,7 +2260,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Diablos Cannon+",
         "weaponType": "Gunlance",
-        "id": 82,
+        "id": 84,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -2228,7 +2284,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Diablos Horncannon",
         "weaponType": "Gunlance",
-        "id": 83,
+        "id": 85,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -2252,7 +2308,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Diablos Horncannon+",
         "weaponType": "Gunlance",
-        "id": 84,
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -10,
@@ -2276,7 +2332,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Aknosom Gunlance I",
         "weaponType": "Gunlance",
-        "id": 85,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -2302,7 +2358,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Aknosom Gunlance II",
         "weaponType": "Gunlance",
-        "id": 86,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2328,7 +2384,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Aknosom Gunlance III",
         "weaponType": "Gunlance",
-        "id": 87,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -2356,7 +2412,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dawnbreaker Gunlance",
         "weaponType": "Gunlance",
-        "id": 88,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2384,7 +2440,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dawnmoon Gunlance",
         "weaponType": "Gunlance",
-        "id": 89,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -2412,7 +2468,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dawnmoon Gunlance+",
         "weaponType": "Gunlance",
-        "id": 90,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2440,7 +2496,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dawnmoon Detonator",
         "weaponType": "Gunlance",
-        "id": 91,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2468,7 +2524,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Almudron Gunlance I",
         "weaponType": "Gunlance",
-        "id": 92,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -2494,7 +2550,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Almudron Gunlance II",
         "weaponType": "Gunlance",
-        "id": 93,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2523,7 +2579,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Doombringer Gunlance",
         "weaponType": "Gunlance",
-        "id": 94,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2552,7 +2608,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Hellbringer Gunlance",
         "weaponType": "Gunlance",
-        "id": 95,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -2581,7 +2637,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Hellbringer Gunlance+",
         "weaponType": "Gunlance",
-        "id": 96,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2610,7 +2666,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Endbringer Cataclysm",
         "weaponType": "Gunlance",
-        "id": 97,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2639,7 +2695,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Flamebringer Gunlance",
         "weaponType": "Gunlance",
-        "id": 98,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -2667,7 +2723,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Flamebringer Gunlance+",
         "weaponType": "Gunlance",
-        "id": 99,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2695,7 +2751,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Burnbringer Eruption",
         "weaponType": "Gunlance",
-        "id": 100,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2723,7 +2779,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Full Voltage I",
         "weaponType": "Gunlance",
-        "id": 101,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -2749,7 +2805,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Full Voltage II",
         "weaponType": "Gunlance",
-        "id": 102,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 10,
@@ -2775,7 +2831,7 @@ export default gunLanceWeaponList = [
     {
         "name": "High Volt Gunlance",
         "weaponType": "Gunlance",
-        "id": 103,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -2803,7 +2859,7 @@ export default gunLanceWeaponList = [
     {
         "name": "High Volt Gunlance+",
         "weaponType": "Gunlance",
-        "id": 104,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 10,
@@ -2832,7 +2888,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Giga Volt Gunlance",
         "weaponType": "Gunlance",
-        "id": 105,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 10,
@@ -2861,7 +2917,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Giga Volt Gunlance+",
         "weaponType": "Gunlance",
-        "id": 106,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -2890,7 +2946,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Shattershot I",
         "weaponType": "Gunlance",
-        "id": 107,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": -10,
@@ -2916,7 +2972,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Shattershot II",
         "weaponType": "Gunlance",
-        "id": 108,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -10,
@@ -2944,7 +3000,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Shatter God",
         "weaponType": "Gunlance",
-        "id": 109,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": -10,
@@ -2972,7 +3028,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Shatter God+",
         "weaponType": "Gunlance",
-        "id": 110,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": -10,
@@ -3000,7 +3056,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Shattercannon",
         "weaponType": "Gunlance",
-        "id": 111,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -10,
@@ -3028,7 +3084,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Shattercannon+",
         "weaponType": "Gunlance",
-        "id": 112,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -3056,7 +3112,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Baggi Gunlance I",
         "weaponType": "Gunlance",
-        "id": 113,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -3082,7 +3138,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Baggi Gunlance II",
         "weaponType": "Gunlance",
-        "id": 114,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -3108,7 +3164,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Baggi Gunlance III",
         "weaponType": "Gunlance",
-        "id": 115,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -3137,7 +3193,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lullabyte Sleeplance",
         "weaponType": "Gunlance",
-        "id": 116,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3166,7 +3222,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lullabyte Sleeplance+",
         "weaponType": "Gunlance",
-        "id": 117,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3195,7 +3251,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Baggi Pike Cradle",
         "weaponType": "Gunlance",
-        "id": 118,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3224,7 +3280,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Kadachi Striker I",
         "weaponType": "Gunlance",
-        "id": 119,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 15,
@@ -3250,7 +3306,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Kadachi Striker II",
         "weaponType": "Gunlance",
-        "id": 120,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 15,
@@ -3278,7 +3334,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Mythic Kadachi Striker",
         "weaponType": "Gunlance",
-        "id": 121,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 20,
@@ -3306,7 +3362,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Mythic Kadachi Striker+",
         "weaponType": "Gunlance",
-        "id": 122,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 20,
@@ -3334,7 +3390,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Thundering Striker",
         "weaponType": "Gunlance",
-        "id": 123,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 20,
@@ -3362,7 +3418,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Thundering Striker+",
         "weaponType": "Gunlance",
-        "id": 124,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -3390,7 +3446,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Bone Gunlance I",
         "weaponType": "Gunlance",
-        "id": 125,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3414,7 +3470,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Bone Gunlance II",
         "weaponType": "Gunlance",
-        "id": 126,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3438,7 +3494,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Wyvern Bone Gunlance",
         "weaponType": "Gunlance",
-        "id": 127,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -3462,7 +3518,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Golem Gunlance I",
         "weaponType": "Gunlance",
-        "id": 128,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3486,7 +3542,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Golem Gunlance II",
         "weaponType": "Gunlance",
-        "id": 129,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3510,7 +3566,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Behemoth Gunlance",
         "weaponType": "Gunlance",
-        "id": 130,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3534,7 +3590,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Behemoth Gunlance+",
         "weaponType": "Gunlance",
-        "id": 131,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -3558,7 +3614,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Gargantua Gunlance",
         "weaponType": "Gunlance",
-        "id": 132,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3582,7 +3638,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Gargantua Gunlance+",
         "weaponType": "Gunlance",
-        "id": 133,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -3606,7 +3662,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Jaya Gunlance",
         "weaponType": "Gunlance",
-        "id": 134,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -3632,7 +3688,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Jaya Gunlance+",
         "weaponType": "Gunlance",
-        "id": 135,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -3658,7 +3714,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Riotous Gunlance",
         "weaponType": "Gunlance",
-        "id": 136,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -3684,7 +3740,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Scissor Gunlance",
         "weaponType": "Gunlance",
-        "id": 137,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3712,7 +3768,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Scissor Gunlance+",
         "weaponType": "Gunlance",
-        "id": 138,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3740,7 +3796,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Scissor Cannon",
         "weaponType": "Gunlance",
-        "id": 139,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3768,7 +3824,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Hidden Gunlance I",
         "weaponType": "Gunlance",
-        "id": 140,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 40,
@@ -3794,7 +3850,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Hidden Gunlance II",
         "weaponType": "Gunlance",
-        "id": 141,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 40,
@@ -3820,7 +3876,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fading Night",
         "weaponType": "Gunlance",
-        "id": 142,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 40,
@@ -3846,7 +3902,7 @@ export default gunLanceWeaponList = [
     {
         "name": "New Moon",
         "weaponType": "Gunlance",
-        "id": 143,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 40,
@@ -3872,7 +3928,7 @@ export default gunLanceWeaponList = [
     {
         "name": "New Moon+",
         "weaponType": "Gunlance",
-        "id": 144,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 40,
@@ -3898,7 +3954,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Avidya Gunlance",
         "weaponType": "Gunlance",
-        "id": 145,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 40,
@@ -3922,9 +3978,38 @@ export default gunLanceWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/830146361.webp"
     },
     {
+        "name": "Alioth's Asterism",
+        "weaponType": "Gunlance",
+        "id": 148,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 14
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 20,
+            "purple": 60
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1659838131.webp"
+    },
+    {
         "name": "Flaming Gunlance I",
         "weaponType": "Gunlance",
-        "id": 146,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": -20,
@@ -3950,7 +4035,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Flaming Gunlance II",
         "weaponType": "Gunlance",
-        "id": 147,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -20,
@@ -3976,7 +4061,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Flaming Gunlance III",
         "weaponType": "Gunlance",
-        "id": 148,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -4005,7 +4090,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Barbarous Firelance",
         "weaponType": "Gunlance",
-        "id": 149,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -4034,7 +4119,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Barbarous Firelance+",
         "weaponType": "Gunlance",
-        "id": 150,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -15,
@@ -4063,7 +4148,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Pyre Pike",
         "weaponType": "Gunlance",
-        "id": 151,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -4092,7 +4177,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Pyre Pike+",
         "weaponType": "Gunlance",
-        "id": 152,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -4121,7 +4206,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Barroth Loader I",
         "weaponType": "Gunlance",
-        "id": 153,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": -20,
@@ -4145,7 +4230,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Barroth Loader II",
         "weaponType": "Gunlance",
-        "id": 154,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": -20,
@@ -4169,7 +4254,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rugged Loader",
         "weaponType": "Gunlance",
-        "id": 155,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -4193,7 +4278,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Barroth Hellraiser",
         "weaponType": "Gunlance",
-        "id": 156,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -20,
@@ -4217,7 +4302,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Barroth Hellraiser+",
         "weaponType": "Gunlance",
-        "id": 157,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -20,
@@ -4241,7 +4326,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Barroth Reloader",
         "weaponType": "Gunlance",
-        "id": 158,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -4265,7 +4350,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Tiger Blast I",
         "weaponType": "Gunlance",
-        "id": 159,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": -20,
@@ -4289,7 +4374,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Tiger Blast II",
         "weaponType": "Gunlance",
-        "id": 160,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -4315,7 +4400,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Tigrex Gunlance",
         "weaponType": "Gunlance",
-        "id": 161,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -4341,7 +4426,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Tigrex Gunlance+",
         "weaponType": "Gunlance",
-        "id": 162,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -4367,7 +4452,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Great Tigrex Gunlance",
         "weaponType": "Gunlance",
-        "id": 163,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -4393,7 +4478,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Great Tigrex Gunlance+",
         "weaponType": "Gunlance",
-        "id": 164,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -4419,7 +4504,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lagomberator I",
         "weaponType": "Gunlance",
-        "id": 165,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4445,7 +4530,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lagomberator II",
         "weaponType": "Gunlance",
-        "id": 166,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -4471,7 +4556,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lagomberator III",
         "weaponType": "Gunlance",
-        "id": 167,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -4499,7 +4584,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lagomberatrix",
         "weaponType": "Gunlance",
-        "id": 168,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -4527,7 +4612,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lagomberatrix+",
         "weaponType": "Gunlance",
-        "id": 169,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -4555,7 +4640,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Lagombalanche",
         "weaponType": "Gunlance",
-        "id": 170,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -4583,7 +4668,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Ludroth Harpoon I",
         "weaponType": "Gunlance",
-        "id": 171,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4609,7 +4694,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Ludroth Harpoon II",
         "weaponType": "Gunlance",
-        "id": 172,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -4639,7 +4724,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Ludroth Harpoon III",
         "weaponType": "Gunlance",
-        "id": 173,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -4669,7 +4754,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Ludroth Shellbreaker",
         "weaponType": "Gunlance",
-        "id": 174,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4699,7 +4784,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Ludroth Shellbreaker+",
         "weaponType": "Gunlance",
-        "id": 175,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -4729,7 +4814,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Droth Romeo",
         "weaponType": "Gunlance",
-        "id": 176,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4759,7 +4844,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Droth Romeo+",
         "weaponType": "Gunlance",
-        "id": 177,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4789,7 +4874,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Golm Benedictus",
         "weaponType": "Gunlance",
-        "id": 178,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4817,7 +4902,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Golm Benedictus+",
         "weaponType": "Gunlance",
-        "id": 179,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4845,7 +4930,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Resounding Gortrass",
         "weaponType": "Gunlance",
-        "id": 180,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -4873,7 +4958,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo I",
         "weaponType": "Gunlance",
-        "id": 181,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4897,7 +4982,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo II",
         "weaponType": "Gunlance",
-        "id": 182,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -4921,7 +5006,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Unu",
         "weaponType": "Gunlance",
-        "id": 183,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -4949,7 +5034,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rakna Gunlance I",
         "weaponType": "Gunlance",
-        "id": 184,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 25,
@@ -4979,7 +5064,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rakna Gunlance II",
         "weaponType": "Gunlance",
-        "id": 185,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 25,
@@ -5009,7 +5094,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Araknalance",
         "weaponType": "Gunlance",
-        "id": 186,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 25,
@@ -5039,7 +5124,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Araknablazer",
         "weaponType": "Gunlance",
-        "id": 187,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 25,
@@ -5069,7 +5154,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Araknablazer+",
         "weaponType": "Gunlance",
-        "id": 188,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 25,
@@ -5099,7 +5184,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Shadow Silencer",
         "weaponType": "Gunlance",
-        "id": 189,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 25,
@@ -5129,7 +5214,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Scarlet Lamplance",
         "weaponType": "Gunlance",
-        "id": 190,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 30,
@@ -5159,7 +5244,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Scarlet Lamplance+",
         "weaponType": "Gunlance",
-        "id": 191,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 30,
@@ -5189,7 +5274,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Torci Da Lavater",
         "weaponType": "Gunlance",
-        "id": 192,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 30,
@@ -5219,7 +5304,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo Black I",
         "weaponType": "Gunlance",
-        "id": 193,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -5248,7 +5333,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo Black II",
         "weaponType": "Gunlance",
-        "id": 194,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5277,7 +5362,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Unu Black",
         "weaponType": "Gunlance",
-        "id": 195,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5306,7 +5391,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Du Black",
         "weaponType": "Gunlance",
-        "id": 196,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5335,7 +5420,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Tre Black",
         "weaponType": "Gunlance",
-        "id": 197,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5364,7 +5449,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo White I",
         "weaponType": "Gunlance",
-        "id": 198,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5390,7 +5475,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo White II",
         "weaponType": "Gunlance",
-        "id": 199,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5416,7 +5501,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Unu White",
         "weaponType": "Gunlance",
-        "id": 200,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5444,7 +5529,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Du White",
         "weaponType": "Gunlance",
-        "id": 201,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5472,7 +5557,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Tre White",
         "weaponType": "Gunlance",
-        "id": 202,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5500,7 +5585,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo Green I",
         "weaponType": "Gunlance",
-        "id": 203,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -5526,7 +5611,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Nulo Green II",
         "weaponType": "Gunlance",
-        "id": 204,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5552,7 +5637,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Unu Green",
         "weaponType": "Gunlance",
-        "id": 205,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5582,7 +5667,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Du Green",
         "weaponType": "Gunlance",
-        "id": 206,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5612,7 +5697,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Fiore Tre Green",
         "weaponType": "Gunlance",
-        "id": 207,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5642,7 +5727,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sinister Gunlance I",
         "weaponType": "Gunlance",
-        "id": 208,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5668,7 +5753,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sinister Gunlance II",
         "weaponType": "Gunlance",
-        "id": 209,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5694,7 +5779,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sinister Shadowshot",
         "weaponType": "Gunlance",
-        "id": 210,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5723,7 +5808,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sinister Shadowshot+",
         "weaponType": "Gunlance",
-        "id": 211,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5752,7 +5837,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Mighty Soulsacker",
         "weaponType": "Gunlance",
-        "id": 212,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5781,7 +5866,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Devil's Destiny",
         "weaponType": "Gunlance",
-        "id": 213,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5810,7 +5895,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Tyrannenarm",
         "weaponType": "Gunlance",
-        "id": 214,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -5838,7 +5923,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Tyrannenarm+",
         "weaponType": "Gunlance",
-        "id": 215,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5866,7 +5951,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Hochmutsarm",
         "weaponType": "Gunlance",
-        "id": 216,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -5894,7 +5979,7 @@ export default gunLanceWeaponList = [
     {
         "name": "L'Onde",
         "weaponType": "Gunlance",
-        "id": 217,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -5920,7 +6005,7 @@ export default gunLanceWeaponList = [
     {
         "name": "La Forteresse",
         "weaponType": "Gunlance",
-        "id": 218,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 35,
@@ -5946,7 +6031,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Demon Gunlance I",
         "weaponType": "Gunlance",
-        "id": 219,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -5972,7 +6057,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Demon Gunlance II",
         "weaponType": "Gunlance",
-        "id": 220,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -6000,7 +6085,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Great Demon Gunlance",
         "weaponType": "Gunlance",
-        "id": 221,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6028,7 +6113,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Great Demon Gunlance+",
         "weaponType": "Gunlance",
-        "id": 222,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -6056,7 +6141,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dragon Gunlance",
         "weaponType": "Gunlance",
-        "id": 223,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -6084,7 +6169,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Demonlord Gunlance",
         "weaponType": "Gunlance",
-        "id": 224,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6113,7 +6198,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Azure Elder Gunlance I",
         "weaponType": "Gunlance",
-        "id": 225,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6139,7 +6224,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Azure Elder Gunlance II",
         "weaponType": "Gunlance",
-        "id": 226,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6165,7 +6250,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Abyssal Gale Gunlance",
         "weaponType": "Gunlance",
-        "id": 227,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6191,7 +6276,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Skyrift Tempest",
         "weaponType": "Gunlance",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6217,7 +6302,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Thunderbolt Gunlance I",
         "weaponType": "Gunlance",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6243,7 +6328,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Abyssal Storm Gunlance",
         "weaponType": "Gunlance",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6269,7 +6354,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Skyrift Thunderstorm",
         "weaponType": "Gunlance",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6295,7 +6380,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Bazel Buster I",
         "weaponType": "Gunlance",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -6321,7 +6406,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Bazel Buster II",
         "weaponType": "Gunlance",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -6347,7 +6432,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Bazel Destroyer",
         "weaponType": "Gunlance",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6373,7 +6458,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Bazel Kingtopper",
         "weaponType": "Gunlance",
-        "id": 235,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -6400,9 +6485,38 @@ export default gunLanceWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1170545235.webp"
     },
     {
+        "name": "Bazelpride",
+        "weaponType": "Gunlance",
+        "id": 239,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": -10,
+        "elements": {
+            "blast": 24
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 30,
+            "orange": 60,
+            "yellow": 80,
+            "green": 60,
+            "blue": 40,
+            "white": 70,
+            "purple": 60
+        },
+        "slots": [
+            "2",
+            "1"
+        ],
+        "rampageSlot": "3",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1184778864.webp"
+    },
+    {
         "name": "Icesteel Gunlance I",
         "weaponType": "Gunlance",
-        "id": 236,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6430,7 +6544,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Daora's Brigia",
         "weaponType": "Gunlance",
-        "id": 237,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6458,7 +6572,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Daora's Brigia+",
         "weaponType": "Gunlance",
-        "id": 238,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 5,
@@ -6486,7 +6600,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Daora's Tempest",
         "weaponType": "Gunlance",
-        "id": 239,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -6514,7 +6628,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Venomous Cologne I",
         "weaponType": "Gunlance",
-        "id": 240,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 0,
@@ -6542,7 +6656,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Venomous Attar",
         "weaponType": "Gunlance",
-        "id": 241,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -6570,7 +6684,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Venomous Attar+",
         "weaponType": "Gunlance",
-        "id": 242,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6598,7 +6712,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Venomous Perfume",
         "weaponType": "Gunlance",
-        "id": 243,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6626,7 +6740,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Redwing Gunlance I",
         "weaponType": "Gunlance",
-        "id": 244,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6654,7 +6768,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Reddnaught Gunlance",
         "weaponType": "Gunlance",
-        "id": 245,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6682,7 +6796,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Crimson Furywing",
         "weaponType": "Gunlance",
-        "id": 246,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6710,7 +6824,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Abyssal Rockslide",
         "weaponType": "Gunlance",
-        "id": 247,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -25,
@@ -6736,7 +6850,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Canyne Cannon I",
         "weaponType": "Gunlance",
-        "id": 248,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -6760,7 +6874,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Canyne Cannon II",
         "weaponType": "Gunlance",
-        "id": 249,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -6784,7 +6898,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Howlitzer",
         "weaponType": "Gunlance",
-        "id": 250,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6810,7 +6924,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Howlitzer+",
         "weaponType": "Gunlance",
-        "id": 251,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -6836,7 +6950,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Roar of the Canyne",
         "weaponType": "Gunlance",
-        "id": 252,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6862,7 +6976,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Cornpopper I",
         "weaponType": "Gunlance",
-        "id": 253,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6888,7 +7002,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Cornpopper II",
         "weaponType": "Gunlance",
-        "id": 254,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6914,7 +7028,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Mighty Cornpopper",
         "weaponType": "Gunlance",
-        "id": 255,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6940,7 +7054,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Mighty Cornpopper+",
         "weaponType": "Gunlance",
-        "id": 256,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6966,7 +7080,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Crunchy Cornpopper",
         "weaponType": "Gunlance",
-        "id": 257,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6994,7 +7108,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sleepy Shellgun I",
         "weaponType": "Gunlance",
-        "id": 258,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -7020,7 +7134,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Sleepy Shellgun II",
         "weaponType": "Gunlance",
-        "id": 259,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -7046,7 +7160,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Soporific Shellgun",
         "weaponType": "Gunlance",
-        "id": 260,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7074,7 +7188,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Soporific Shellgun+",
         "weaponType": "Gunlance",
-        "id": 261,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -7102,7 +7216,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Dreamsniper",
         "weaponType": "Gunlance",
-        "id": 262,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -7130,7 +7244,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Royal Order's Pledge",
         "weaponType": "Gunlance",
-        "id": 263,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -7156,7 +7270,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Royal Order's Pledge+",
         "weaponType": "Gunlance",
-        "id": 264,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -7183,7 +7297,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Antique Machina GL",
         "weaponType": "Gunlance",
-        "id": 265,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7209,7 +7323,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rampage Gunlance I",
         "weaponType": "Gunlance",
-        "id": 266,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7233,7 +7347,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rampage Gunlance II",
         "weaponType": "Gunlance",
-        "id": 267,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7257,7 +7371,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rampage Gunlance III",
         "weaponType": "Gunlance",
-        "id": 268,
+        "id": 272,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7281,7 +7395,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rampage Gunlance IV",
         "weaponType": "Gunlance",
-        "id": 269,
+        "id": 273,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7305,7 +7419,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rampage Gunlance V",
         "weaponType": "Gunlance",
-        "id": 270,
+        "id": 274,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7329,7 +7443,7 @@ export default gunLanceWeaponList = [
     {
         "name": "Rampage Gunlance S",
         "weaponType": "Gunlance",
-        "id": 271,
+        "id": 275,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

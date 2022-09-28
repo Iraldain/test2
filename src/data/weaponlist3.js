@@ -1,5 +1,4 @@
-export default dualBladesWeaponList = [
-    [
+export const dualBladesWeaponList = [
     {
         "name": "Defender Dual Blades I",
         "weaponType": "Dual Blades",
@@ -2538,9 +2537,38 @@ export default dualBladesWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/397296221.webp"
     },
     {
-        "name": "Twin Chainsaws I",
+        "name": "Alkaid's Asterism",
         "weaponType": "Dual Blades",
         "id": 94,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 10
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 10,
+            "purple": 70
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1757949418.webp"
+    },
+    {
+        "name": "Twin Chainsaws I",
+        "weaponType": "Dual Blades",
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2566,7 +2594,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Chainsaws II",
         "weaponType": "Dual Blades",
-        "id": 95,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2595,7 +2623,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Guillotines",
         "weaponType": "Dual Blades",
-        "id": 96,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -2624,7 +2652,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Guillotines+",
         "weaponType": "Dual Blades",
-        "id": 97,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2653,7 +2681,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Final Chainsaws",
         "weaponType": "Dual Blades",
-        "id": 98,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -2682,7 +2710,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Final Chainsaws+",
         "weaponType": "Dual Blades",
-        "id": 99,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -2712,7 +2740,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Dual Hatchets I",
         "weaponType": "Dual Blades",
-        "id": 100,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -2736,7 +2764,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Dual Hatchets II",
         "weaponType": "Dual Blades",
-        "id": 101,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -2760,7 +2788,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Dual Cleavers",
         "weaponType": "Dual Blades",
-        "id": 102,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2786,7 +2814,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Wyvern Beams",
         "weaponType": "Dual Blades",
-        "id": 103,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -2814,7 +2842,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Wyvern Beams+",
         "weaponType": "Dual Blades",
-        "id": 104,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2842,7 +2870,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Wyvern Bolts",
         "weaponType": "Dual Blades",
-        "id": 105,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -2870,7 +2898,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Cerulean Axes I",
         "weaponType": "Dual Blades",
-        "id": 106,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2896,7 +2924,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Cerulean Axes II",
         "weaponType": "Dual Blades",
-        "id": 107,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -2922,7 +2950,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Ashigara Axes",
         "weaponType": "Dual Blades",
-        "id": 108,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 0,
@@ -2949,7 +2977,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Ashigara Axes+",
         "weaponType": "Dual Blades",
-        "id": 109,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -2977,7 +3005,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Oeyama Axes",
         "weaponType": "Dual Blades",
-        "id": 110,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3005,7 +3033,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Flammenschild I",
         "weaponType": "Dual Blades",
-        "id": 111,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": -15,
@@ -3031,7 +3059,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Flammenschild II",
         "weaponType": "Dual Blades",
-        "id": 112,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -3060,7 +3088,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Gnashing Flammenschild",
         "weaponType": "Dual Blades",
-        "id": 113,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -3089,7 +3117,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Gnashing Flammenschild+",
         "weaponType": "Dual Blades",
-        "id": 114,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -15,
@@ -3118,7 +3146,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Lohenschild",
         "weaponType": "Dual Blades",
-        "id": 115,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -15,
@@ -3147,7 +3175,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Lohenschild+",
         "weaponType": "Dual Blades",
-        "id": 116,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -3176,7 +3204,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bone Hatchets I",
         "weaponType": "Dual Blades",
-        "id": 117,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3200,7 +3228,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bone Hatchets II",
         "weaponType": "Dual Blades",
-        "id": 118,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3224,7 +3252,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Wild Hatchets",
         "weaponType": "Dual Blades",
-        "id": 119,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -3248,7 +3276,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Talon Carvers I",
         "weaponType": "Dual Blades",
-        "id": 120,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3272,7 +3300,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Talon Carvers II",
         "weaponType": "Dual Blades",
-        "id": 121,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3296,7 +3324,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Talon Twins",
         "weaponType": "Dual Blades",
-        "id": 122,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3320,7 +3348,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Talon Twins+",
         "weaponType": "Dual Blades",
-        "id": 123,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -3344,7 +3372,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Talon Gemini",
         "weaponType": "Dual Blades",
-        "id": 124,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3368,7 +3396,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Talon Gemini+",
         "weaponType": "Dual Blades",
-        "id": 125,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3392,7 +3420,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Zakun Twins",
         "weaponType": "Dual Blades",
-        "id": 126,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -3418,7 +3446,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Zakun Twins+",
         "weaponType": "Dual Blades",
-        "id": 127,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3444,7 +3472,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Terrible Twins",
         "weaponType": "Dual Blades",
-        "id": 128,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -3470,7 +3498,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Crab Horns",
         "weaponType": "Dual Blades",
-        "id": 129,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -3498,7 +3526,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Crab Horns+",
         "weaponType": "Dual Blades",
-        "id": 130,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3526,7 +3554,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Lobster Piercers",
         "weaponType": "Dual Blades",
-        "id": 131,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3555,7 +3583,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bladed Edges",
         "weaponType": "Dual Blades",
-        "id": 132,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -3583,7 +3611,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bladed Edges+",
         "weaponType": "Dual Blades",
-        "id": 133,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -3611,7 +3639,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Limb Cutter",
         "weaponType": "Dual Blades",
-        "id": 134,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3639,7 +3667,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Flames I",
         "weaponType": "Dual Blades",
-        "id": 135,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3665,7 +3693,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Flames II",
         "weaponType": "Dual Blades",
-        "id": 136,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -3691,7 +3719,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Wyvern Lovers",
         "weaponType": "Dual Blades",
-        "id": 137,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3717,7 +3745,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Wyvern Lovers+",
         "weaponType": "Dual Blades",
-        "id": 138,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3745,7 +3773,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Flaming Wyvern Lovers",
         "weaponType": "Dual Blades",
-        "id": 139,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3771,9 +3799,38 @@ export default dualBladesWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/929761081.webp"
     },
     {
+        "name": "Wyvern Strife",
+        "weaponType": "Dual Blades",
+        "id": 141,
+        "isBlademaster": true,
+        "baseRaw": 310,
+        "baseAffinity": 20,
+        "elements": {
+            "fire": 57
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 20,
+            "yellow": 20,
+            "green": 50,
+            "blue": 60,
+            "white": 100,
+            "purple": 20
+        },
+        "slots": [
+            "4",
+            "1"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1830653396.webp"
+    },
+    {
         "name": "Rosenzahn",
         "weaponType": "Dual Blades",
-        "id": 140,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -3800,7 +3857,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rosenzahn+",
         "weaponType": "Dual Blades",
-        "id": 141,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -3827,7 +3884,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rosenehrgeiz",
         "weaponType": "Dual Blades",
-        "id": 142,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -3854,7 +3911,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Diablos Bashers I",
         "weaponType": "Dual Blades",
-        "id": 143,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -15,
@@ -3878,7 +3935,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Diablos Bashers II",
         "weaponType": "Dual Blades",
-        "id": 144,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -3902,7 +3959,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Diablos Mashers",
         "weaponType": "Dual Blades",
-        "id": 145,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": -15,
@@ -3926,7 +3983,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Diablos Mashers+",
         "weaponType": "Dual Blades",
-        "id": 146,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -3950,7 +4007,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Diablos Smashers",
         "weaponType": "Dual Blades",
-        "id": 147,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -3974,7 +4031,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Diablos Smashers+",
         "weaponType": "Dual Blades",
-        "id": 148,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -15,
@@ -3998,7 +4055,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Jyura Duo I",
         "weaponType": "Dual Blades",
-        "id": 149,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -4024,7 +4081,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Jyura Duo II",
         "weaponType": "Dual Blades",
-        "id": 150,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -4050,7 +4107,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Jyura Pulverizers",
         "weaponType": "Dual Blades",
-        "id": 151,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -4076,7 +4133,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Jyura Pulverizers+",
         "weaponType": "Dual Blades",
-        "id": 152,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -10,
@@ -4102,7 +4159,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Valtos Os",
         "weaponType": "Dual Blades",
-        "id": 153,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -10,
@@ -4128,7 +4185,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Valtos Os+",
         "weaponType": "Dual Blades",
-        "id": 154,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -4154,7 +4211,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Kadachi Twinblades I",
         "weaponType": "Dual Blades",
-        "id": 155,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -4180,7 +4237,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Kadachi Twinblades II",
         "weaponType": "Dual Blades",
-        "id": 156,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -4209,7 +4266,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Shockblades",
         "weaponType": "Dual Blades",
-        "id": 157,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 10,
@@ -4238,7 +4295,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Shockblades+",
         "weaponType": "Dual Blades",
-        "id": 158,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 10,
@@ -4267,7 +4324,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Thunderblades",
         "weaponType": "Dual Blades",
-        "id": 159,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 10,
@@ -4296,7 +4353,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Thunderblades+",
         "weaponType": "Dual Blades",
-        "id": 160,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -4325,7 +4382,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Blazeblades I",
         "weaponType": "Dual Blades",
-        "id": 161,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 70,
         "baseAffinity": -10,
@@ -4351,7 +4408,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Blazeblades II",
         "weaponType": "Dual Blades",
-        "id": 162,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": -10,
@@ -4377,7 +4434,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Infernal Furies",
         "weaponType": "Dual Blades",
-        "id": 163,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -10,
@@ -4406,7 +4463,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Infernal Fury Nova",
         "weaponType": "Dual Blades",
-        "id": 164,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -10,
@@ -4435,7 +4492,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Infernal Fury Nova+",
         "weaponType": "Dual Blades",
-        "id": 165,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -10,
@@ -4464,7 +4521,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Unquenchable Flames",
         "weaponType": "Dual Blades",
-        "id": 166,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -10,
@@ -4493,7 +4550,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Ludroth Pair I",
         "weaponType": "Dual Blades",
-        "id": 167,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4519,7 +4576,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Ludroth Pair II",
         "weaponType": "Dual Blades",
-        "id": 168,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -4549,7 +4606,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Double Droth",
         "weaponType": "Dual Blades",
-        "id": 169,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -4579,7 +4636,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Double Droth+",
         "weaponType": "Dual Blades",
-        "id": 170,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -4609,7 +4666,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Double Droth Flood",
         "weaponType": "Dual Blades",
-        "id": 171,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -4639,7 +4696,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Double Droth Flood+",
         "weaponType": "Dual Blades",
-        "id": 172,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4669,7 +4726,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Golm Golm",
         "weaponType": "Dual Blades",
-        "id": 173,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -4697,7 +4754,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Golm Golm+",
         "weaponType": "Dual Blades",
-        "id": 174,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4725,7 +4782,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Binary Gorgoth",
         "weaponType": "Dual Blades",
-        "id": 175,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -4753,7 +4810,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Frilled Claw I",
         "weaponType": "Dual Blades",
-        "id": 176,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4779,7 +4836,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Frilled Claw II",
         "weaponType": "Dual Blades",
-        "id": 177,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -4808,7 +4865,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Illusory Frilled Claw",
         "weaponType": "Dual Blades",
-        "id": 178,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4837,7 +4894,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Illusory Frilled Claw+",
         "weaponType": "Dual Blades",
-        "id": 179,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4866,7 +4923,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Nightmare Frilled Claws",
         "weaponType": "Dual Blades",
-        "id": 180,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4895,7 +4952,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Nightmare Frilled Claws+",
         "weaponType": "Dual Blades",
-        "id": 181,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4924,7 +4981,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bloom Snow Claws",
         "weaponType": "Dual Blades",
-        "id": 182,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4953,7 +5010,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bloom Snow Claws+",
         "weaponType": "Dual Blades",
-        "id": 183,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4982,7 +5039,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Glistening Snow Claws",
         "weaponType": "Dual Blades",
-        "id": 184,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5011,7 +5068,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Snow Slicers I",
         "weaponType": "Dual Blades",
-        "id": 185,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -5037,7 +5094,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Snow Slicers II",
         "weaponType": "Dual Blades",
-        "id": 186,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -5063,7 +5120,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Snow Sisters",
         "weaponType": "Dual Blades",
-        "id": 187,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5092,7 +5149,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Snow Sisters+",
         "weaponType": "Dual Blades",
-        "id": 188,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -5121,7 +5178,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Snow Ravines",
         "weaponType": "Dual Blades",
-        "id": 189,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5150,7 +5207,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Sinister Blades I",
         "weaponType": "Dual Blades",
-        "id": 190,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5176,7 +5233,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Sinister Blades II",
         "weaponType": "Dual Blades",
-        "id": 191,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5202,7 +5259,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Sinister Famineblades",
         "weaponType": "Dual Blades",
-        "id": 192,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5231,7 +5288,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Sinister Famineblades+",
         "weaponType": "Dual Blades",
-        "id": 193,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -5260,7 +5317,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Mighty Soulchoker",
         "weaponType": "Dual Blades",
-        "id": 194,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5289,7 +5346,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Blue Blaze Blades",
         "weaponType": "Dual Blades",
-        "id": 195,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5318,7 +5375,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Fledderklauen",
         "weaponType": "Dual Blades",
-        "id": 196,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -5346,7 +5403,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Fledderklauen+",
         "weaponType": "Dual Blades",
-        "id": 197,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -5374,7 +5431,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Aasklauen",
         "weaponType": "Dual Blades",
-        "id": 198,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5402,7 +5459,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Les Ap\u00f4tres",
         "weaponType": "Dual Blades",
-        "id": 199,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 35,
@@ -5428,7 +5485,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Le Shangri-La",
         "weaponType": "Dual Blades",
-        "id": 200,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -5454,7 +5511,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Suzuka Takamaru I",
         "weaponType": "Dual Blades",
-        "id": 201,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -20,
@@ -5480,7 +5537,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Suzuka Takamaru II",
         "weaponType": "Dual Blades",
-        "id": 202,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -5508,7 +5565,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Suzuka Otakemaru",
         "weaponType": "Dual Blades",
-        "id": 203,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -20,
@@ -5536,7 +5593,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Suzuka Otakemaru+",
         "weaponType": "Dual Blades",
-        "id": 204,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -20,
@@ -5564,7 +5621,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Suzuka Akurou",
         "weaponType": "Dual Blades",
-        "id": 205,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -5592,7 +5649,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Demonlord Fist",
         "weaponType": "Dual Blades",
-        "id": 206,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5621,7 +5678,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Azure Elder Blades I",
         "weaponType": "Dual Blades",
-        "id": 207,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5647,7 +5704,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Azure Elder Blades II",
         "weaponType": "Dual Blades",
-        "id": 208,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5673,7 +5730,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Abyssal Gale Blades",
         "weaponType": "Dual Blades",
-        "id": 209,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -5699,7 +5756,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Twisters",
         "weaponType": "Dual Blades",
-        "id": 210,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5725,7 +5782,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rookslayer Handaxes I",
         "weaponType": "Dual Blades",
-        "id": 211,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -5753,7 +5810,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rookslayer Handaxes II",
         "weaponType": "Dual Blades",
-        "id": 212,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -5781,7 +5838,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bazelhawk Rookslayer",
         "weaponType": "Dual Blades",
-        "id": 213,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -5809,7 +5866,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Bazelhound Rookslayer",
         "weaponType": "Dual Blades",
-        "id": 214,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -5835,9 +5892,37 @@ export default dualBladesWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1523821234.webp"
     },
     {
+        "name": "Bazel Bombers",
+        "weaponType": "Dual Blades",
+        "id": 217,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": -10,
+        "elements": {
+            "blast": 25
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 40,
+            "orange": 60,
+            "yellow": 50,
+            "green": 60,
+            "blue": 40,
+            "white": 100,
+            "purple": 50
+        },
+        "slots": [
+            "1"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1538595411.webp"
+    },
+    {
         "name": "Thunderbolt Blades I",
         "weaponType": "Dual Blades",
-        "id": 215,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5863,7 +5948,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Abyssal Storm Blades",
         "weaponType": "Dual Blades",
-        "id": 216,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5889,7 +5974,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Double Discharge",
         "weaponType": "Dual Blades",
-        "id": 217,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5915,7 +6000,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Icesteel Fang I",
         "weaponType": "Dual Blades",
-        "id": 218,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5943,7 +6028,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Daora's Hook",
         "weaponType": "Dual Blades",
-        "id": 219,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5971,7 +6056,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Daora's Hook+",
         "weaponType": "Dual Blades",
-        "id": 220,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5999,7 +6084,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Daora's Ventus",
         "weaponType": "Dual Blades",
-        "id": 221,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6027,7 +6112,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Twin Nails I",
         "weaponType": "Dual Blades",
-        "id": 222,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -6056,7 +6141,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Fire and Ice",
         "weaponType": "Dual Blades",
-        "id": 223,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6085,7 +6170,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Fire and Ice+",
         "weaponType": "Dual Blades",
-        "id": 224,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 10,
@@ -6114,7 +6199,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Blizzard and Blaze",
         "weaponType": "Dual Blades",
-        "id": 225,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -6143,7 +6228,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rouge Flames I",
         "weaponType": "Dual Blades",
-        "id": 226,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6173,7 +6258,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Dual Chameleos",
         "weaponType": "Dual Blades",
-        "id": 227,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6203,7 +6288,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Dual Chameleos+",
         "weaponType": "Dual Blades",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -6233,7 +6318,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Chameleos Blades",
         "weaponType": "Dual Blades",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6263,7 +6348,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Redwing Blades I",
         "weaponType": "Dual Blades",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6291,7 +6376,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Reddnaught Dragon Wing",
         "weaponType": "Dual Blades",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6319,7 +6404,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Crimson Twinwing",
         "weaponType": "Dual Blades",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6347,7 +6432,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Abyssal Celestials",
         "weaponType": "Dual Blades",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -25,
@@ -6373,7 +6458,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Felyne Claws I",
         "weaponType": "Dual Blades",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": -10,
@@ -6401,7 +6486,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Felyne Claws II",
         "weaponType": "Dual Blades",
-        "id": 235,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": -10,
@@ -6429,7 +6514,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Raging Claws",
         "weaponType": "Dual Blades",
-        "id": 236,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -6457,7 +6542,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Raging Claws+",
         "weaponType": "Dual Blades",
-        "id": 237,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -6485,7 +6570,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Raging Paws",
         "weaponType": "Dual Blades",
-        "id": 238,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6513,7 +6598,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rainy Jelly I",
         "weaponType": "Dual Blades",
-        "id": 239,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -6539,7 +6624,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rainy Jelly II",
         "weaponType": "Dual Blades",
-        "id": 240,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6568,7 +6653,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rain of Gore",
         "weaponType": "Dual Blades",
-        "id": 241,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6597,7 +6682,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rain of Gore+",
         "weaponType": "Dual Blades",
-        "id": 242,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -6626,7 +6711,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Elegant Jelly",
         "weaponType": "Dual Blades",
-        "id": 243,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -6655,7 +6740,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Qornu Waga I",
         "weaponType": "Dual Blades",
-        "id": 244,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -6681,7 +6766,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Qornu Waga II",
         "weaponType": "Dual Blades",
-        "id": 245,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6709,7 +6794,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Ro Waga",
         "weaponType": "Dual Blades",
-        "id": 246,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6737,7 +6822,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Ro Waga+",
         "weaponType": "Dual Blades",
-        "id": 247,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -6765,7 +6850,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Gila Ro Waga",
         "weaponType": "Dual Blades",
-        "id": 248,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6795,7 +6880,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Sworn Rapiers I",
         "weaponType": "Dual Blades",
-        "id": 249,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6821,7 +6906,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Sworn Rapiers II",
         "weaponType": "Dual Blades",
-        "id": 250,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6849,7 +6934,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Holy Sabers",
         "weaponType": "Dual Blades",
-        "id": 251,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6877,7 +6962,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Holy Sabers+",
         "weaponType": "Dual Blades",
-        "id": 252,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -6905,7 +6990,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Sacred Espadas",
         "weaponType": "Dual Blades",
-        "id": 253,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6933,7 +7018,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Altair I",
         "weaponType": "Dual Blades",
-        "id": 254,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 10,
@@ -6959,7 +7044,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Altair II",
         "weaponType": "Dual Blades",
-        "id": 255,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 12,
@@ -6985,7 +7070,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Fortis Gran",
         "weaponType": "Dual Blades",
-        "id": 256,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 15,
@@ -7011,7 +7096,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Fortis Gran+",
         "weaponType": "Dual Blades",
-        "id": 257,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 15,
@@ -7039,7 +7124,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Auditore Glam",
         "weaponType": "Dual Blades",
-        "id": 258,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 15,
@@ -7067,7 +7152,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Stealth Dango I",
         "weaponType": "Dual Blades",
-        "id": 259,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -7093,7 +7178,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Stealth Dango II",
         "weaponType": "Dual Blades",
-        "id": 260,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7123,7 +7208,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Perfected Dango",
         "weaponType": "Dual Blades",
-        "id": 261,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -7153,7 +7238,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Stealth Dango Supreme",
         "weaponType": "Dual Blades",
-        "id": 262,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -7183,7 +7268,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Stealth Dango Ultimate",
         "weaponType": "Dual Blades",
-        "id": 263,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -7213,7 +7298,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Elder Fugen's Blades",
         "weaponType": "Dual Blades",
-        "id": 264,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 30,
@@ -7241,7 +7326,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Elder Fugen's Blades+",
         "weaponType": "Dual Blades",
-        "id": 265,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 30,
@@ -7269,7 +7354,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Royal Order's Rapiers",
         "weaponType": "Dual Blades",
-        "id": 266,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -7295,7 +7380,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Royal Order's Rapiers+",
         "weaponType": "Dual Blades",
-        "id": 267,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -7322,7 +7407,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Antique Machina DB",
         "weaponType": "Dual Blades",
-        "id": 268,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -7349,7 +7434,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rampage Twinblades I",
         "weaponType": "Dual Blades",
-        "id": 269,
+        "id": 272,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7373,7 +7458,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rampage Twinblades II",
         "weaponType": "Dual Blades",
-        "id": 270,
+        "id": 273,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7397,7 +7482,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rampage Twinblades III",
         "weaponType": "Dual Blades",
-        "id": 271,
+        "id": 274,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7421,7 +7506,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rampage Twinblades IV",
         "weaponType": "Dual Blades",
-        "id": 272,
+        "id": 275,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7445,7 +7530,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rampage Twinblades V",
         "weaponType": "Dual Blades",
-        "id": 273,
+        "id": 276,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7469,7 +7554,7 @@ export default dualBladesWeaponList = [
     {
         "name": "Rampage Twinblades S",
         "weaponType": "Dual Blades",
-        "id": 274,
+        "id": 277,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

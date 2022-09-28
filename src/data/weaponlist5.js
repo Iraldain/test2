@@ -1,4 +1,4 @@
-export default hammerWeaponList = [
+export const hammerWeaponList = [
     {
         "name": "Defender Hammer I",
         "weaponType": "Hammer",
@@ -4528,9 +4528,37 @@ export default hammerWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/741877239.webp"
     },
     {
-        "name": "Rosenhammer",
+        "name": "Leonid Starcrusher",
         "weaponType": "Hammer",
         "id": 168,
+        "isBlademaster": true,
+        "baseRaw": 300,
+        "baseAffinity": 35,
+        "elements": {
+            "fire": 68
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 30,
+            "green": 50,
+            "blue": 60,
+            "white": 80,
+            "purple": 20
+        },
+        "slots": [
+            "2"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1870429949.webp"
+    },
+    {
+        "name": "Rosenhammer",
+        "weaponType": "Hammer",
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -4558,7 +4586,7 @@ export default hammerWeaponList = [
     {
         "name": "Rosenhammer+",
         "weaponType": "Hammer",
-        "id": 169,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -4586,7 +4614,7 @@ export default hammerWeaponList = [
     {
         "name": "Rosenunwetter",
         "weaponType": "Hammer",
-        "id": 170,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -4614,7 +4642,7 @@ export default hammerWeaponList = [
     {
         "name": "Yeti Hammer I",
         "weaponType": "Hammer",
-        "id": 171,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -15,
@@ -4640,7 +4668,7 @@ export default hammerWeaponList = [
     {
         "name": "Yeti Hammer II",
         "weaponType": "Hammer",
-        "id": 172,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -15,
@@ -4668,7 +4696,7 @@ export default hammerWeaponList = [
     {
         "name": "Yeti Hammer III",
         "weaponType": "Hammer",
-        "id": 173,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -4696,7 +4724,7 @@ export default hammerWeaponList = [
     {
         "name": "Abominable Hammer",
         "weaponType": "Hammer",
-        "id": 174,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -4724,7 +4752,7 @@ export default hammerWeaponList = [
     {
         "name": "Abominable Buster",
         "weaponType": "Hammer",
-        "id": 175,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -15,
@@ -4752,7 +4780,7 @@ export default hammerWeaponList = [
     {
         "name": "Abominable Buster+",
         "weaponType": "Hammer",
-        "id": 176,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -4780,7 +4808,7 @@ export default hammerWeaponList = [
     {
         "name": "Abominable Avalanche",
         "weaponType": "Hammer",
-        "id": 177,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -4808,7 +4836,7 @@ export default hammerWeaponList = [
     {
         "name": "Usurper's Thunder I",
         "weaponType": "Hammer",
-        "id": 178,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -4834,7 +4862,7 @@ export default hammerWeaponList = [
     {
         "name": "Usurper's Thunder II",
         "weaponType": "Hammer",
-        "id": 179,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4863,7 +4891,7 @@ export default hammerWeaponList = [
     {
         "name": "Despot's Crackle",
         "weaponType": "Hammer",
-        "id": 180,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -4892,7 +4920,7 @@ export default hammerWeaponList = [
     {
         "name": "Despot's Crackle+",
         "weaponType": "Hammer",
-        "id": 181,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -4921,7 +4949,7 @@ export default hammerWeaponList = [
     {
         "name": "Oppressor's Sway",
         "weaponType": "Hammer",
-        "id": 182,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4950,7 +4978,7 @@ export default hammerWeaponList = [
     {
         "name": "Calamitous Portent I",
         "weaponType": "Hammer",
-        "id": 183,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 5,
@@ -4976,7 +5004,7 @@ export default hammerWeaponList = [
     {
         "name": "Calamitous Portent II",
         "weaponType": "Hammer",
-        "id": 184,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 5,
@@ -5002,7 +5030,7 @@ export default hammerWeaponList = [
     {
         "name": "Catastrophic Portent",
         "weaponType": "Hammer",
-        "id": 185,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 10,
@@ -5028,7 +5056,7 @@ export default hammerWeaponList = [
     {
         "name": "Catastrophic Portent+",
         "weaponType": "Hammer",
-        "id": 186,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -5054,7 +5082,7 @@ export default hammerWeaponList = [
     {
         "name": "Cataclysmic Portent",
         "weaponType": "Hammer",
-        "id": 187,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 15,
@@ -5080,7 +5108,7 @@ export default hammerWeaponList = [
     {
         "name": "Droth Splashhammer I",
         "weaponType": "Hammer",
-        "id": 188,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5106,7 +5134,7 @@ export default hammerWeaponList = [
     {
         "name": "Droth Splashhammer II",
         "weaponType": "Hammer",
-        "id": 189,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5132,7 +5160,7 @@ export default hammerWeaponList = [
     {
         "name": "Ludroth Dousehammer",
         "weaponType": "Hammer",
-        "id": 190,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5162,7 +5190,7 @@ export default hammerWeaponList = [
     {
         "name": "Ludroth Dousehammer+",
         "weaponType": "Hammer",
-        "id": 191,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -5192,7 +5220,7 @@ export default hammerWeaponList = [
     {
         "name": "Lorelei",
         "weaponType": "Hammer",
-        "id": 192,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -5222,7 +5250,7 @@ export default hammerWeaponList = [
     {
         "name": "Lorelei+",
         "weaponType": "Hammer",
-        "id": 193,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5252,7 +5280,7 @@ export default hammerWeaponList = [
     {
         "name": "Golm Gavel",
         "weaponType": "Hammer",
-        "id": 194,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5280,7 +5308,7 @@ export default hammerWeaponList = [
     {
         "name": "Golm Gavel+",
         "weaponType": "Hammer",
-        "id": 195,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5308,7 +5336,7 @@ export default hammerWeaponList = [
     {
         "name": "Gornir",
         "weaponType": "Hammer",
-        "id": 196,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -5336,7 +5364,7 @@ export default hammerWeaponList = [
     {
         "name": "Izuchi Hammer I",
         "weaponType": "Hammer",
-        "id": 197,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 70,
         "baseAffinity": 10,
@@ -5360,7 +5388,7 @@ export default hammerWeaponList = [
     {
         "name": "Izuchi Hammer II",
         "weaponType": "Hammer",
-        "id": 198,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 12,
@@ -5384,7 +5412,7 @@ export default hammerWeaponList = [
     {
         "name": "Snapper Hammer",
         "weaponType": "Hammer",
-        "id": 199,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 15,
@@ -5411,7 +5439,7 @@ export default hammerWeaponList = [
     {
         "name": "Snapper Hammer+",
         "weaponType": "Hammer",
-        "id": 200,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 15,
@@ -5438,7 +5466,7 @@ export default hammerWeaponList = [
     {
         "name": "Blower's Hammer",
         "weaponType": "Hammer",
-        "id": 201,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5465,7 +5493,7 @@ export default hammerWeaponList = [
     {
         "name": "Hidden Breaker I",
         "weaponType": "Hammer",
-        "id": 202,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 40,
@@ -5489,7 +5517,7 @@ export default hammerWeaponList = [
     {
         "name": "Hidden Breaker II",
         "weaponType": "Hammer",
-        "id": 203,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 40,
@@ -5515,7 +5543,7 @@ export default hammerWeaponList = [
     {
         "name": "Night Eternal",
         "weaponType": "Hammer",
-        "id": 204,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 45,
@@ -5541,7 +5569,7 @@ export default hammerWeaponList = [
     {
         "name": "Endless Eternia",
         "weaponType": "Hammer",
-        "id": 205,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 45,
@@ -5568,7 +5596,7 @@ export default hammerWeaponList = [
     {
         "name": "Endless Eternia+",
         "weaponType": "Hammer",
-        "id": 206,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 45,
@@ -5595,7 +5623,7 @@ export default hammerWeaponList = [
     {
         "name": "Avidya Breaker",
         "weaponType": "Hammer",
-        "id": 207,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 45,
@@ -5620,9 +5648,38 @@ export default hammerWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1141623672.webp"
     },
     {
+        "name": "Ascella's Asterism",
+        "weaponType": "Hammer",
+        "id": 209,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 19
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 20,
+            "purple": 60
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1764695731.webp"
+    },
+    {
         "name": "Carapace Hammer I",
         "weaponType": "Hammer",
-        "id": 208,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": -10,
@@ -5646,7 +5703,7 @@ export default hammerWeaponList = [
     {
         "name": "Carapace Hammer II",
         "weaponType": "Hammer",
-        "id": 209,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": -10,
@@ -5670,7 +5727,7 @@ export default hammerWeaponList = [
     {
         "name": "Barroth Hammer",
         "weaponType": "Hammer",
-        "id": 210,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -5,
@@ -5696,7 +5753,7 @@ export default hammerWeaponList = [
     {
         "name": "Barroth Charger",
         "weaponType": "Hammer",
-        "id": 211,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": -5,
@@ -5722,7 +5779,7 @@ export default hammerWeaponList = [
     {
         "name": "Barroth Charger+",
         "weaponType": "Hammer",
-        "id": 212,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -5,
@@ -5748,7 +5805,7 @@ export default hammerWeaponList = [
     {
         "name": "Barroth Momentum",
         "weaponType": "Hammer",
-        "id": 213,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -5,
@@ -5774,7 +5831,7 @@ export default hammerWeaponList = [
     {
         "name": "Sinister Hammer I",
         "weaponType": "Hammer",
-        "id": 214,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5800,7 +5857,7 @@ export default hammerWeaponList = [
     {
         "name": "Sinister Hammer II",
         "weaponType": "Hammer",
-        "id": 215,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5826,7 +5883,7 @@ export default hammerWeaponList = [
     {
         "name": "Sinister Shade Hammer",
         "weaponType": "Hammer",
-        "id": 216,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5855,7 +5912,7 @@ export default hammerWeaponList = [
     {
         "name": "Sinister Shade Hammer+",
         "weaponType": "Hammer",
-        "id": 217,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -5884,7 +5941,7 @@ export default hammerWeaponList = [
     {
         "name": "Mighty Souldevourer",
         "weaponType": "Hammer",
-        "id": 218,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5913,7 +5970,7 @@ export default hammerWeaponList = [
     {
         "name": "Devil's Die",
         "weaponType": "Hammer",
-        "id": 219,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5942,7 +5999,7 @@ export default hammerWeaponList = [
     {
         "name": "Wuchtblick",
         "weaponType": "Hammer",
-        "id": 220,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -5968,7 +6025,7 @@ export default hammerWeaponList = [
     {
         "name": "Wuchtblick+",
         "weaponType": "Hammer",
-        "id": 221,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -5996,7 +6053,7 @@ export default hammerWeaponList = [
     {
         "name": "\u00c4chtungsblick",
         "weaponType": "Hammer",
-        "id": 222,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -6024,7 +6081,7 @@ export default hammerWeaponList = [
     {
         "name": "Le Jugement",
         "weaponType": "Hammer",
-        "id": 223,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 40,
@@ -6050,7 +6107,7 @@ export default hammerWeaponList = [
     {
         "name": "La Terre",
         "weaponType": "Hammer",
-        "id": 224,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 40,
@@ -6076,7 +6133,7 @@ export default hammerWeaponList = [
     {
         "name": "Egg Hammer I",
         "weaponType": "Hammer",
-        "id": 225,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -30,
@@ -6104,7 +6161,7 @@ export default hammerWeaponList = [
     {
         "name": "Egg Hammer II",
         "weaponType": "Hammer",
-        "id": 226,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": -30,
@@ -6132,7 +6189,7 @@ export default hammerWeaponList = [
     {
         "name": "Gargwa Hammer",
         "weaponType": "Hammer",
-        "id": 227,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -30,
@@ -6160,7 +6217,7 @@ export default hammerWeaponList = [
     {
         "name": "Gargwa Hammer+",
         "weaponType": "Hammer",
-        "id": 228,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -25,
@@ -6188,7 +6245,7 @@ export default hammerWeaponList = [
     {
         "name": "Gargegg Hammer",
         "weaponType": "Hammer",
-        "id": 229,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 380,
         "baseAffinity": -25,
@@ -6216,7 +6273,7 @@ export default hammerWeaponList = [
     {
         "name": "Mane Malice I",
         "weaponType": "Hammer",
-        "id": 230,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -20,
@@ -6242,7 +6299,7 @@ export default hammerWeaponList = [
     {
         "name": "Mane Malice II",
         "weaponType": "Hammer",
-        "id": 231,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -6270,7 +6327,7 @@ export default hammerWeaponList = [
     {
         "name": "Mane Malice Rajang",
         "weaponType": "Hammer",
-        "id": 232,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -10,
@@ -6298,7 +6355,7 @@ export default hammerWeaponList = [
     {
         "name": "Mane Malice Rajang+",
         "weaponType": "Hammer",
-        "id": 233,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -6326,7 +6383,7 @@ export default hammerWeaponList = [
     {
         "name": "Mane Master Rajang",
         "weaponType": "Hammer",
-        "id": 234,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -6354,7 +6411,7 @@ export default hammerWeaponList = [
     {
         "name": "Demonlord Sledge",
         "weaponType": "Hammer",
-        "id": 235,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6383,7 +6440,7 @@ export default hammerWeaponList = [
     {
         "name": "Azure Elder Hammer I",
         "weaponType": "Hammer",
-        "id": 236,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6409,7 +6466,7 @@ export default hammerWeaponList = [
     {
         "name": "Azure Elder Hammer II",
         "weaponType": "Hammer",
-        "id": 237,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6435,7 +6492,7 @@ export default hammerWeaponList = [
     {
         "name": "Abyssal Gale Mauler",
         "weaponType": "Hammer",
-        "id": 238,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6461,7 +6518,7 @@ export default hammerWeaponList = [
     {
         "name": "Skyfold Boldblow",
         "weaponType": "Hammer",
-        "id": 239,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6487,7 +6544,7 @@ export default hammerWeaponList = [
     {
         "name": "Thunderbolt Hammer I",
         "weaponType": "Hammer",
-        "id": 240,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6513,7 +6570,7 @@ export default hammerWeaponList = [
     {
         "name": "Abyssal Storm Mauler",
         "weaponType": "Hammer",
-        "id": 241,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6539,7 +6596,7 @@ export default hammerWeaponList = [
     {
         "name": "Skyfold Furyflash",
         "weaponType": "Hammer",
-        "id": 242,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6565,7 +6622,7 @@ export default hammerWeaponList = [
     {
         "name": "Icesteel Hammer I",
         "weaponType": "Hammer",
-        "id": 243,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6593,7 +6650,7 @@ export default hammerWeaponList = [
     {
         "name": "Daora's Colossus",
         "weaponType": "Hammer",
-        "id": 244,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 10,
@@ -6621,7 +6678,7 @@ export default hammerWeaponList = [
     {
         "name": "Daora's Colossus+",
         "weaponType": "Hammer",
-        "id": 245,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -6649,7 +6706,7 @@ export default hammerWeaponList = [
     {
         "name": "Daora's Hyperborea",
         "weaponType": "Hammer",
-        "id": 246,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -6677,7 +6734,7 @@ export default hammerWeaponList = [
     {
         "name": "Teostra Cratermaker I",
         "weaponType": "Hammer",
-        "id": 247,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 5,
@@ -6706,7 +6763,7 @@ export default hammerWeaponList = [
     {
         "name": "Teostra Cratergouger",
         "weaponType": "Hammer",
-        "id": 248,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 5,
@@ -6735,7 +6792,7 @@ export default hammerWeaponList = [
     {
         "name": "Teostra Cratergouger+",
         "weaponType": "Hammer",
-        "id": 249,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 5,
@@ -6764,7 +6821,7 @@ export default hammerWeaponList = [
     {
         "name": "Teostra de la Torre",
         "weaponType": "Hammer",
-        "id": 250,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -6793,7 +6850,7 @@ export default hammerWeaponList = [
     {
         "name": "Genie's Expanse I",
         "weaponType": "Hammer",
-        "id": 251,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6821,7 +6878,7 @@ export default hammerWeaponList = [
     {
         "name": "Diamalto's Dream",
         "weaponType": "Hammer",
-        "id": 252,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6849,7 +6906,7 @@ export default hammerWeaponList = [
     {
         "name": "Diamalto's Dream+",
         "weaponType": "Hammer",
-        "id": 253,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6877,7 +6934,7 @@ export default hammerWeaponList = [
     {
         "name": "Diamgolgo's Phantasm",
         "weaponType": "Hammer",
-        "id": 254,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6905,7 +6962,7 @@ export default hammerWeaponList = [
     {
         "name": "Redwing Drill I",
         "weaponType": "Hammer",
-        "id": 255,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6933,7 +6990,7 @@ export default hammerWeaponList = [
     {
         "name": "Reddnaught Hammer",
         "weaponType": "Hammer",
-        "id": 256,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6961,7 +7018,7 @@ export default hammerWeaponList = [
     {
         "name": "Crimson Forcewing",
         "weaponType": "Hammer",
-        "id": 257,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6989,7 +7046,7 @@ export default hammerWeaponList = [
     {
         "name": "Abyssal Windstorm",
         "weaponType": "Hammer",
-        "id": 258,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -20,
@@ -7015,7 +7072,7 @@ export default hammerWeaponList = [
     {
         "name": "Teddybear I",
         "weaponType": "Hammer",
-        "id": 259,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -7041,7 +7098,7 @@ export default hammerWeaponList = [
     {
         "name": "Teddybear II",
         "weaponType": "Hammer",
-        "id": 260,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -7069,7 +7126,7 @@ export default hammerWeaponList = [
     {
         "name": "Sleepy Bear",
         "weaponType": "Hammer",
-        "id": 261,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -7097,7 +7154,7 @@ export default hammerWeaponList = [
     {
         "name": "Sleepy Bear+",
         "weaponType": "Hammer",
-        "id": 262,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -7125,7 +7182,7 @@ export default hammerWeaponList = [
     {
         "name": "Dreamy Bear",
         "weaponType": "Hammer",
-        "id": 263,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7153,7 +7210,7 @@ export default hammerWeaponList = [
     {
         "name": "Graceful Death I",
         "weaponType": "Hammer",
-        "id": 264,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -7179,7 +7236,7 @@ export default hammerWeaponList = [
     {
         "name": "Graceful Death II",
         "weaponType": "Hammer",
-        "id": 265,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -7205,7 +7262,7 @@ export default hammerWeaponList = [
     {
         "name": "Graceful Death III",
         "weaponType": "Hammer",
-        "id": 266,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7234,7 +7291,7 @@ export default hammerWeaponList = [
     {
         "name": "Yadora Morte",
         "weaponType": "Hammer",
-        "id": 267,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7263,7 +7320,7 @@ export default hammerWeaponList = [
     {
         "name": "Yadora Morte+",
         "weaponType": "Hammer",
-        "id": 268,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -7292,7 +7349,7 @@ export default hammerWeaponList = [
     {
         "name": "Dark Morte",
         "weaponType": "Hammer",
-        "id": 269,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7321,7 +7378,7 @@ export default hammerWeaponList = [
     {
         "name": "Pumpking I",
         "weaponType": "Hammer",
-        "id": 270,
+        "id": 272,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -7347,7 +7404,7 @@ export default hammerWeaponList = [
     {
         "name": "Pumpking II",
         "weaponType": "Hammer",
-        "id": 271,
+        "id": 273,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7373,7 +7430,7 @@ export default hammerWeaponList = [
     {
         "name": "Jack-'o-lantern King",
         "weaponType": "Hammer",
-        "id": 272,
+        "id": 274,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7402,7 +7459,7 @@ export default hammerWeaponList = [
     {
         "name": "Jack-'o-lantern King+",
         "weaponType": "Hammer",
-        "id": 273,
+        "id": 275,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -7431,7 +7488,7 @@ export default hammerWeaponList = [
     {
         "name": "Magic Pumpking",
         "weaponType": "Hammer",
-        "id": 274,
+        "id": 276,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7461,7 +7518,7 @@ export default hammerWeaponList = [
     {
         "name": "Royal Order's Bludgeon",
         "weaponType": "Hammer",
-        "id": 275,
+        "id": 277,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 10,
@@ -7487,7 +7544,7 @@ export default hammerWeaponList = [
     {
         "name": "Royal Order's Bludgeon+",
         "weaponType": "Hammer",
-        "id": 276,
+        "id": 278,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -7514,7 +7571,7 @@ export default hammerWeaponList = [
     {
         "name": "Antique Machina H",
         "weaponType": "Hammer",
-        "id": 277,
+        "id": 279,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7540,7 +7597,7 @@ export default hammerWeaponList = [
     {
         "name": "Rampage Hammer I",
         "weaponType": "Hammer",
-        "id": 278,
+        "id": 280,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7564,7 +7621,7 @@ export default hammerWeaponList = [
     {
         "name": "Rampage Hammer II",
         "weaponType": "Hammer",
-        "id": 279,
+        "id": 281,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7588,7 +7645,7 @@ export default hammerWeaponList = [
     {
         "name": "Rampage Hammer III",
         "weaponType": "Hammer",
-        "id": 280,
+        "id": 282,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7612,7 +7669,7 @@ export default hammerWeaponList = [
     {
         "name": "Rampage Hammer IV",
         "weaponType": "Hammer",
-        "id": 281,
+        "id": 283,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7636,7 +7693,7 @@ export default hammerWeaponList = [
     {
         "name": "Rampage Hammer V",
         "weaponType": "Hammer",
-        "id": 282,
+        "id": 284,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7660,7 +7717,7 @@ export default hammerWeaponList = [
     {
         "name": "Rampage Hammer S",
         "weaponType": "Hammer",
-        "id": 283,
+        "id": 285,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

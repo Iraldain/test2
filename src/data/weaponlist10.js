@@ -1,4 +1,4 @@
-export default chargeBladeWeaponList = [
+export const chargeBladeWeaponList = [
     {
         "name": "Defender Charge Blade I",
         "weaponType": "Charge Blade",
@@ -620,9 +620,39 @@ export default chargeBladeWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1089408761.webp"
     },
     {
-        "name": "Rosenrupe",
+        "name": "Luna Eostre",
         "weaponType": "Charge Blade",
         "id": 22,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 10,
+        "elements": {
+            "poison": 46
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 100,
+            "orange": 20,
+            "yellow": 100,
+            "green": 30,
+            "blue": 40,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "4"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [
+            "impact_phial"
+        ],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1968213956.webp"
+    },
+    {
+        "name": "Rosenrupe",
+        "weaponType": "Charge Blade",
+        "id": 23,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -652,7 +682,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rosenrupe+",
         "weaponType": "Charge Blade",
-        "id": 23,
+        "id": 24,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -682,7 +712,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rosenemolgia",
         "weaponType": "Charge Blade",
-        "id": 24,
+        "id": 25,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -712,7 +742,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Weissritter I",
         "weaponType": "Charge Blade",
-        "id": 25,
+        "id": 26,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 20,
@@ -740,7 +770,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Weissritter II",
         "weaponType": "Charge Blade",
-        "id": 26,
+        "id": 27,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 20,
@@ -768,7 +798,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Weissritter III",
         "weaponType": "Charge Blade",
-        "id": 27,
+        "id": 28,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 25,
@@ -799,7 +829,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Pavadira",
         "weaponType": "Charge Blade",
-        "id": 28,
+        "id": 29,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 25,
@@ -831,7 +861,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Frostrail",
         "weaponType": "Charge Blade",
-        "id": 29,
+        "id": 30,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 25,
@@ -863,7 +893,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Frostrail+",
         "weaponType": "Charge Blade",
-        "id": 30,
+        "id": 31,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 25,
@@ -895,7 +925,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Dreadfeller",
         "weaponType": "Charge Blade",
-        "id": 31,
+        "id": 32,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 25,
@@ -927,7 +957,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Usurper's Lightning I",
         "weaponType": "Charge Blade",
-        "id": 32,
+        "id": 33,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -955,7 +985,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Usurper's Lightning II",
         "weaponType": "Charge Blade",
-        "id": 33,
+        "id": 34,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -983,7 +1013,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Despot's Thundergale",
         "weaponType": "Charge Blade",
-        "id": 34,
+        "id": 35,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -1013,7 +1043,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Despot's Thundergale+",
         "weaponType": "Charge Blade",
-        "id": 35,
+        "id": 36,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1044,7 +1074,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Oppressor's Thunderclap",
         "weaponType": "Charge Blade",
-        "id": 36,
+        "id": 37,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1075,7 +1105,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Shovedown Blade I",
         "weaponType": "Charge Blade",
-        "id": 37,
+        "id": 38,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1103,7 +1133,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Shovedown Blade II",
         "weaponType": "Charge Blade",
-        "id": 38,
+        "id": 39,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -1134,7 +1164,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Spinning Takedown",
         "weaponType": "Charge Blade",
-        "id": 39,
+        "id": 40,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -1165,7 +1195,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Spinning Takedown+",
         "weaponType": "Charge Blade",
-        "id": 40,
+        "id": 41,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -1196,7 +1226,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Whirling Takedown",
         "weaponType": "Charge Blade",
-        "id": 41,
+        "id": 42,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -1227,7 +1257,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Whirling Takedown+",
         "weaponType": "Charge Blade",
-        "id": 42,
+        "id": 43,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -1258,7 +1288,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Giga Grips I",
         "weaponType": "Charge Blade",
-        "id": 43,
+        "id": 44,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1286,7 +1316,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Giga Grips II",
         "weaponType": "Charge Blade",
-        "id": 44,
+        "id": 45,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -1314,7 +1344,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Giga Grips III",
         "weaponType": "Charge Blade",
-        "id": 45,
+        "id": 46,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -1344,7 +1374,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Titan's Vise",
         "weaponType": "Charge Blade",
-        "id": 46,
+        "id": 47,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -1374,7 +1404,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Titan's Vise+",
         "weaponType": "Charge Blade",
-        "id": 47,
+        "id": 48,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1404,7 +1434,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Goliath Arms",
         "weaponType": "Charge Blade",
-        "id": 48,
+        "id": 49,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1434,7 +1464,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Surprise Axe I",
         "weaponType": "Charge Blade",
-        "id": 49,
+        "id": 50,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -20,
@@ -1462,7 +1492,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Surprise Axe II",
         "weaponType": "Charge Blade",
-        "id": 50,
+        "id": 51,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -20,
@@ -1492,7 +1522,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Stunning Axe",
         "weaponType": "Charge Blade",
-        "id": 51,
+        "id": 52,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -20,
@@ -1522,7 +1552,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Striking Axe",
         "weaponType": "Charge Blade",
-        "id": 52,
+        "id": 53,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -20,
@@ -1552,7 +1582,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Striking Axe+",
         "weaponType": "Charge Blade",
-        "id": 53,
+        "id": 54,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -20,
@@ -1582,7 +1612,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Shocking Axe",
         "weaponType": "Charge Blade",
-        "id": 54,
+        "id": 55,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -1612,7 +1642,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Hyperguard I",
         "weaponType": "Charge Blade",
-        "id": 55,
+        "id": 56,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -1638,7 +1668,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Hyperguard II",
         "weaponType": "Charge Blade",
-        "id": 56,
+        "id": 57,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1664,7 +1694,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Regas Hyper",
         "weaponType": "Charge Blade",
-        "id": 57,
+        "id": 58,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -1690,7 +1720,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Elite Blade I",
         "weaponType": "Charge Blade",
-        "id": 58,
+        "id": 59,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -1716,7 +1746,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Elite Blade II",
         "weaponType": "Charge Blade",
-        "id": 59,
+        "id": 60,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -1744,7 +1774,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kaiser Blade",
         "weaponType": "Charge Blade",
-        "id": 60,
+        "id": 61,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -1772,7 +1802,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kaiser Blade+",
         "weaponType": "Charge Blade",
-        "id": 61,
+        "id": 62,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1800,7 +1830,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kaiser Kommandant",
         "weaponType": "Charge Blade",
-        "id": 62,
+        "id": 63,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1828,7 +1858,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kaiser Kommandant+",
         "weaponType": "Charge Blade",
-        "id": 63,
+        "id": 64,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -1857,7 +1887,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Frostmoon Icecutioner",
         "weaponType": "Charge Blade",
-        "id": 64,
+        "id": 65,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -1888,7 +1918,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Frostmoon Icecutioner+",
         "weaponType": "Charge Blade",
-        "id": 65,
+        "id": 66,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1919,7 +1949,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Gluttonous Glacier",
         "weaponType": "Charge Blade",
-        "id": 66,
+        "id": 67,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1950,7 +1980,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "K. Captain's Blade I",
         "weaponType": "Charge Blade",
-        "id": 67,
+        "id": 68,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 15,
@@ -1980,7 +2010,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "K. Captain's Blade II",
         "weaponType": "Charge Blade",
-        "id": 68,
+        "id": 69,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 20,
@@ -2010,7 +2040,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Die Walk\u00fcre",
         "weaponType": "Charge Blade",
-        "id": 69,
+        "id": 70,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 20,
@@ -2040,7 +2070,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Die Walk\u00fcre+",
         "weaponType": "Charge Blade",
-        "id": 70,
+        "id": 71,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 20,
@@ -2070,7 +2100,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Tristan and Isolde",
         "weaponType": "Charge Blade",
-        "id": 71,
+        "id": 72,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2100,7 +2130,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Tristan and Isolde+",
         "weaponType": "Charge Blade",
-        "id": 72,
+        "id": 73,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2130,7 +2160,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Vajraklex Blade",
         "weaponType": "Charge Blade",
-        "id": 73,
+        "id": 74,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 30,
@@ -2160,7 +2190,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Amagarex Blade",
         "weaponType": "Charge Blade",
-        "id": 74,
+        "id": 75,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 30,
@@ -2190,7 +2220,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Amagarex Blade+",
         "weaponType": "Charge Blade",
-        "id": 75,
+        "id": 76,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 30,
@@ -2220,7 +2250,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Biting Edge I",
         "weaponType": "Charge Blade",
-        "id": 76,
+        "id": 77,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 25,
@@ -2252,7 +2282,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Biting Edge II",
         "weaponType": "Charge Blade",
-        "id": 77,
+        "id": 78,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 25,
@@ -2284,7 +2314,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Araknablade",
         "weaponType": "Charge Blade",
-        "id": 78,
+        "id": 79,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 30,
@@ -2316,7 +2346,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Araknasmasher",
         "weaponType": "Charge Blade",
-        "id": 79,
+        "id": 80,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 30,
@@ -2348,7 +2378,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Araknasmasher+",
         "weaponType": "Charge Blade",
-        "id": 80,
+        "id": 81,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 30,
@@ -2380,7 +2410,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Crawling Crusher",
         "weaponType": "Charge Blade",
-        "id": 81,
+        "id": 82,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 30,
@@ -2412,7 +2442,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Roujatov Gate",
         "weaponType": "Charge Blade",
-        "id": 82,
+        "id": 83,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 15,
@@ -2442,7 +2472,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Roujatov Gate+",
         "weaponType": "Charge Blade",
-        "id": 83,
+        "id": 84,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 15,
@@ -2472,7 +2502,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Ent Da Lavater",
         "weaponType": "Charge Blade",
-        "id": 84,
+        "id": 85,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2502,7 +2532,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Tigrex Divide I",
         "weaponType": "Charge Blade",
-        "id": 85,
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -20,
@@ -2528,7 +2558,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Tigrex Divide II",
         "weaponType": "Charge Blade",
-        "id": 86,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -2556,7 +2586,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Tigrex Blade",
         "weaponType": "Charge Blade",
-        "id": 87,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -2584,7 +2614,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Tigrex Blade+",
         "weaponType": "Charge Blade",
-        "id": 88,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -15,
@@ -2612,7 +2642,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Huge Tigrex Blade",
         "weaponType": "Charge Blade",
-        "id": 89,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -2640,7 +2670,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Huge Tigrex Blade+",
         "weaponType": "Charge Blade",
-        "id": 90,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -2668,7 +2698,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Mizuniya Drill I",
         "weaponType": "Charge Blade",
-        "id": 91,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 10,
@@ -2696,7 +2726,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Mizuniya Drill II",
         "weaponType": "Charge Blade",
-        "id": 92,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 15,
@@ -2726,7 +2756,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Final Fieldblade",
         "weaponType": "Charge Blade",
-        "id": 93,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 20,
@@ -2756,7 +2786,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Final Fieldblade+",
         "weaponType": "Charge Blade",
-        "id": 94,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -2786,7 +2816,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Divine Fieldblade",
         "weaponType": "Charge Blade",
-        "id": 95,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2816,7 +2846,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Divine Fieldblade+",
         "weaponType": "Charge Blade",
-        "id": 96,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -2846,7 +2876,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kadachi Slasher I",
         "weaponType": "Charge Blade",
-        "id": 97,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -2874,7 +2904,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kadachi Slasher II",
         "weaponType": "Charge Blade",
-        "id": 98,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 15,
@@ -2902,7 +2932,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kadachi Otenta",
         "weaponType": "Charge Blade",
-        "id": 99,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 15,
@@ -2933,7 +2963,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Kadachi Otenta+",
         "weaponType": "Charge Blade",
-        "id": 100,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 15,
@@ -2964,7 +2994,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Thunderclap Otenta",
         "weaponType": "Charge Blade",
-        "id": 101,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 15,
@@ -2995,7 +3025,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Thunderclap Otenta+",
         "weaponType": "Charge Blade",
-        "id": 102,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 15,
@@ -3027,7 +3057,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Wind Thief Sickle I",
         "weaponType": "Charge Blade",
-        "id": 103,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 70,
         "baseAffinity": 10,
@@ -3053,7 +3083,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Wind Thief Sickle II",
         "weaponType": "Charge Blade",
-        "id": 104,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 15,
@@ -3079,7 +3109,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Gale Sickle",
         "weaponType": "Charge Blade",
-        "id": 105,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 15,
@@ -3108,7 +3138,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Gale Sickle+",
         "weaponType": "Charge Blade",
-        "id": 106,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 15,
@@ -3137,7 +3167,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Reaper Axe Helliot",
         "weaponType": "Charge Blade",
-        "id": 107,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -3166,7 +3196,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Hidden Arsenal I",
         "weaponType": "Charge Blade",
-        "id": 108,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 30,
@@ -3192,7 +3222,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Hidden Arsenal II",
         "weaponType": "Charge Blade",
-        "id": 109,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 35,
@@ -3220,7 +3250,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Scream in the Night",
         "weaponType": "Charge Blade",
-        "id": 110,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 40,
@@ -3248,7 +3278,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Howl in the Rain",
         "weaponType": "Charge Blade",
-        "id": 111,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 40,
@@ -3276,7 +3306,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Howl in the Rain+",
         "weaponType": "Charge Blade",
-        "id": 112,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 40,
@@ -3304,7 +3334,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Avidya Charger",
         "weaponType": "Charge Blade",
-        "id": 113,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 40,
@@ -3330,9 +3360,40 @@ export default chargeBladeWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/425238767.webp"
     },
     {
+        "name": "Nunki's Asterism",
+        "weaponType": "Charge Blade",
+        "id": 115,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 18
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 20,
+            "purple": 60
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [
+            "impact_phial"
+        ],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1910808507.webp"
+    },
+    {
         "name": "Bone Strongarm I",
         "weaponType": "Charge Blade",
-        "id": 114,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3358,7 +3419,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bone Strongarm II",
         "weaponType": "Charge Blade",
-        "id": 115,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3384,7 +3445,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Hard Bone Strongarm",
         "weaponType": "Charge Blade",
-        "id": 116,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -3410,7 +3471,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bone Blade I",
         "weaponType": "Charge Blade",
-        "id": 117,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3436,7 +3497,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bone Blade II",
         "weaponType": "Charge Blade",
-        "id": 118,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3462,7 +3523,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bonesilt Veil",
         "weaponType": "Charge Blade",
-        "id": 119,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3488,7 +3549,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bonesilt Veil+",
         "weaponType": "Charge Blade",
-        "id": 120,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -3514,7 +3575,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bonebreaker Veil",
         "weaponType": "Charge Blade",
-        "id": 121,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3540,7 +3601,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bonebreaker Veil+",
         "weaponType": "Charge Blade",
-        "id": 122,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -3566,7 +3627,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Aslat Charger",
         "weaponType": "Charge Blade",
-        "id": 123,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3594,7 +3655,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Aslat Charger+",
         "weaponType": "Charge Blade",
-        "id": 124,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -3622,7 +3683,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rebellious Charger",
         "weaponType": "Charge Blade",
-        "id": 125,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -3650,7 +3711,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Guardian Blade",
         "weaponType": "Charge Blade",
-        "id": 126,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3680,7 +3741,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Guardian Blade+",
         "weaponType": "Charge Blade",
-        "id": 127,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3710,7 +3771,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Nadegiri",
         "weaponType": "Charge Blade",
-        "id": 128,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3740,7 +3801,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Jyura Silt I",
         "weaponType": "Charge Blade",
-        "id": 129,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -3772,7 +3833,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Jyura Silt II",
         "weaponType": "Charge Blade",
-        "id": 130,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -3804,7 +3865,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Clutch of the Deep",
         "weaponType": "Charge Blade",
-        "id": 131,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -10,
@@ -3836,7 +3897,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Clutch of the Deep+",
         "weaponType": "Charge Blade",
-        "id": 132,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -10,
@@ -3868,7 +3929,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Valtos Bow",
         "weaponType": "Charge Blade",
-        "id": 133,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -10,
@@ -3900,7 +3961,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Valtos Bow+",
         "weaponType": "Charge Blade",
-        "id": 134,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -3932,7 +3993,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Axelion Blade I",
         "weaponType": "Charge Blade",
-        "id": 135,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -3960,7 +4021,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Axelion Blade II",
         "weaponType": "Charge Blade",
-        "id": 136,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -3990,7 +4051,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bardichion Blade",
         "weaponType": "Charge Blade",
-        "id": 137,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -4020,7 +4081,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bardichion Blade+",
         "weaponType": "Charge Blade",
-        "id": 138,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -4050,7 +4111,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Flamlion Blade",
         "weaponType": "Charge Blade",
-        "id": 139,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4078,9 +4139,39 @@ export default chargeBladeWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/154863417.webp"
     },
     {
+        "name": "Hellsire Blade",
+        "weaponType": "Charge Blade",
+        "id": 142,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 15,
+        "elements": {
+            "fire": 48
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 20,
+            "green": 50,
+            "blue": 60,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "4"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [
+            "element_phial"
+        ],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1982463973.webp"
+    },
+    {
         "name": "Bellowing Blow I",
         "weaponType": "Charge Blade",
-        "id": 140,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4108,7 +4199,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bellowing Blow II",
         "weaponType": "Charge Blade",
-        "id": 141,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -4136,7 +4227,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Illusory Frilled Wail",
         "weaponType": "Charge Blade",
-        "id": 142,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4167,7 +4258,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Illusory Frilled Wail+",
         "weaponType": "Charge Blade",
-        "id": 143,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4198,7 +4289,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Nightmare Frilled Wail",
         "weaponType": "Charge Blade",
-        "id": 144,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4229,7 +4320,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Nightmare Frilled Wail+",
         "weaponType": "Charge Blade",
-        "id": 145,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -4260,7 +4351,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bloom Snow Wail",
         "weaponType": "Charge Blade",
-        "id": 146,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -4291,7 +4382,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Bloom Snow Wail+",
         "weaponType": "Charge Blade",
-        "id": 147,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4322,7 +4413,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Flicker Blizzard Wail",
         "weaponType": "Charge Blade",
-        "id": 148,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4353,7 +4444,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Poisonous Veil I",
         "weaponType": "Charge Blade",
-        "id": 149,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": -10,
@@ -4381,7 +4472,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Poisonous Veil II",
         "weaponType": "Charge Blade",
-        "id": 150,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -10,
@@ -4409,7 +4500,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Infected Veil",
         "weaponType": "Charge Blade",
-        "id": 151,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -4440,7 +4531,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Infected Veil+",
         "weaponType": "Charge Blade",
-        "id": 152,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -10,
@@ -4471,7 +4562,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Malefico Veil",
         "weaponType": "Charge Blade",
-        "id": 153,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -10,
@@ -4502,7 +4593,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Malefico Veil+",
         "weaponType": "Charge Blade",
-        "id": 154,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -10,
@@ -4533,7 +4624,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Dragon Veil I",
         "weaponType": "Charge Blade",
-        "id": 155,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -10,
@@ -4563,7 +4654,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Dragon Veil II",
         "weaponType": "Charge Blade",
-        "id": 156,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": -10,
@@ -4594,7 +4685,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Dragonsong",
         "weaponType": "Charge Blade",
-        "id": 157,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -5,
@@ -4626,7 +4717,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Dragonsong+",
         "weaponType": "Charge Blade",
-        "id": 158,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -5,
@@ -4658,7 +4749,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Draquila Reaver",
         "weaponType": "Charge Blade",
-        "id": 159,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -5,
@@ -4690,7 +4781,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Draquila Reaver+",
         "weaponType": "Charge Blade",
-        "id": 160,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -5,
@@ -4722,7 +4813,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Barroth Anchor I",
         "weaponType": "Charge Blade",
-        "id": 161,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": -20,
@@ -4748,7 +4839,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Barroth Anchor II",
         "weaponType": "Charge Blade",
-        "id": 162,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -20,
@@ -4774,7 +4865,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rugged Anchor",
         "weaponType": "Charge Blade",
-        "id": 163,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -20,
@@ -4800,7 +4891,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Barroth Guardian",
         "weaponType": "Charge Blade",
-        "id": 164,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -20,
@@ -4828,7 +4919,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Barroth Guardian+",
         "weaponType": "Charge Blade",
-        "id": 165,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -20,
@@ -4856,7 +4947,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Barroth Reanchor",
         "weaponType": "Charge Blade",
-        "id": 166,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -20,
@@ -4884,7 +4975,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Golm Heart",
         "weaponType": "Charge Blade",
-        "id": 167,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4914,7 +5005,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Golm Heart+",
         "weaponType": "Charge Blade",
-        "id": 168,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4944,7 +5035,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Grand Gordlock",
         "weaponType": "Charge Blade",
-        "id": 169,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -4974,7 +5065,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Diablos Strongarm I",
         "weaponType": "Charge Blade",
-        "id": 170,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -30,
@@ -5000,7 +5091,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Diablos Strongarm II",
         "weaponType": "Charge Blade",
-        "id": 171,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -30,
@@ -5026,7 +5117,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Cera Strongarm",
         "weaponType": "Charge Blade",
-        "id": 172,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": -30,
@@ -5054,7 +5145,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Cera Strongarm+",
         "weaponType": "Charge Blade",
-        "id": 173,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -30,
@@ -5082,7 +5173,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Cera Cediment",
         "weaponType": "Charge Blade",
-        "id": 174,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -30,
@@ -5110,7 +5201,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Cera Cediment+",
         "weaponType": "Charge Blade",
-        "id": 175,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 370,
         "baseAffinity": -30,
@@ -5138,7 +5229,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rough Roller I",
         "weaponType": "Charge Blade",
-        "id": 176,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5166,7 +5257,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rough Roller II",
         "weaponType": "Charge Blade",
-        "id": 177,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5196,7 +5287,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rotaxion",
         "weaponType": "Charge Blade",
-        "id": 178,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5226,7 +5317,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rotaxion+",
         "weaponType": "Charge Blade",
-        "id": 179,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5256,7 +5347,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Vortax",
         "weaponType": "Charge Blade",
-        "id": 180,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5286,7 +5377,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Vortax+",
         "weaponType": "Charge Blade",
-        "id": 181,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5316,7 +5407,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Sinister Slasher I",
         "weaponType": "Charge Blade",
-        "id": 182,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5344,7 +5435,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Sinister Slasher II",
         "weaponType": "Charge Blade",
-        "id": 183,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5372,7 +5463,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Sinister Shade Axe",
         "weaponType": "Charge Blade",
-        "id": 184,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5403,7 +5494,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Sinister Shade Axe+",
         "weaponType": "Charge Blade",
-        "id": 185,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5434,7 +5525,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Mighty Soulcrusher",
         "weaponType": "Charge Blade",
-        "id": 186,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5465,7 +5556,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Vengeful Broadfeller",
         "weaponType": "Charge Blade",
-        "id": 187,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5496,7 +5587,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Elendskraft",
         "weaponType": "Charge Blade",
-        "id": 188,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -5524,7 +5615,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Elendskraft+",
         "weaponType": "Charge Blade",
-        "id": 189,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5554,7 +5645,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Unheilskraft",
         "weaponType": "Charge Blade",
-        "id": 190,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -5584,7 +5675,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "L'Oppresseur",
         "weaponType": "Charge Blade",
-        "id": 191,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -5612,7 +5703,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Le Salut",
         "weaponType": "Charge Blade",
-        "id": 192,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 35,
@@ -5640,7 +5731,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Undying Blade I",
         "weaponType": "Charge Blade",
-        "id": 193,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5668,7 +5759,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Undying Blade II",
         "weaponType": "Charge Blade",
-        "id": 194,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -5696,7 +5787,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Ikaji Immortal",
         "weaponType": "Charge Blade",
-        "id": 195,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5724,7 +5815,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Ikaji Immortal+",
         "weaponType": "Charge Blade",
-        "id": 196,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5752,7 +5843,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Unyielding Honor",
         "weaponType": "Charge Blade",
-        "id": 197,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5780,7 +5871,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Demonlord Blade",
         "weaponType": "Charge Blade",
-        "id": 198,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5811,7 +5902,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Azure Elder Blade I",
         "weaponType": "Charge Blade",
-        "id": 199,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5839,7 +5930,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Azure Elder Blade II",
         "weaponType": "Charge Blade",
-        "id": 200,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5867,7 +5958,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Abyssal Gale Ward",
         "weaponType": "Charge Blade",
-        "id": 201,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5895,7 +5986,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Asylum Bellow",
         "weaponType": "Charge Blade",
-        "id": 202,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5923,7 +6014,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Thunderbolt Sawtooth I",
         "weaponType": "Charge Blade",
-        "id": 203,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5951,7 +6042,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Abyssal Storm Ward",
         "weaponType": "Charge Blade",
-        "id": 204,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -5979,7 +6070,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Asylum Peal",
         "weaponType": "Charge Blade",
-        "id": 205,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6007,7 +6098,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Daora's Casca I",
         "weaponType": "Charge Blade",
-        "id": 206,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6037,7 +6128,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Daora's Thwartoise",
         "weaponType": "Charge Blade",
-        "id": 207,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 10,
@@ -6067,7 +6158,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Daora's Thwartoise+",
         "weaponType": "Charge Blade",
-        "id": 208,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -6097,7 +6188,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Daora's Worldbearer",
         "weaponType": "Charge Blade",
-        "id": 209,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -6127,7 +6218,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Teostra's Striker I",
         "weaponType": "Charge Blade",
-        "id": 210,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6155,7 +6246,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Teostra's Nova",
         "weaponType": "Charge Blade",
-        "id": 211,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6183,7 +6274,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Teostra's Nova+",
         "weaponType": "Charge Blade",
-        "id": 212,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6211,7 +6302,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Teostra's Redeemer",
         "weaponType": "Charge Blade",
-        "id": 213,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6239,7 +6330,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Arcane Draw I",
         "weaponType": "Charge Blade",
-        "id": 214,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6269,7 +6360,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Etherward",
         "weaponType": "Charge Blade",
-        "id": 215,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6299,7 +6390,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Etherward+",
         "weaponType": "Charge Blade",
-        "id": 216,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6329,7 +6420,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Phantom Providence",
         "weaponType": "Charge Blade",
-        "id": 217,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6359,7 +6450,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Redwing Edge I",
         "weaponType": "Charge Blade",
-        "id": 218,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -6389,7 +6480,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Skaltecore",
         "weaponType": "Charge Blade",
-        "id": 219,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6419,7 +6510,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Crimson Mechwing",
         "weaponType": "Charge Blade",
-        "id": 220,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6449,7 +6540,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Abyssal Splitter",
         "weaponType": "Charge Blade",
-        "id": 221,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -25,
@@ -6477,7 +6568,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Ricebane I",
         "weaponType": "Charge Blade",
-        "id": 222,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6503,7 +6594,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Ricebane II",
         "weaponType": "Charge Blade",
-        "id": 223,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6531,7 +6622,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Pounder of Rice",
         "weaponType": "Charge Blade",
-        "id": 224,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6559,7 +6650,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Pounder of Rice+",
         "weaponType": "Charge Blade",
-        "id": 225,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -6587,7 +6678,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Ricebane Emperor",
         "weaponType": "Charge Blade",
-        "id": 226,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6615,7 +6706,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Cuddly Cat I",
         "weaponType": "Charge Blade",
-        "id": 227,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -6643,7 +6734,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Cuddly Cat II",
         "weaponType": "Charge Blade",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -6671,7 +6762,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Felyne Fancy",
         "weaponType": "Charge Blade",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -6703,7 +6794,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Felyne Fancy+",
         "weaponType": "Charge Blade",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -6735,7 +6826,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Ominous Puss",
         "weaponType": "Charge Blade",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6767,7 +6858,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Mandible Blade I",
         "weaponType": "Charge Blade",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 10,
@@ -6795,7 +6886,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Mandible Blade II",
         "weaponType": "Charge Blade",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 10,
@@ -6823,7 +6914,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Maxilla Edge",
         "weaponType": "Charge Blade",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 15,
@@ -6853,7 +6944,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Maxilla Edge+",
         "weaponType": "Charge Blade",
-        "id": 235,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 15,
@@ -6883,7 +6974,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Skull Edge",
         "weaponType": "Charge Blade",
-        "id": 236,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 15,
@@ -6913,7 +7004,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Vaik Veil I",
         "weaponType": "Charge Blade",
-        "id": 237,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -6941,7 +7032,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Vaik Veil II",
         "weaponType": "Charge Blade",
-        "id": 238,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -6969,7 +7060,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Shieldraad",
         "weaponType": "Charge Blade",
-        "id": 239,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7000,7 +7091,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Shieldraad+",
         "weaponType": "Charge Blade",
-        "id": 240,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -7031,7 +7122,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Armordraad",
         "weaponType": "Charge Blade",
-        "id": 241,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7062,7 +7153,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Royal Order's Battleaxe",
         "weaponType": "Charge Blade",
-        "id": 242,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 10,
@@ -7090,7 +7181,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Royal Order's Battleaxe+",
         "weaponType": "Charge Blade",
-        "id": 243,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -7119,7 +7210,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Antique Machina CB",
         "weaponType": "Charge Blade",
-        "id": 244,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7147,7 +7238,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rampage C. Blade I",
         "weaponType": "Charge Blade",
-        "id": 245,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7173,7 +7264,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rampage C. Blade II",
         "weaponType": "Charge Blade",
-        "id": 246,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7199,7 +7290,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rampage C. Blade III",
         "weaponType": "Charge Blade",
-        "id": 247,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7225,7 +7316,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rampage C. Blade IV",
         "weaponType": "Charge Blade",
-        "id": 248,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7251,7 +7342,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rampage C. Blade V",
         "weaponType": "Charge Blade",
-        "id": 249,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7277,7 +7368,7 @@ export default chargeBladeWeaponList = [
     {
         "name": "Rampage C. Blade S",
         "weaponType": "Charge Blade",
-        "id": 250,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

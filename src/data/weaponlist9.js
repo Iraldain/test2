@@ -1,4 +1,4 @@
-export default switchAxeWeaponList = [
+export const switchAxeWeaponList = [
     {
         "name": "Defender Switch Axe I",
         "weaponType": "Switch Axe",
@@ -740,9 +740,39 @@ export default switchAxeWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1975721564.webp"
     },
     {
-        "name": "Wheel Axe I",
+        "name": "Rathsplicer",
         "weaponType": "Switch Axe",
         "id": 28,
+        "isBlademaster": true,
+        "baseRaw": 310,
+        "baseAffinity": 35,
+        "elements": {
+            "fire": 62
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 20,
+            "green": 50,
+            "blue": 60,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "2"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [
+            "element_phial"
+        ],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1856618097.webp"
+    },
+    {
+        "name": "Wheel Axe I",
+        "weaponType": "Switch Axe",
+        "id": 29,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -766,7 +796,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Wheel Axe II",
         "weaponType": "Switch Axe",
-        "id": 29,
+        "id": 30,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -792,7 +822,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Wisdom",
         "weaponType": "Switch Axe",
-        "id": 30,
+        "id": 31,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -818,7 +848,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Righteousness",
         "weaponType": "Switch Axe",
-        "id": 31,
+        "id": 32,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -844,7 +874,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Righteousness+",
         "weaponType": "Switch Axe",
-        "id": 32,
+        "id": 33,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -870,7 +900,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Battleaxe of Kings",
         "weaponType": "Switch Axe",
-        "id": 33,
+        "id": 34,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -896,7 +926,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Glory",
         "weaponType": "Switch Axe",
-        "id": 34,
+        "id": 35,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -924,7 +954,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Glory+",
         "weaponType": "Switch Axe",
-        "id": 35,
+        "id": 36,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -952,7 +982,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Virtue",
         "weaponType": "Switch Axe",
-        "id": 36,
+        "id": 37,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -980,7 +1010,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Delex Sail I",
         "weaponType": "Switch Axe",
-        "id": 37,
+        "id": 38,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1006,7 +1036,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Delex Sail II",
         "weaponType": "Switch Axe",
-        "id": 38,
+        "id": 39,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -1032,7 +1062,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Delex Cleaver",
         "weaponType": "Switch Axe",
-        "id": 39,
+        "id": 40,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -1061,7 +1091,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Delex Cleaver+",
         "weaponType": "Switch Axe",
-        "id": 40,
+        "id": 41,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -1090,7 +1120,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Delex Hatchet",
         "weaponType": "Switch Axe",
-        "id": 41,
+        "id": 42,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -1119,7 +1149,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Khezu Axe I",
         "weaponType": "Switch Axe",
-        "id": 42,
+        "id": 43,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -1147,7 +1177,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Khezu Axe II",
         "weaponType": "Switch Axe",
-        "id": 43,
+        "id": 44,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -1175,7 +1205,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Khezu Cleaver",
         "weaponType": "Switch Axe",
-        "id": 44,
+        "id": 45,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -1206,7 +1236,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Khezu Cleaver+",
         "weaponType": "Switch Axe",
-        "id": 45,
+        "id": 46,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -1237,7 +1267,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Fullmark",
         "weaponType": "Switch Axe",
-        "id": 46,
+        "id": 47,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -1268,7 +1298,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Fullmark+",
         "weaponType": "Switch Axe",
-        "id": 47,
+        "id": 48,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1299,7 +1329,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Arzuros Axe I",
         "weaponType": "Switch Axe",
-        "id": 48,
+        "id": 49,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -1323,7 +1353,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Arzuros Axe II",
         "weaponType": "Switch Axe",
-        "id": 49,
+        "id": 50,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -1347,7 +1377,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Arzuros Revelax",
         "weaponType": "Switch Axe",
-        "id": 50,
+        "id": 51,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -1373,7 +1403,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Arzuros Revelax+",
         "weaponType": "Switch Axe",
-        "id": 51,
+        "id": 52,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -1399,7 +1429,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Arzuros Jubilax",
         "weaponType": "Switch Axe",
-        "id": 52,
+        "id": 53,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -1425,7 +1455,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Amber Slash I",
         "weaponType": "Switch Axe",
-        "id": 53,
+        "id": 54,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 20,
@@ -1453,7 +1483,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Amber Slash II",
         "weaponType": "Switch Axe",
-        "id": 54,
+        "id": 55,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 25,
@@ -1481,7 +1511,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Amber Slash III",
         "weaponType": "Switch Axe",
-        "id": 55,
+        "id": 56,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 30,
@@ -1511,7 +1541,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Amber Hoarfrost",
         "weaponType": "Switch Axe",
-        "id": 56,
+        "id": 57,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 30,
@@ -1541,7 +1571,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Amber Snapfrost",
         "weaponType": "Switch Axe",
-        "id": 57,
+        "id": 58,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 30,
@@ -1571,7 +1601,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Amber Snapfrost+",
         "weaponType": "Switch Axe",
-        "id": 58,
+        "id": 59,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 30,
@@ -1601,7 +1631,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Amber Permafrost",
         "weaponType": "Switch Axe",
-        "id": 59,
+        "id": 60,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 30,
@@ -1631,7 +1661,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Proto Iron Axe I",
         "weaponType": "Switch Axe",
-        "id": 60,
+        "id": 61,
         "isBlademaster": true,
         "baseRaw": 70,
         "baseAffinity": 0,
@@ -1655,7 +1685,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Proto Iron Axe II",
         "weaponType": "Switch Axe",
-        "id": 61,
+        "id": 62,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -1679,7 +1709,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Improved Steel Axe",
         "weaponType": "Switch Axe",
-        "id": 62,
+        "id": 63,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -1703,7 +1733,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Elite Switch Axe I",
         "weaponType": "Switch Axe",
-        "id": 63,
+        "id": 64,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -1727,7 +1757,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Elite Switch Axe II",
         "weaponType": "Switch Axe",
-        "id": 64,
+        "id": 65,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -1753,7 +1783,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Czar Switch Axe",
         "weaponType": "Switch Axe",
-        "id": 65,
+        "id": 66,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -1779,7 +1809,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Czar Switch Axe II",
         "weaponType": "Switch Axe",
-        "id": 66,
+        "id": 67,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -1805,7 +1835,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Czar Switch Axe III",
         "weaponType": "Switch Axe",
-        "id": 67,
+        "id": 68,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -1831,7 +1861,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Valor Switch Axe",
         "weaponType": "Switch Axe",
-        "id": 68,
+        "id": 69,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1857,7 +1887,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Frostmoon Eclipser",
         "weaponType": "Switch Axe",
-        "id": 69,
+        "id": 70,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -1886,7 +1916,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Frostmoon Eclipser+",
         "weaponType": "Switch Axe",
-        "id": 70,
+        "id": 71,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -1915,7 +1945,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Purnima Icechopper",
         "weaponType": "Switch Axe",
-        "id": 71,
+        "id": 72,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -1944,7 +1974,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Limus Os I",
         "weaponType": "Switch Axe",
-        "id": 72,
+        "id": 73,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -15,
@@ -1972,7 +2002,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Limus Os II",
         "weaponType": "Switch Axe",
-        "id": 73,
+        "id": 74,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -2000,7 +2030,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Luto Ascia",
         "weaponType": "Switch Axe",
-        "id": 74,
+        "id": 75,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -2028,7 +2058,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Luto Ascia+",
         "weaponType": "Switch Axe",
-        "id": 75,
+        "id": 76,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -15,
@@ -2056,7 +2086,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Valtos Claw",
         "weaponType": "Switch Axe",
-        "id": 76,
+        "id": 77,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -15,
@@ -2084,7 +2114,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Valtos Claw+",
         "weaponType": "Switch Axe",
-        "id": 77,
+        "id": 78,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -2112,7 +2142,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Dragonmaiden Axe I",
         "weaponType": "Switch Axe",
-        "id": 78,
+        "id": 79,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2140,7 +2170,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Dragonmaiden Axe II",
         "weaponType": "Switch Axe",
-        "id": 79,
+        "id": 80,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -2168,7 +2198,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Gr\u00ed\u00f0r's Landmaker",
         "weaponType": "Switch Axe",
-        "id": 80,
+        "id": 81,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -2196,7 +2226,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Gr\u00ed\u00f0r's Landmaker+",
         "weaponType": "Switch Axe",
-        "id": 81,
+        "id": 82,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -2224,7 +2254,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Gr\u00ed\u00f0r's Landforger",
         "weaponType": "Switch Axe",
-        "id": 82,
+        "id": 83,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -2252,7 +2282,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Gr\u00ed\u00f0r's Landforger+",
         "weaponType": "Switch Axe",
-        "id": 83,
+        "id": 84,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -2278,9 +2308,39 @@ export default switchAxeWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/361747256.webp"
     },
     {
+        "name": "Golden Crescent",
+        "weaponType": "Switch Axe",
+        "id": 85,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 20,
+        "elements": {
+            "poison": 32
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 100,
+            "orange": 20,
+            "yellow": 100,
+            "green": 30,
+            "blue": 40,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "4"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [
+            "element_phial"
+        ],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1870851606.webp"
+    },
+    {
         "name": "Rosenacanta",
         "weaponType": "Switch Axe",
-        "id": 84,
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2310,7 +2370,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rosenacanta+",
         "weaponType": "Switch Axe",
-        "id": 85,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -2340,7 +2400,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rosenprion",
         "weaponType": "Switch Axe",
-        "id": 86,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2370,7 +2430,7 @@ export default switchAxeWeaponList = [
     {
         "name": "General's Strongaxe I",
         "weaponType": "Switch Axe",
-        "id": 87,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -2398,7 +2458,7 @@ export default switchAxeWeaponList = [
     {
         "name": "General's Strongaxe II",
         "weaponType": "Switch Axe",
-        "id": 88,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2426,7 +2486,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Conqueress",
         "weaponType": "Switch Axe",
-        "id": 89,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -2454,7 +2514,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Conqueress II",
         "weaponType": "Switch Axe",
-        "id": 90,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -2482,7 +2542,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Conqueress III",
         "weaponType": "Switch Axe",
-        "id": 91,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2510,7 +2570,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Reconqueress",
         "weaponType": "Switch Axe",
-        "id": 92,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -2538,7 +2598,7 @@ export default switchAxeWeaponList = [
     {
         "name": "The Shredder I",
         "weaponType": "Switch Axe",
-        "id": 93,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -2564,7 +2624,7 @@ export default switchAxeWeaponList = [
     {
         "name": "The Shredder II",
         "weaponType": "Switch Axe",
-        "id": 94,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -2590,7 +2650,7 @@ export default switchAxeWeaponList = [
     {
         "name": "The Power Shredder",
         "weaponType": "Switch Axe",
-        "id": 95,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2618,7 +2678,7 @@ export default switchAxeWeaponList = [
     {
         "name": "The Power Shredder+",
         "weaponType": "Switch Axe",
-        "id": 96,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -2646,7 +2706,7 @@ export default switchAxeWeaponList = [
     {
         "name": "The Lightning Shredder",
         "weaponType": "Switch Axe",
-        "id": 97,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2674,7 +2734,7 @@ export default switchAxeWeaponList = [
     {
         "name": "The Lightning Shredder+",
         "weaponType": "Switch Axe",
-        "id": 98,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -2702,7 +2762,7 @@ export default switchAxeWeaponList = [
     {
         "name": "High Raijard",
         "weaponType": "Switch Axe",
-        "id": 99,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -2730,7 +2790,7 @@ export default switchAxeWeaponList = [
     {
         "name": "High Raijard+",
         "weaponType": "Switch Axe",
-        "id": 100,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -2758,7 +2818,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Voltaic Load",
         "weaponType": "Switch Axe",
-        "id": 101,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2786,7 +2846,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Ash Drache I",
         "weaponType": "Switch Axe",
-        "id": 102,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 5,
@@ -2814,7 +2874,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Ash Drache II",
         "weaponType": "Switch Axe",
-        "id": 103,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 5,
@@ -2842,7 +2902,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Fall Drache",
         "weaponType": "Switch Axe",
-        "id": 104,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 5,
@@ -2870,7 +2930,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Fall Drache+",
         "weaponType": "Switch Axe",
-        "id": 105,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 10,
@@ -2898,7 +2958,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Revived Drache",
         "weaponType": "Switch Axe",
-        "id": 106,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -2926,7 +2986,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Revived Drache+",
         "weaponType": "Switch Axe",
-        "id": 107,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 10,
@@ -2955,7 +3015,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Almudron Axe I",
         "weaponType": "Switch Axe",
-        "id": 108,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -2983,7 +3043,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Almudron Axe II",
         "weaponType": "Switch Axe",
-        "id": 109,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -3014,7 +3074,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Doom Bringer Axe",
         "weaponType": "Switch Axe",
-        "id": 110,
+        "id": 112,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3045,7 +3105,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Night Bringer Axe",
         "weaponType": "Switch Axe",
-        "id": 111,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3076,7 +3136,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Night Bringer Axe+",
         "weaponType": "Switch Axe",
-        "id": 112,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -3107,7 +3167,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Void Bringer Axe",
         "weaponType": "Switch Axe",
-        "id": 113,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3138,7 +3198,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Magma Switch",
         "weaponType": "Switch Axe",
-        "id": 114,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3168,7 +3228,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Magma Switch+",
         "weaponType": "Switch Axe",
-        "id": 115,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -3198,7 +3258,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Volcanic Switch",
         "weaponType": "Switch Axe",
-        "id": 116,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3228,7 +3288,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axenosom I",
         "weaponType": "Switch Axe",
-        "id": 117,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -3254,7 +3314,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axenosom II",
         "weaponType": "Switch Axe",
-        "id": 118,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3280,7 +3340,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axenosom III",
         "weaponType": "Switch Axe",
-        "id": 119,
+        "id": 121,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -3308,7 +3368,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Daybreak Silvaris",
         "weaponType": "Switch Axe",
-        "id": 120,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -3336,7 +3396,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Lunadawn Sirja",
         "weaponType": "Switch Axe",
-        "id": 121,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3365,7 +3425,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Lunadawn Sirja+",
         "weaponType": "Switch Axe",
-        "id": 122,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -3394,7 +3454,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Dawnbreaker Simorgh",
         "weaponType": "Switch Axe",
-        "id": 123,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3423,7 +3483,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Assault Axe I",
         "weaponType": "Switch Axe",
-        "id": 124,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": -20,
@@ -3447,7 +3507,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Assault Axe II",
         "weaponType": "Switch Axe",
-        "id": 125,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": -20,
@@ -3471,7 +3531,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Blitzkrieg",
         "weaponType": "Switch Axe",
-        "id": 126,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -20,
@@ -3495,7 +3555,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Battlebuster",
         "weaponType": "Switch Axe",
-        "id": 127,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -20,
@@ -3519,7 +3579,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Battlebuster+",
         "weaponType": "Switch Axe",
-        "id": 128,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -20,
@@ -3543,7 +3603,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Bastion Blitz",
         "weaponType": "Switch Axe",
-        "id": 129,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -3567,7 +3627,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Snowfall Axe I",
         "weaponType": "Switch Axe",
-        "id": 130,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -3595,7 +3655,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Snowfall Axe II",
         "weaponType": "Switch Axe",
-        "id": 131,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3623,7 +3683,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Snowfall Axe III",
         "weaponType": "Switch Axe",
-        "id": 132,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -3654,7 +3714,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Dewdrop Dream",
         "weaponType": "Switch Axe",
-        "id": 133,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -3685,7 +3745,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Dewdrop Dream+",
         "weaponType": "Switch Axe",
-        "id": 134,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -3716,7 +3776,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Spirit Perplaxer",
         "weaponType": "Switch Axe",
-        "id": 135,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -3747,7 +3807,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Bone Axe I",
         "weaponType": "Switch Axe",
-        "id": 136,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -3771,7 +3831,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Bone Axe II",
         "weaponType": "Switch Axe",
-        "id": 137,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -3795,7 +3855,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Daidalos Axe",
         "weaponType": "Switch Axe",
-        "id": 138,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3819,7 +3879,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Power Gasher I",
         "weaponType": "Switch Axe",
-        "id": 139,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -3843,7 +3903,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Power Gasher II",
         "weaponType": "Switch Axe",
-        "id": 140,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3867,7 +3927,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Maximal Gasher",
         "weaponType": "Switch Axe",
-        "id": 141,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3891,7 +3951,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Maximal Gasher+",
         "weaponType": "Switch Axe",
-        "id": 142,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -3917,7 +3977,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Powerhouse Gasher",
         "weaponType": "Switch Axe",
-        "id": 143,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3943,7 +4003,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Powerhouse Gasher+",
         "weaponType": "Switch Axe",
-        "id": 144,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -3970,7 +4030,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Aksa Switch",
         "weaponType": "Switch Axe",
-        "id": 145,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3996,7 +4056,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Aksa Switch+",
         "weaponType": "Switch Axe",
-        "id": 146,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -4022,7 +4082,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Baran Defiance",
         "weaponType": "Switch Axe",
-        "id": 147,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 10,
@@ -4048,7 +4108,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Scissor Axe",
         "weaponType": "Switch Axe",
-        "id": 148,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -4076,7 +4136,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Scissor Axe+",
         "weaponType": "Switch Axe",
-        "id": 149,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -4105,7 +4165,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Megatalon Shears",
         "weaponType": "Switch Axe",
-        "id": 150,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -4134,7 +4194,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Flammenbeil I",
         "weaponType": "Switch Axe",
-        "id": 151,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -20,
@@ -4165,7 +4225,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Flammenbeil II",
         "weaponType": "Switch Axe",
-        "id": 152,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -20,
@@ -4196,7 +4256,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Gnashing Flammenbeil",
         "weaponType": "Switch Axe",
-        "id": 153,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -20,
@@ -4227,7 +4287,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Gnashing Flammenbeil+",
         "weaponType": "Switch Axe",
-        "id": 154,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": -20,
@@ -4258,7 +4318,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Lohenbeil",
         "weaponType": "Switch Axe",
-        "id": 155,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -20,
@@ -4289,7 +4349,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Lohenbeil+",
         "weaponType": "Switch Axe",
-        "id": 156,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -4320,7 +4380,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rex Slasher I",
         "weaponType": "Switch Axe",
-        "id": 157,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": -20,
@@ -4344,7 +4404,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rex Slasher II",
         "weaponType": "Switch Axe",
-        "id": 158,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -20,
@@ -4368,7 +4428,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rex Gnasher",
         "weaponType": "Switch Axe",
-        "id": 159,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -20,
@@ -4392,7 +4452,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rex Gnasher+",
         "weaponType": "Switch Axe",
-        "id": 160,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -20,
@@ -4416,7 +4476,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rex Thrasher",
         "weaponType": "Switch Axe",
-        "id": 161,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -20,
@@ -4440,7 +4500,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rex Thrasher+",
         "weaponType": "Switch Axe",
-        "id": 162,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -4464,7 +4524,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe Semper Tyrannis I",
         "weaponType": "Switch Axe",
-        "id": 163,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -4490,7 +4550,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe Semper Tyrannis II",
         "weaponType": "Switch Axe",
-        "id": 164,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -15,
@@ -4516,7 +4576,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Grand Chaos",
         "weaponType": "Switch Axe",
-        "id": 165,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": -15,
@@ -4542,7 +4602,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Grand Chaos+",
         "weaponType": "Switch Axe",
-        "id": 166,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -4568,7 +4628,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Gaia",
         "weaponType": "Switch Axe",
-        "id": 167,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -4594,7 +4654,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Axe of Gaia+",
         "weaponType": "Switch Axe",
-        "id": 168,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": -15,
@@ -4620,7 +4680,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Venom Hatchet I",
         "weaponType": "Switch Axe",
-        "id": 169,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4646,7 +4706,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Venom Hatchet II",
         "weaponType": "Switch Axe",
-        "id": 170,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -4672,7 +4732,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Mortal Serpent",
         "weaponType": "Switch Axe",
-        "id": 171,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -4700,7 +4760,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Mortal Serpent+",
         "weaponType": "Switch Axe",
-        "id": 172,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4729,7 +4789,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Thanatos Serpent",
         "weaponType": "Switch Axe",
-        "id": 173,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -4759,7 +4819,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Hidden Axe I",
         "weaponType": "Switch Axe",
-        "id": 174,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 40,
@@ -4783,7 +4843,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Hidden Axe II",
         "weaponType": "Switch Axe",
-        "id": 175,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 40,
@@ -4809,7 +4869,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Night's Crescent",
         "weaponType": "Switch Axe",
-        "id": 176,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 40,
@@ -4835,7 +4895,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Crescent Moon",
         "weaponType": "Switch Axe",
-        "id": 177,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 40,
@@ -4861,7 +4921,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Crescent Moon+",
         "weaponType": "Switch Axe",
-        "id": 178,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 40,
@@ -4887,7 +4947,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Avidya Axe",
         "weaponType": "Switch Axe",
-        "id": 179,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 40,
@@ -4911,9 +4971,38 @@ export default switchAxeWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/684893391.webp"
     },
     {
+        "name": "Mizar's Asterism",
+        "weaponType": "Switch Axe",
+        "id": 182,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 18
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 20,
+            "purple": 60
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1765641684.webp"
+    },
+    {
         "name": "Binding Roller I",
         "weaponType": "Switch Axe",
-        "id": 180,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -4941,7 +5030,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Binding Roller II",
         "weaponType": "Switch Axe",
-        "id": 181,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -4969,7 +5058,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Binding Roller III",
         "weaponType": "Switch Axe",
-        "id": 182,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -4997,7 +5086,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Vermilingua",
         "weaponType": "Switch Axe",
-        "id": 183,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5025,7 +5114,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Vermilingua+",
         "weaponType": "Switch Axe",
-        "id": 184,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5053,7 +5142,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Vermilion Bloodaxe",
         "weaponType": "Switch Axe",
-        "id": 185,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -5081,7 +5170,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Vermilion Bloodaxe+",
         "weaponType": "Switch Axe",
-        "id": 186,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5109,7 +5198,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Ludroth Axe I",
         "weaponType": "Switch Axe",
-        "id": 187,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5137,7 +5226,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Ludroth Axe II",
         "weaponType": "Switch Axe",
-        "id": 188,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5165,7 +5254,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Splish Splax",
         "weaponType": "Switch Axe",
-        "id": 189,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5197,7 +5286,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Splish Splax+",
         "weaponType": "Switch Axe",
-        "id": 190,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5229,7 +5318,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Ludroth Drencher",
         "weaponType": "Switch Axe",
-        "id": 191,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5261,7 +5350,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Ludroth Drencher+",
         "weaponType": "Switch Axe",
-        "id": 192,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5293,7 +5382,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Golm Axe",
         "weaponType": "Switch Axe",
-        "id": 193,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5321,7 +5410,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Golm Axe+",
         "weaponType": "Switch Axe",
-        "id": 194,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5349,7 +5438,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Great Gorgon Battleaxe",
         "weaponType": "Switch Axe",
-        "id": 195,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 360,
         "baseAffinity": 0,
@@ -5377,7 +5466,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Usurper's Downpour I",
         "weaponType": "Switch Axe",
-        "id": 196,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -5403,7 +5492,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Usurper's Downpour II",
         "weaponType": "Switch Axe",
-        "id": 197,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5429,7 +5518,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Despot's Cloudburst",
         "weaponType": "Switch Axe",
-        "id": 198,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5458,7 +5547,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Despot's Cloudburst+",
         "weaponType": "Switch Axe",
-        "id": 199,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -5487,7 +5576,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Oppressor's Torrent",
         "weaponType": "Switch Axe",
-        "id": 200,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5516,7 +5605,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Longear Axe I",
         "weaponType": "Switch Axe",
-        "id": 201,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5544,7 +5633,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Longear Axe II",
         "weaponType": "Switch Axe",
-        "id": 202,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5572,7 +5661,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Longear Axe III",
         "weaponType": "Switch Axe",
-        "id": 203,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5603,7 +5692,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Longear Weiss",
         "weaponType": "Switch Axe",
-        "id": 204,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -5634,7 +5723,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Longear Weiss+",
         "weaponType": "Switch Axe",
-        "id": 205,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5665,7 +5754,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Splitear Weiss",
         "weaponType": "Switch Axe",
-        "id": 206,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5696,7 +5785,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Sinister Axe I",
         "weaponType": "Switch Axe",
-        "id": 207,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5722,7 +5811,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Sinister Axe II",
         "weaponType": "Switch Axe",
-        "id": 208,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -5748,7 +5837,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Sinister Shadowslice",
         "weaponType": "Switch Axe",
-        "id": 209,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -5777,7 +5866,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Sinister Shadowslice+",
         "weaponType": "Switch Axe",
-        "id": 210,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5806,7 +5895,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Tormented Shadowslice",
         "weaponType": "Switch Axe",
-        "id": 211,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5835,7 +5924,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Vengeful Fellcleave",
         "weaponType": "Switch Axe",
-        "id": 212,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -5864,7 +5953,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Eisenleib",
         "weaponType": "Switch Axe",
-        "id": 213,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -5892,7 +5981,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Eisenleib+",
         "weaponType": "Switch Axe",
-        "id": 214,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -5920,7 +6009,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Eisenherz",
         "weaponType": "Switch Axe",
-        "id": 215,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -5948,7 +6037,7 @@ export default switchAxeWeaponList = [
     {
         "name": "La Guillotine",
         "weaponType": "Switch Axe",
-        "id": 216,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 30,
@@ -5974,7 +6063,7 @@ export default switchAxeWeaponList = [
     {
         "name": "La Conclusion",
         "weaponType": "Switch Axe",
-        "id": 217,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 30,
@@ -6000,7 +6089,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Undying Axe I",
         "weaponType": "Switch Axe",
-        "id": 218,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -6028,7 +6117,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Undying Axe II",
         "weaponType": "Switch Axe",
-        "id": 219,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 15,
@@ -6058,7 +6147,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Undying Light",
         "weaponType": "Switch Axe",
-        "id": 220,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 15,
@@ -6088,7 +6177,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Undying Light+",
         "weaponType": "Switch Axe",
-        "id": 221,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 15,
@@ -6118,7 +6207,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Undying Purity",
         "weaponType": "Switch Axe",
-        "id": 222,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 15,
@@ -6148,7 +6237,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Demonlord Edge",
         "weaponType": "Switch Axe",
-        "id": 223,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6177,7 +6266,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Azure Elder Axe I",
         "weaponType": "Switch Axe",
-        "id": 224,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6203,7 +6292,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Azure Elder Axe II",
         "weaponType": "Switch Axe",
-        "id": 225,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6229,7 +6318,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Abyssal Gale Axe",
         "weaponType": "Switch Axe",
-        "id": 226,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6255,7 +6344,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Skyfall",
         "weaponType": "Switch Axe",
-        "id": 227,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6281,7 +6370,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Thunderbolt Axe I",
         "weaponType": "Switch Axe",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6309,7 +6398,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Abyssal Storm Axe",
         "weaponType": "Switch Axe",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6337,7 +6426,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Thunderclap",
         "weaponType": "Switch Axe",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6365,7 +6454,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rookslayer Axe I",
         "weaponType": "Switch Axe",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -15,
@@ -6393,7 +6482,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rookslayer Axe II",
         "weaponType": "Switch Axe",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -15,
@@ -6421,7 +6510,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Bazelrush Rookslayer",
         "weaponType": "Switch Axe",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -15,
@@ -6449,7 +6538,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Bazelava Rookslayer",
         "weaponType": "Switch Axe",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -15,
@@ -6475,9 +6564,37 @@ export default switchAxeWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1085164144.webp"
     },
     {
+        "name": "Bazelheart",
+        "weaponType": "Switch Axe",
+        "id": 238,
+        "isBlademaster": true,
+        "baseRaw": 360,
+        "baseAffinity": -15,
+        "elements": {
+            "blast": 23
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 80,
+            "yellow": 40,
+            "green": 60,
+            "blue": 70,
+            "white": 50,
+            "purple": 50
+        },
+        "slots": [
+            "1"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1099414033.webp"
+    },
+    {
         "name": "Daora's Farasa I",
         "weaponType": "Switch Axe",
-        "id": 235,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6505,7 +6622,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Daora's Janah",
         "weaponType": "Switch Axe",
-        "id": 236,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6533,7 +6650,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Daora's Janah+",
         "weaponType": "Switch Axe",
-        "id": 237,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6561,7 +6678,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Daora's Ajniha",
         "weaponType": "Switch Axe",
-        "id": 238,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6589,7 +6706,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Teostra's Arx I",
         "weaponType": "Switch Axe",
-        "id": 239,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6619,7 +6736,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Teostra's Castle",
         "weaponType": "Switch Axe",
-        "id": 240,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -6649,7 +6766,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Teostra's Castle+",
         "weaponType": "Switch Axe",
-        "id": 241,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6679,7 +6796,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Teostra's Hellebarde",
         "weaponType": "Switch Axe",
-        "id": 242,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6709,7 +6826,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Waxglare Wand I",
         "weaponType": "Switch Axe",
-        "id": 243,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6738,7 +6855,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Balor's Mirage",
         "weaponType": "Switch Axe",
-        "id": 244,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6767,7 +6884,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Balor's Mirage+",
         "weaponType": "Switch Axe",
-        "id": 245,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6796,7 +6913,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Zariella's Phantasm",
         "weaponType": "Switch Axe",
-        "id": 246,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6825,7 +6942,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Redwing Switch Axe I",
         "weaponType": "Switch Axe",
-        "id": 247,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6855,7 +6972,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Reddnaught Dunat",
         "weaponType": "Switch Axe",
-        "id": 248,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6885,7 +7002,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Wing of Sanctity",
         "weaponType": "Switch Axe",
-        "id": 249,
+        "id": 253,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -6915,7 +7032,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Abyssal Torrent",
         "weaponType": "Switch Axe",
-        "id": 250,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": -20,
@@ -6943,7 +7060,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Origami Axe I",
         "weaponType": "Switch Axe",
-        "id": 251,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6967,7 +7084,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Origami Axe II",
         "weaponType": "Switch Axe",
-        "id": 252,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -6994,7 +7111,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Petal Cloud",
         "weaponType": "Switch Axe",
-        "id": 253,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7021,7 +7138,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Blossom Fall",
         "weaponType": "Switch Axe",
-        "id": 254,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -7048,7 +7165,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Full Bloom Axe",
         "weaponType": "Switch Axe",
-        "id": 255,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -7075,7 +7192,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Grim Cat I",
         "weaponType": "Switch Axe",
-        "id": 256,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -7104,7 +7221,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Grim Cat II",
         "weaponType": "Switch Axe",
-        "id": 257,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7133,7 +7250,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Grimmige Katze",
         "weaponType": "Switch Axe",
-        "id": 258,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7162,7 +7279,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Grimmige Katze+",
         "weaponType": "Switch Axe",
-        "id": 259,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -7191,7 +7308,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Felyne Fatality",
         "weaponType": "Switch Axe",
-        "id": 260,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -7220,7 +7337,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Infernal Axe I",
         "weaponType": "Switch Axe",
-        "id": 261,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -7248,7 +7365,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Infernal Axe II",
         "weaponType": "Switch Axe",
-        "id": 262,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -7276,7 +7393,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Hellish Edge",
         "weaponType": "Switch Axe",
-        "id": 263,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7307,7 +7424,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Hellish Edge+",
         "weaponType": "Switch Axe",
-        "id": 264,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -7338,7 +7455,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Calamitous Axe",
         "weaponType": "Switch Axe",
-        "id": 265,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7369,7 +7486,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Sleepy Shellslice I",
         "weaponType": "Switch Axe",
-        "id": 266,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -7395,7 +7512,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Sleepy Shellslice II",
         "weaponType": "Switch Axe",
-        "id": 267,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -7421,7 +7538,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Schale Batis",
         "weaponType": "Switch Axe",
-        "id": 268,
+        "id": 272,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7451,7 +7568,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Schale Batis+",
         "weaponType": "Switch Axe",
-        "id": 269,
+        "id": 273,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -7481,7 +7598,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Dreamcrusher",
         "weaponType": "Switch Axe",
-        "id": 270,
+        "id": 274,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7511,7 +7628,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Royal Order's Axe",
         "weaponType": "Switch Axe",
-        "id": 271,
+        "id": 275,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -7537,7 +7654,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Royal Order's Axe+",
         "weaponType": "Switch Axe",
-        "id": 272,
+        "id": 276,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -7564,7 +7681,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Antique Machina SA",
         "weaponType": "Switch Axe",
-        "id": 273,
+        "id": 277,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -7588,7 +7705,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rampage Slicer I",
         "weaponType": "Switch Axe",
-        "id": 274,
+        "id": 278,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7612,7 +7729,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rampage Slicer II",
         "weaponType": "Switch Axe",
-        "id": 275,
+        "id": 279,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7636,7 +7753,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rampage Slicer III",
         "weaponType": "Switch Axe",
-        "id": 276,
+        "id": 280,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7660,7 +7777,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rampage Slicer IV",
         "weaponType": "Switch Axe",
-        "id": 277,
+        "id": 281,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7684,7 +7801,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rampage Slicer V",
         "weaponType": "Switch Axe",
-        "id": 278,
+        "id": 282,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7708,7 +7825,7 @@ export default switchAxeWeaponList = [
     {
         "name": "Rampage Slicer S",
         "weaponType": "Switch Axe",
-        "id": 279,
+        "id": 283,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,

@@ -1,4 +1,4 @@
-export default longSwordWeaponList = [
+export const longSwordWeaponList = [
     {
         "name": "Defender Long Sword I",
         "weaponType": "Long Sword",
@@ -2238,9 +2238,38 @@ export default longSwordWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/290091774.webp"
     },
     {
-        "name": "Eager Cleaver I",
+        "name": "Megrez's Asterism",
         "weaponType": "Long Sword",
         "id": 85,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 0,
+        "elements": {
+            "poison": 14
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 50,
+            "orange": 90,
+            "yellow": 60,
+            "green": 60,
+            "blue": 60,
+            "white": 20,
+            "purple": 60
+        },
+        "slots": [
+            "4",
+            "2"
+        ],
+        "rampageSlot": "1",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/532851938.webp"
+    },
+    {
+        "name": "Eager Cleaver I",
+        "weaponType": "Long Sword",
+        "id": 86,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -2266,7 +2295,7 @@ export default longSwordWeaponList = [
     {
         "name": "Eager Cleaver II",
         "weaponType": "Long Sword",
-        "id": 86,
+        "id": 87,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2295,7 +2324,7 @@ export default longSwordWeaponList = [
     {
         "name": "Devil Slicer",
         "weaponType": "Long Sword",
-        "id": 87,
+        "id": 88,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2324,7 +2353,7 @@ export default longSwordWeaponList = [
     {
         "name": "Devil Slicer+",
         "weaponType": "Long Sword",
-        "id": 88,
+        "id": 89,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -2353,7 +2382,7 @@ export default longSwordWeaponList = [
     {
         "name": "True Devil Slicer",
         "weaponType": "Long Sword",
-        "id": 89,
+        "id": 90,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 0,
@@ -2382,7 +2411,7 @@ export default longSwordWeaponList = [
     {
         "name": "True Devil Slicer+",
         "weaponType": "Long Sword",
-        "id": 90,
+        "id": 91,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2411,7 +2440,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kulu Katana I",
         "weaponType": "Long Sword",
-        "id": 91,
+        "id": 92,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -2435,7 +2464,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kulu Katana II",
         "weaponType": "Long Sword",
-        "id": 92,
+        "id": 93,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 15,
@@ -2459,7 +2488,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kulu Slicer",
         "weaponType": "Long Sword",
-        "id": 93,
+        "id": 94,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 20,
@@ -2487,7 +2516,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kulu Slicer+",
         "weaponType": "Long Sword",
-        "id": 94,
+        "id": 95,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 20,
@@ -2515,7 +2544,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kulu Katolos Seif",
         "weaponType": "Long Sword",
-        "id": 95,
+        "id": 96,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 20,
@@ -2543,7 +2572,7 @@ export default longSwordWeaponList = [
     {
         "name": "Chillblade I",
         "weaponType": "Long Sword",
-        "id": 96,
+        "id": 97,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -2569,7 +2598,7 @@ export default longSwordWeaponList = [
     {
         "name": "Chillblade II",
         "weaponType": "Long Sword",
-        "id": 97,
+        "id": 98,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -2595,7 +2624,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rimeblossom",
         "weaponType": "Long Sword",
-        "id": 98,
+        "id": 99,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -2621,7 +2650,7 @@ export default longSwordWeaponList = [
     {
         "name": "Icebloom",
         "weaponType": "Long Sword",
-        "id": 99,
+        "id": 100,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -2649,7 +2678,7 @@ export default longSwordWeaponList = [
     {
         "name": "Icebloom+",
         "weaponType": "Long Sword",
-        "id": 100,
+        "id": 101,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2677,7 +2706,7 @@ export default longSwordWeaponList = [
     {
         "name": "Frostveldt",
         "weaponType": "Long Sword",
-        "id": 101,
+        "id": 102,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2705,7 +2734,7 @@ export default longSwordWeaponList = [
     {
         "name": "Frostmoon Paleblade",
         "weaponType": "Long Sword",
-        "id": 102,
+        "id": 103,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -2733,7 +2762,7 @@ export default longSwordWeaponList = [
     {
         "name": "Frostmoon Paleblade+",
         "weaponType": "Long Sword",
-        "id": 103,
+        "id": 104,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2761,7 +2790,7 @@ export default longSwordWeaponList = [
     {
         "name": "Moonbrand \"Lua Cheia\"",
         "weaponType": "Long Sword",
-        "id": 104,
+        "id": 105,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2789,7 +2818,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade Verde I",
         "weaponType": "Long Sword",
-        "id": 105,
+        "id": 106,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -2815,7 +2844,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade Verde II",
         "weaponType": "Long Sword",
-        "id": 106,
+        "id": 107,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -2841,7 +2870,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade Holly",
         "weaponType": "Long Sword",
-        "id": 107,
+        "id": 108,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -2869,7 +2898,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade Holly+",
         "weaponType": "Long Sword",
-        "id": 108,
+        "id": 109,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -2898,7 +2927,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade \"Jade\"",
         "weaponType": "Long Sword",
-        "id": 109,
+        "id": 110,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -2927,7 +2956,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade \"Jade\"+",
         "weaponType": "Long Sword",
-        "id": 110,
+        "id": 111,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -2954,9 +2983,37 @@ export default longSwordWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/20238600.webp"
     },
     {
+        "name": "Wyvern Blade \"Luna\"",
+        "weaponType": "Long Sword",
+        "id": 112,
+        "isBlademaster": true,
+        "baseRaw": 330,
+        "baseAffinity": 10,
+        "elements": {
+            "poison": 39
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 100,
+            "orange": 20,
+            "yellow": 100,
+            "green": 30,
+            "blue": 40,
+            "white": 90,
+            "purple": 20
+        },
+        "slots": [
+            "3"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/470813996.webp"
+    },
+    {
         "name": "Rosenfader",
         "weaponType": "Long Sword",
-        "id": 111,
+        "id": 113,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -2984,7 +3041,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rosenfader+",
         "weaponType": "Long Sword",
-        "id": 112,
+        "id": 114,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -3012,7 +3069,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rosenhimmel",
         "weaponType": "Long Sword",
-        "id": 113,
+        "id": 115,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -3040,7 +3097,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade Blood I",
         "weaponType": "Long Sword",
-        "id": 114,
+        "id": 116,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -3066,7 +3123,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade Blood II",
         "weaponType": "Long Sword",
-        "id": 115,
+        "id": 117,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3092,7 +3149,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade Maple",
         "weaponType": "Long Sword",
-        "id": 116,
+        "id": 118,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -3118,7 +3175,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade \"Maple\"+",
         "weaponType": "Long Sword",
-        "id": 117,
+        "id": 119,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -3146,7 +3203,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wyvern Blade \"Scarlet\"",
         "weaponType": "Long Sword",
-        "id": 118,
+        "id": 120,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -3172,9 +3229,37 @@ export default longSwordWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/258687149.webp"
     },
     {
+        "name": "Wyvern Blade \"Pale\"",
+        "weaponType": "Long Sword",
+        "id": 121,
+        "isBlademaster": true,
+        "baseRaw": 300,
+        "baseAffinity": 30,
+        "elements": {
+            "fire": 65
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 130,
+            "orange": 30,
+            "yellow": 30,
+            "green": 50,
+            "blue": 60,
+            "white": 80,
+            "purple": 20
+        },
+        "slots": [
+            "2"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/322886927.webp"
+    },
+    {
         "name": "Serrated Jaw I",
         "weaponType": "Long Sword",
-        "id": 119,
+        "id": 122,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -3198,7 +3283,7 @@ export default longSwordWeaponList = [
     {
         "name": "Serrated Jaw II",
         "weaponType": "Long Sword",
-        "id": 120,
+        "id": 123,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3222,7 +3307,7 @@ export default longSwordWeaponList = [
     {
         "name": "Serrated Maw",
         "weaponType": "Long Sword",
-        "id": 121,
+        "id": 124,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -3246,7 +3331,7 @@ export default longSwordWeaponList = [
     {
         "name": "Canine Katana I",
         "weaponType": "Long Sword",
-        "id": 122,
+        "id": 125,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -3270,7 +3355,7 @@ export default longSwordWeaponList = [
     {
         "name": "Canine Katana II",
         "weaponType": "Long Sword",
-        "id": 123,
+        "id": 126,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -3294,7 +3379,7 @@ export default longSwordWeaponList = [
     {
         "name": "Gnash Katana",
         "weaponType": "Long Sword",
-        "id": 124,
+        "id": 127,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -3320,7 +3405,7 @@ export default longSwordWeaponList = [
     {
         "name": "Gnash Katana+",
         "weaponType": "Long Sword",
-        "id": 125,
+        "id": 128,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -3346,7 +3431,7 @@ export default longSwordWeaponList = [
     {
         "name": "Sunderer",
         "weaponType": "Long Sword",
-        "id": 126,
+        "id": 129,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -3372,7 +3457,7 @@ export default longSwordWeaponList = [
     {
         "name": "Sunderer+",
         "weaponType": "Long Sword",
-        "id": 127,
+        "id": 130,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": 0,
@@ -3399,7 +3484,7 @@ export default longSwordWeaponList = [
     {
         "name": "Khanga Edge",
         "weaponType": "Long Sword",
-        "id": 128,
+        "id": 131,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -3425,7 +3510,7 @@ export default longSwordWeaponList = [
     {
         "name": "Khanga Edge+",
         "weaponType": "Long Sword",
-        "id": 129,
+        "id": 132,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -3451,7 +3536,7 @@ export default longSwordWeaponList = [
     {
         "name": "Khanga Rebellion",
         "weaponType": "Long Sword",
-        "id": 130,
+        "id": 133,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 10,
@@ -3477,7 +3562,7 @@ export default longSwordWeaponList = [
     {
         "name": "Black Katana Mk.I",
         "weaponType": "Long Sword",
-        "id": 131,
+        "id": 134,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 5,
@@ -3501,7 +3586,7 @@ export default longSwordWeaponList = [
     {
         "name": "Black Katana Mk.I+",
         "weaponType": "Long Sword",
-        "id": 132,
+        "id": 135,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 5,
@@ -3525,7 +3610,7 @@ export default longSwordWeaponList = [
     {
         "name": "Final Black Katana",
         "weaponType": "Long Sword",
-        "id": 133,
+        "id": 136,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 5,
@@ -3549,7 +3634,7 @@ export default longSwordWeaponList = [
     {
         "name": "Flammenschwert I",
         "weaponType": "Long Sword",
-        "id": 134,
+        "id": 137,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": -20,
@@ -3575,7 +3660,7 @@ export default longSwordWeaponList = [
     {
         "name": "Flammenschwert II",
         "weaponType": "Long Sword",
-        "id": 135,
+        "id": 138,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -20,
@@ -3604,7 +3689,7 @@ export default longSwordWeaponList = [
     {
         "name": "Fervid Flammenschwert",
         "weaponType": "Long Sword",
-        "id": 136,
+        "id": 139,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": -20,
@@ -3633,7 +3718,7 @@ export default longSwordWeaponList = [
     {
         "name": "Fervid Flammenschwert+",
         "weaponType": "Long Sword",
-        "id": 137,
+        "id": 140,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -20,
@@ -3662,7 +3747,7 @@ export default longSwordWeaponList = [
     {
         "name": "Lohenschwert",
         "weaponType": "Long Sword",
-        "id": 138,
+        "id": 141,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": -20,
@@ -3691,7 +3776,7 @@ export default longSwordWeaponList = [
     {
         "name": "Lohenschwert+",
         "weaponType": "Long Sword",
-        "id": 139,
+        "id": 142,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -15,
@@ -3720,7 +3805,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bastine Edge I",
         "weaponType": "Long Sword",
-        "id": 140,
+        "id": 143,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 30,
@@ -3746,7 +3831,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bastine Edge II",
         "weaponType": "Long Sword",
-        "id": 141,
+        "id": 144,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 30,
@@ -3772,7 +3857,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bastizan Edge",
         "weaponType": "Long Sword",
-        "id": 142,
+        "id": 145,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 35,
@@ -3801,7 +3886,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bastiana Saber",
         "weaponType": "Long Sword",
-        "id": 143,
+        "id": 146,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 35,
@@ -3830,7 +3915,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bastiana Saber+",
         "weaponType": "Long Sword",
-        "id": 144,
+        "id": 147,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 35,
@@ -3859,7 +3944,7 @@ export default longSwordWeaponList = [
     {
         "name": "Amberfang Gelfidall",
         "weaponType": "Long Sword",
-        "id": 145,
+        "id": 148,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 35,
@@ -3888,7 +3973,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wroggi Sword I",
         "weaponType": "Long Sword",
-        "id": 146,
+        "id": 149,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -3914,7 +3999,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wroggi Sword II",
         "weaponType": "Long Sword",
-        "id": 147,
+        "id": 150,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -3940,7 +4025,7 @@ export default longSwordWeaponList = [
     {
         "name": "Poison Barb",
         "weaponType": "Long Sword",
-        "id": 148,
+        "id": 151,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -3969,7 +4054,7 @@ export default longSwordWeaponList = [
     {
         "name": "Poison Barb+",
         "weaponType": "Long Sword",
-        "id": 149,
+        "id": 152,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -3998,7 +4083,7 @@ export default longSwordWeaponList = [
     {
         "name": "Belladonna's Bite",
         "weaponType": "Long Sword",
-        "id": 150,
+        "id": 153,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4027,7 +4112,7 @@ export default longSwordWeaponList = [
     {
         "name": "Ananta Blade I",
         "weaponType": "Long Sword",
-        "id": 151,
+        "id": 154,
         "isBlademaster": true,
         "baseRaw": 80,
         "baseAffinity": 0,
@@ -4053,7 +4138,7 @@ export default longSwordWeaponList = [
     {
         "name": "Ananta Blade II",
         "weaponType": "Long Sword",
-        "id": 152,
+        "id": 155,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4079,7 +4164,7 @@ export default longSwordWeaponList = [
     {
         "name": "Shadow Slasher",
         "weaponType": "Long Sword",
-        "id": 153,
+        "id": 156,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -4107,7 +4192,7 @@ export default longSwordWeaponList = [
     {
         "name": "Shadow Slasher+",
         "weaponType": "Long Sword",
-        "id": 154,
+        "id": 157,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 0,
@@ -4135,7 +4220,7 @@ export default longSwordWeaponList = [
     {
         "name": "Spiritbinder",
         "weaponType": "Long Sword",
-        "id": 155,
+        "id": 158,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4163,7 +4248,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bone Scythe I",
         "weaponType": "Long Sword",
-        "id": 156,
+        "id": 159,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -4187,7 +4272,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bone Scythe II",
         "weaponType": "Long Sword",
-        "id": 157,
+        "id": 160,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -4211,7 +4296,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bone Reaper",
         "weaponType": "Long Sword",
-        "id": 158,
+        "id": 161,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -4235,7 +4320,7 @@ export default longSwordWeaponList = [
     {
         "name": "Spark Slicer I",
         "weaponType": "Long Sword",
-        "id": 159,
+        "id": 162,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 10,
@@ -4261,7 +4346,7 @@ export default longSwordWeaponList = [
     {
         "name": "Spark Slicer II",
         "weaponType": "Long Sword",
-        "id": 160,
+        "id": 163,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 10,
@@ -4287,7 +4372,7 @@ export default longSwordWeaponList = [
     {
         "name": "Shocking Slicer",
         "weaponType": "Long Sword",
-        "id": 161,
+        "id": 164,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 15,
@@ -4315,7 +4400,7 @@ export default longSwordWeaponList = [
     {
         "name": "Shocking Slicer+",
         "weaponType": "Long Sword",
-        "id": 162,
+        "id": 165,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 15,
@@ -4343,7 +4428,7 @@ export default longSwordWeaponList = [
     {
         "name": "Shockstrike",
         "weaponType": "Long Sword",
-        "id": 163,
+        "id": 166,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": 15,
@@ -4371,7 +4456,7 @@ export default longSwordWeaponList = [
     {
         "name": "Shockstrike+",
         "weaponType": "Long Sword",
-        "id": 164,
+        "id": 167,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 15,
@@ -4400,7 +4485,7 @@ export default longSwordWeaponList = [
     {
         "name": "Jyura Saber I",
         "weaponType": "Long Sword",
-        "id": 165,
+        "id": 168,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -4426,7 +4511,7 @@ export default longSwordWeaponList = [
     {
         "name": "Jyura Saber II",
         "weaponType": "Long Sword",
-        "id": 166,
+        "id": 169,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -4452,7 +4537,7 @@ export default longSwordWeaponList = [
     {
         "name": "Jyura Reaver",
         "weaponType": "Long Sword",
-        "id": 167,
+        "id": 170,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -4478,7 +4563,7 @@ export default longSwordWeaponList = [
     {
         "name": "Jyura Reaver+",
         "weaponType": "Long Sword",
-        "id": 168,
+        "id": 171,
         "isBlademaster": true,
         "baseRaw": 270,
         "baseAffinity": -10,
@@ -4506,7 +4591,7 @@ export default longSwordWeaponList = [
     {
         "name": "Valtos Slough",
         "weaponType": "Long Sword",
-        "id": 169,
+        "id": 172,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": -10,
@@ -4535,7 +4620,7 @@ export default longSwordWeaponList = [
     {
         "name": "Valtos Slough+",
         "weaponType": "Long Sword",
-        "id": 170,
+        "id": 173,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -4564,7 +4649,7 @@ export default longSwordWeaponList = [
     {
         "name": "Anteka Blade I",
         "weaponType": "Long Sword",
-        "id": 171,
+        "id": 174,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -4590,7 +4675,7 @@ export default longSwordWeaponList = [
     {
         "name": "Anteka Blade II",
         "weaponType": "Long Sword",
-        "id": 172,
+        "id": 175,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4616,7 +4701,7 @@ export default longSwordWeaponList = [
     {
         "name": "Anteka Rack",
         "weaponType": "Long Sword",
-        "id": 173,
+        "id": 176,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -4642,7 +4727,7 @@ export default longSwordWeaponList = [
     {
         "name": "Great Anteka Blade",
         "weaponType": "Long Sword",
-        "id": 174,
+        "id": 177,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -4668,7 +4753,7 @@ export default longSwordWeaponList = [
     {
         "name": "Great Anteka Blade+",
         "weaponType": "Long Sword",
-        "id": 175,
+        "id": 178,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -4694,7 +4779,7 @@ export default longSwordWeaponList = [
     {
         "name": "King Anteka Blade",
         "weaponType": "Long Sword",
-        "id": 176,
+        "id": 179,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -4722,7 +4807,7 @@ export default longSwordWeaponList = [
     {
         "name": "Frilled Slash I",
         "weaponType": "Long Sword",
-        "id": 177,
+        "id": 180,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -4748,7 +4833,7 @@ export default longSwordWeaponList = [
     {
         "name": "Frilled Slash II",
         "weaponType": "Long Sword",
-        "id": 178,
+        "id": 181,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 0,
@@ -4774,7 +4859,7 @@ export default longSwordWeaponList = [
     {
         "name": "Illusory Frilled Slash",
         "weaponType": "Long Sword",
-        "id": 179,
+        "id": 182,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -4802,7 +4887,7 @@ export default longSwordWeaponList = [
     {
         "name": "Illusory Frilled Slash+",
         "weaponType": "Long Sword",
-        "id": 180,
+        "id": 183,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4831,7 +4916,7 @@ export default longSwordWeaponList = [
     {
         "name": "Nightmare Frilled Slash",
         "weaponType": "Long Sword",
-        "id": 181,
+        "id": 184,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -4860,7 +4945,7 @@ export default longSwordWeaponList = [
     {
         "name": "Nightmare Frilled Slash+",
         "weaponType": "Long Sword",
-        "id": 182,
+        "id": 185,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -4889,7 +4974,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bloom Snow Slash",
         "weaponType": "Long Sword",
-        "id": 183,
+        "id": 186,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": 0,
@@ -4918,7 +5003,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bloom Snow Slash+",
         "weaponType": "Long Sword",
-        "id": 184,
+        "id": 187,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -4947,7 +5032,7 @@ export default longSwordWeaponList = [
     {
         "name": "Flicker Blizzard Slash",
         "weaponType": "Long Sword",
-        "id": 185,
+        "id": 188,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -4976,7 +5061,7 @@ export default longSwordWeaponList = [
     {
         "name": "Drowning Shaft I",
         "weaponType": "Long Sword",
-        "id": 186,
+        "id": 189,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5002,7 +5087,7 @@ export default longSwordWeaponList = [
     {
         "name": "Drowning Shaft II",
         "weaponType": "Long Sword",
-        "id": 187,
+        "id": 190,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -5028,7 +5113,7 @@ export default longSwordWeaponList = [
     {
         "name": "Douser Bardiche",
         "weaponType": "Long Sword",
-        "id": 188,
+        "id": 191,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -5058,7 +5143,7 @@ export default longSwordWeaponList = [
     {
         "name": "Douser Bardiche+",
         "weaponType": "Long Sword",
-        "id": 189,
+        "id": 192,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -5088,7 +5173,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wasserfallis",
         "weaponType": "Long Sword",
-        "id": 190,
+        "id": 193,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -5118,7 +5203,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wasserfallis+",
         "weaponType": "Long Sword",
-        "id": 191,
+        "id": 194,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5148,7 +5233,7 @@ export default longSwordWeaponList = [
     {
         "name": "Golm Cutter",
         "weaponType": "Long Sword",
-        "id": 192,
+        "id": 195,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5176,7 +5261,7 @@ export default longSwordWeaponList = [
     {
         "name": "Golm Cutter+",
         "weaponType": "Long Sword",
-        "id": 193,
+        "id": 196,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5204,7 +5289,7 @@ export default longSwordWeaponList = [
     {
         "name": "Titanfeller",
         "weaponType": "Long Sword",
-        "id": 194,
+        "id": 197,
         "isBlademaster": true,
         "baseRaw": 350,
         "baseAffinity": 0,
@@ -5232,7 +5317,7 @@ export default longSwordWeaponList = [
     {
         "name": "Arzuros Naginata I",
         "weaponType": "Long Sword",
-        "id": 195,
+        "id": 198,
         "isBlademaster": true,
         "baseRaw": 90,
         "baseAffinity": 0,
@@ -5256,7 +5341,7 @@ export default longSwordWeaponList = [
     {
         "name": "Arzuros Naginata II",
         "weaponType": "Long Sword",
-        "id": 196,
+        "id": 199,
         "isBlademaster": true,
         "baseRaw": 110,
         "baseAffinity": 0,
@@ -5280,7 +5365,7 @@ export default longSwordWeaponList = [
     {
         "name": "Arzuros Strikequill",
         "weaponType": "Long Sword",
-        "id": 197,
+        "id": 200,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -5306,7 +5391,7 @@ export default longSwordWeaponList = [
     {
         "name": "Arzuros Strikequill+",
         "weaponType": "Long Sword",
-        "id": 198,
+        "id": 201,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 0,
@@ -5332,7 +5417,7 @@ export default longSwordWeaponList = [
     {
         "name": "Arzuros Telltail",
         "weaponType": "Long Sword",
-        "id": 199,
+        "id": 202,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5359,7 +5444,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wind Thief Scimitar I",
         "weaponType": "Long Sword",
-        "id": 200,
+        "id": 203,
         "isBlademaster": true,
         "baseRaw": 70,
         "baseAffinity": 10,
@@ -5383,7 +5468,7 @@ export default longSwordWeaponList = [
     {
         "name": "Wind Thief Scimitar II",
         "weaponType": "Long Sword",
-        "id": 201,
+        "id": 204,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 15,
@@ -5407,7 +5492,7 @@ export default longSwordWeaponList = [
     {
         "name": "Gale Scimitar",
         "weaponType": "Long Sword",
-        "id": 202,
+        "id": 205,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 15,
@@ -5434,7 +5519,7 @@ export default longSwordWeaponList = [
     {
         "name": "Gale Scimitar+",
         "weaponType": "Long Sword",
-        "id": 203,
+        "id": 206,
         "isBlademaster": true,
         "baseRaw": 230,
         "baseAffinity": 15,
@@ -5461,7 +5546,7 @@ export default longSwordWeaponList = [
     {
         "name": "Reaper Blade Boldus",
         "weaponType": "Long Sword",
-        "id": 204,
+        "id": 207,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 25,
@@ -5488,7 +5573,7 @@ export default longSwordWeaponList = [
     {
         "name": "Dark Scythe I",
         "weaponType": "Long Sword",
-        "id": 205,
+        "id": 208,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": -15,
@@ -5515,7 +5600,7 @@ export default longSwordWeaponList = [
     {
         "name": "Tormentor",
         "weaponType": "Long Sword",
-        "id": 206,
+        "id": 209,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -5543,7 +5628,7 @@ export default longSwordWeaponList = [
     {
         "name": "Tormentor+",
         "weaponType": "Long Sword",
-        "id": 207,
+        "id": 210,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": -10,
@@ -5571,7 +5656,7 @@ export default longSwordWeaponList = [
     {
         "name": "Darkness Within",
         "weaponType": "Long Sword",
-        "id": 208,
+        "id": 211,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": -10,
@@ -5599,7 +5684,7 @@ export default longSwordWeaponList = [
     {
         "name": "Darkness Within+",
         "weaponType": "Long Sword",
-        "id": 209,
+        "id": 212,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -5627,7 +5712,7 @@ export default longSwordWeaponList = [
     {
         "name": "Crab Cutter",
         "weaponType": "Long Sword",
-        "id": 210,
+        "id": 213,
         "isBlademaster": true,
         "baseRaw": 240,
         "baseAffinity": 0,
@@ -5655,7 +5740,7 @@ export default longSwordWeaponList = [
     {
         "name": "Crab Cutter+",
         "weaponType": "Long Sword",
-        "id": 211,
+        "id": 214,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 0,
@@ -5683,7 +5768,7 @@ export default longSwordWeaponList = [
     {
         "name": "Daimyo Cutter",
         "weaponType": "Long Sword",
-        "id": 212,
+        "id": 215,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -5711,7 +5796,7 @@ export default longSwordWeaponList = [
     {
         "name": "Ceanataur Cutter",
         "weaponType": "Long Sword",
-        "id": 213,
+        "id": 216,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -5739,7 +5824,7 @@ export default longSwordWeaponList = [
     {
         "name": "Ceanataur Cutter+",
         "weaponType": "Long Sword",
-        "id": 214,
+        "id": 217,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -5767,7 +5852,7 @@ export default longSwordWeaponList = [
     {
         "name": "Killer's Sickle",
         "weaponType": "Long Sword",
-        "id": 215,
+        "id": 218,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -5795,7 +5880,7 @@ export default longSwordWeaponList = [
     {
         "name": "Scythe of Menace I",
         "weaponType": "Long Sword",
-        "id": 216,
+        "id": 219,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": -10,
@@ -5821,7 +5906,7 @@ export default longSwordWeaponList = [
     {
         "name": "Scythe of Menace II",
         "weaponType": "Long Sword",
-        "id": 217,
+        "id": 220,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -5847,7 +5932,7 @@ export default longSwordWeaponList = [
     {
         "name": "Big Menacing Scythe",
         "weaponType": "Long Sword",
-        "id": 218,
+        "id": 221,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -5873,7 +5958,7 @@ export default longSwordWeaponList = [
     {
         "name": "Jinxmonger",
         "weaponType": "Long Sword",
-        "id": 219,
+        "id": 222,
         "isBlademaster": true,
         "baseRaw": 260,
         "baseAffinity": -10,
@@ -5899,7 +5984,7 @@ export default longSwordWeaponList = [
     {
         "name": "Jinxmonger+",
         "weaponType": "Long Sword",
-        "id": 220,
+        "id": 223,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": -10,
@@ -5925,7 +6010,7 @@ export default longSwordWeaponList = [
     {
         "name": "Malicemonger",
         "weaponType": "Long Sword",
-        "id": 221,
+        "id": 224,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -5951,7 +6036,7 @@ export default longSwordWeaponList = [
     {
         "name": "Sinister Long Sword I",
         "weaponType": "Long Sword",
-        "id": 222,
+        "id": 225,
         "isBlademaster": true,
         "baseRaw": 130,
         "baseAffinity": 0,
@@ -5977,7 +6062,7 @@ export default longSwordWeaponList = [
     {
         "name": "Sinister Long Sword II",
         "weaponType": "Long Sword",
-        "id": 223,
+        "id": 226,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -6003,7 +6088,7 @@ export default longSwordWeaponList = [
     {
         "name": "Sinister Shade Sword",
         "weaponType": "Long Sword",
-        "id": 224,
+        "id": 227,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6032,7 +6117,7 @@ export default longSwordWeaponList = [
     {
         "name": "Sinister Shade Sword+",
         "weaponType": "Long Sword",
-        "id": 225,
+        "id": 228,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 0,
@@ -6061,7 +6146,7 @@ export default longSwordWeaponList = [
     {
         "name": "Tormented Shade Sword",
         "weaponType": "Long Sword",
-        "id": 226,
+        "id": 229,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6090,7 +6175,7 @@ export default longSwordWeaponList = [
     {
         "name": "Devil's Deal",
         "weaponType": "Long Sword",
-        "id": 227,
+        "id": 230,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6119,7 +6204,7 @@ export default longSwordWeaponList = [
     {
         "name": "Stahlfakt",
         "weaponType": "Long Sword",
-        "id": 228,
+        "id": 231,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 20,
@@ -6147,7 +6232,7 @@ export default longSwordWeaponList = [
     {
         "name": "Stahlfakt+",
         "weaponType": "Long Sword",
-        "id": 229,
+        "id": 232,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 20,
@@ -6175,7 +6260,7 @@ export default longSwordWeaponList = [
     {
         "name": "Stahlurteil",
         "weaponType": "Long Sword",
-        "id": 230,
+        "id": 233,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 20,
@@ -6203,7 +6288,7 @@ export default longSwordWeaponList = [
     {
         "name": "La Justici\u00e8re",
         "weaponType": "Long Sword",
-        "id": 231,
+        "id": 234,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 35,
@@ -6229,7 +6314,7 @@ export default longSwordWeaponList = [
     {
         "name": "Le D\u00e9calogue",
         "weaponType": "Long Sword",
-        "id": 232,
+        "id": 235,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 35,
@@ -6255,7 +6340,7 @@ export default longSwordWeaponList = [
     {
         "name": "Demon Halberd I",
         "weaponType": "Long Sword",
-        "id": 233,
+        "id": 236,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": -10,
@@ -6281,7 +6366,7 @@ export default longSwordWeaponList = [
     {
         "name": "Demon Halberd II",
         "weaponType": "Long Sword",
-        "id": 234,
+        "id": 237,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -6309,7 +6394,7 @@ export default longSwordWeaponList = [
     {
         "name": "Great Demon Halberd",
         "weaponType": "Long Sword",
-        "id": 235,
+        "id": 238,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6337,7 +6422,7 @@ export default longSwordWeaponList = [
     {
         "name": "Great Demon Halberd+",
         "weaponType": "Long Sword",
-        "id": 236,
+        "id": 239,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -6365,7 +6450,7 @@ export default longSwordWeaponList = [
     {
         "name": "Evil Demon Halberd",
         "weaponType": "Long Sword",
-        "id": 237,
+        "id": 240,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -10,
@@ -6393,7 +6478,7 @@ export default longSwordWeaponList = [
     {
         "name": "Demonlord Halberd",
         "weaponType": "Long Sword",
-        "id": 238,
+        "id": 241,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6422,7 +6507,7 @@ export default longSwordWeaponList = [
     {
         "name": "Azure Elder Long Sword I",
         "weaponType": "Long Sword",
-        "id": 239,
+        "id": 242,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6448,7 +6533,7 @@ export default longSwordWeaponList = [
     {
         "name": "Azure Elder Long Sword II",
         "weaponType": "Long Sword",
-        "id": 240,
+        "id": 243,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6474,7 +6559,7 @@ export default longSwordWeaponList = [
     {
         "name": "Abyssal Gale Sword",
         "weaponType": "Long Sword",
-        "id": 241,
+        "id": 244,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6500,7 +6585,7 @@ export default longSwordWeaponList = [
     {
         "name": "Pandemonium",
         "weaponType": "Long Sword",
-        "id": 242,
+        "id": 245,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6526,7 +6611,7 @@ export default longSwordWeaponList = [
     {
         "name": "Thunderbolt Long Sword I",
         "weaponType": "Long Sword",
-        "id": 243,
+        "id": 246,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6552,7 +6637,7 @@ export default longSwordWeaponList = [
     {
         "name": "Abyssal Storm Sword",
         "weaponType": "Long Sword",
-        "id": 244,
+        "id": 247,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6578,7 +6663,7 @@ export default longSwordWeaponList = [
     {
         "name": "Torrential Hail",
         "weaponType": "Long Sword",
-        "id": 245,
+        "id": 248,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6604,7 +6689,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rookslayer Saber I",
         "weaponType": "Long Sword",
-        "id": 246,
+        "id": 249,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": -10,
@@ -6632,7 +6717,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rookslayer Saber II",
         "weaponType": "Long Sword",
-        "id": 247,
+        "id": 250,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": -10,
@@ -6660,7 +6745,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bazel Varga Rookslayer",
         "weaponType": "Long Sword",
-        "id": 248,
+        "id": 251,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": -10,
@@ -6688,7 +6773,7 @@ export default longSwordWeaponList = [
     {
         "name": "Bazel Jarre Blazer",
         "weaponType": "Long Sword",
-        "id": 249,
+        "id": 252,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": -10,
@@ -6714,9 +6799,38 @@ export default longSwordWeaponList = [
         "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1922607234.webp"
     },
     {
+        "name": "Bazel Prozio Rooksearer",
+        "weaponType": "Long Sword",
+        "id": 253,
+        "isBlademaster": true,
+        "baseRaw": 340,
+        "baseAffinity": -10,
+        "elements": {
+            "blast": 28
+        },
+        "sharpness": {
+            "startsMaxed": false,
+            "red": 40,
+            "orange": 70,
+            "yellow": 70,
+            "green": 60,
+            "blue": 30,
+            "white": 70,
+            "purple": 60
+        },
+        "slots": [
+            "1",
+            "1"
+        ],
+        "rampageSlot": "2",
+        "defenseBonus": 0,
+        "unique": [],
+        "imgSrc": "http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1936857251.webp"
+    },
+    {
         "name": "Icesteel Blade I",
         "weaponType": "Long Sword",
-        "id": 250,
+        "id": 254,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -6744,7 +6858,7 @@ export default longSwordWeaponList = [
     {
         "name": "Daora's Raid",
         "weaponType": "Long Sword",
-        "id": 251,
+        "id": 255,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6772,7 +6886,7 @@ export default longSwordWeaponList = [
     {
         "name": "Daora's Raid+",
         "weaponType": "Long Sword",
-        "id": 252,
+        "id": 256,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 0,
@@ -6800,7 +6914,7 @@ export default longSwordWeaponList = [
     {
         "name": "Daora's Storm",
         "weaponType": "Long Sword",
-        "id": 253,
+        "id": 257,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -6828,7 +6942,7 @@ export default longSwordWeaponList = [
     {
         "name": "Imperial Saber I",
         "weaponType": "Long Sword",
-        "id": 254,
+        "id": 258,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -6854,7 +6968,7 @@ export default longSwordWeaponList = [
     {
         "name": "Imperial Shimmer",
         "weaponType": "Long Sword",
-        "id": 255,
+        "id": 259,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -6880,7 +6994,7 @@ export default longSwordWeaponList = [
     {
         "name": "Imperial Shimmer+",
         "weaponType": "Long Sword",
-        "id": 256,
+        "id": 260,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 0,
@@ -6908,7 +7022,7 @@ export default longSwordWeaponList = [
     {
         "name": "Imperial Flickerflame",
         "weaponType": "Long Sword",
-        "id": 257,
+        "id": 261,
         "isBlademaster": true,
         "baseRaw": 330,
         "baseAffinity": 0,
@@ -6936,7 +7050,7 @@ export default longSwordWeaponList = [
     {
         "name": "Mirage Finsword I",
         "weaponType": "Long Sword",
-        "id": 258,
+        "id": 262,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 15,
@@ -6964,7 +7078,7 @@ export default longSwordWeaponList = [
     {
         "name": "Phantom Mirage",
         "weaponType": "Long Sword",
-        "id": 259,
+        "id": 263,
         "isBlademaster": true,
         "baseRaw": 220,
         "baseAffinity": 15,
@@ -6992,7 +7106,7 @@ export default longSwordWeaponList = [
     {
         "name": "Phantom Mirage+",
         "weaponType": "Long Sword",
-        "id": 260,
+        "id": 264,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 15,
@@ -7020,7 +7134,7 @@ export default longSwordWeaponList = [
     {
         "name": "Skulduggery",
         "weaponType": "Long Sword",
-        "id": 261,
+        "id": 265,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 15,
@@ -7048,7 +7162,7 @@ export default longSwordWeaponList = [
     {
         "name": "Redwing Long Sword I",
         "weaponType": "Long Sword",
-        "id": 262,
+        "id": 266,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7076,7 +7190,7 @@ export default longSwordWeaponList = [
     {
         "name": "Reddnaught Blade",
         "weaponType": "Long Sword",
-        "id": 263,
+        "id": 267,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7104,7 +7218,7 @@ export default longSwordWeaponList = [
     {
         "name": "Red Flash",
         "weaponType": "Long Sword",
-        "id": 264,
+        "id": 268,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7132,7 +7246,7 @@ export default longSwordWeaponList = [
     {
         "name": "Abyssal Flicker",
         "weaponType": "Long Sword",
-        "id": 265,
+        "id": 269,
         "isBlademaster": true,
         "baseRaw": 340,
         "baseAffinity": -25,
@@ -7158,7 +7272,7 @@ export default longSwordWeaponList = [
     {
         "name": "Cawscythe I",
         "weaponType": "Long Sword",
-        "id": 266,
+        "id": 270,
         "isBlademaster": true,
         "baseRaw": 100,
         "baseAffinity": 0,
@@ -7184,7 +7298,7 @@ export default longSwordWeaponList = [
     {
         "name": "Cawscythe II",
         "weaponType": "Long Sword",
-        "id": 267,
+        "id": 271,
         "isBlademaster": true,
         "baseRaw": 140,
         "baseAffinity": 0,
@@ -7210,7 +7324,7 @@ export default longSwordWeaponList = [
     {
         "name": "Cawscythe III",
         "weaponType": "Long Sword",
-        "id": 268,
+        "id": 272,
         "isBlademaster": true,
         "baseRaw": 160,
         "baseAffinity": 0,
@@ -7239,7 +7353,7 @@ export default longSwordWeaponList = [
     {
         "name": "Squawkscythe",
         "weaponType": "Long Sword",
-        "id": 269,
+        "id": 273,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7268,7 +7382,7 @@ export default longSwordWeaponList = [
     {
         "name": "Squawkscythe+",
         "weaponType": "Long Sword",
-        "id": 270,
+        "id": 274,
         "isBlademaster": true,
         "baseRaw": 250,
         "baseAffinity": 0,
@@ -7297,7 +7411,7 @@ export default longSwordWeaponList = [
     {
         "name": "Screakscythe",
         "weaponType": "Long Sword",
-        "id": 271,
+        "id": 275,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7326,7 +7440,7 @@ export default longSwordWeaponList = [
     {
         "name": "Hand-Me-Down Sword I",
         "weaponType": "Long Sword",
-        "id": 272,
+        "id": 276,
         "isBlademaster": true,
         "baseRaw": 120,
         "baseAffinity": 10,
@@ -7352,7 +7466,7 @@ export default longSwordWeaponList = [
     {
         "name": "Hand-Me-Down Sword II",
         "weaponType": "Long Sword",
-        "id": 273,
+        "id": 277,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 10,
@@ -7380,7 +7494,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kamura's Inheritance",
         "weaponType": "Long Sword",
-        "id": 274,
+        "id": 278,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 40,
@@ -7408,7 +7522,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kamura's Inheritance+",
         "weaponType": "Long Sword",
-        "id": 275,
+        "id": 279,
         "isBlademaster": true,
         "baseRaw": 280,
         "baseAffinity": 40,
@@ -7436,7 +7550,7 @@ export default longSwordWeaponList = [
     {
         "name": "Kamura's Legacy",
         "weaponType": "Long Sword",
-        "id": 276,
+        "id": 280,
         "isBlademaster": true,
         "baseRaw": 290,
         "baseAffinity": 40,
@@ -7464,7 +7578,7 @@ export default longSwordWeaponList = [
     {
         "name": "Royal Order's Claymore",
         "weaponType": "Long Sword",
-        "id": 277,
+        "id": 281,
         "isBlademaster": true,
         "baseRaw": 300,
         "baseAffinity": 10,
@@ -7490,7 +7604,7 @@ export default longSwordWeaponList = [
     {
         "name": "Royal Order's Claymore+",
         "weaponType": "Long Sword",
-        "id": 278,
+        "id": 282,
         "isBlademaster": true,
         "baseRaw": 310,
         "baseAffinity": 10,
@@ -7517,7 +7631,7 @@ export default longSwordWeaponList = [
     {
         "name": "Antique Machina LS",
         "weaponType": "Long Sword",
-        "id": 279,
+        "id": 283,
         "isBlademaster": true,
         "baseRaw": 320,
         "baseAffinity": 0,
@@ -7543,7 +7657,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rampage Blade I",
         "weaponType": "Long Sword",
-        "id": 280,
+        "id": 284,
         "isBlademaster": true,
         "baseRaw": 150,
         "baseAffinity": 0,
@@ -7567,7 +7681,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rampage Blade II",
         "weaponType": "Long Sword",
-        "id": 281,
+        "id": 285,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 0,
@@ -7591,7 +7705,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rampage Blade III",
         "weaponType": "Long Sword",
-        "id": 282,
+        "id": 286,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 0,
@@ -7615,7 +7729,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rampage Blade IV",
         "weaponType": "Long Sword",
-        "id": 283,
+        "id": 287,
         "isBlademaster": true,
         "baseRaw": 190,
         "baseAffinity": 0,
@@ -7639,7 +7753,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rampage Blade V",
         "weaponType": "Long Sword",
-        "id": 284,
+        "id": 288,
         "isBlademaster": true,
         "baseRaw": 200,
         "baseAffinity": 0,
@@ -7663,7 +7777,7 @@ export default longSwordWeaponList = [
     {
         "name": "Rampage Blade S",
         "weaponType": "Long Sword",
-        "id": 285,
+        "id": 289,
         "isBlademaster": true,
         "baseRaw": 210,
         "baseAffinity": 0,
@@ -7687,7 +7801,7 @@ export default longSwordWeaponList = [
     {
         "name": "Azure Star Blade I",
         "weaponType": "Long Sword",
-        "id": 286,
+        "id": 290,
         "isBlademaster": true,
         "baseRaw": 170,
         "baseAffinity": 20,
@@ -7715,7 +7829,7 @@ export default longSwordWeaponList = [
     {
         "name": "Azure Star \"Dragon Dance\"",
         "weaponType": "Long Sword",
-        "id": 287,
+        "id": 291,
         "isBlademaster": true,
         "baseRaw": 180,
         "baseAffinity": 30,

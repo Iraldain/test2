@@ -3,7 +3,7 @@ export const bestiary = [
         "name": "Aknosom",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2084266193",
         "kiranicoId": "2084266193",
-        "monsterId": 17,
+        "monsterId": 4,
         "hitzones": [
             {
                 "name": "Head",
@@ -123,7 +123,7 @@ export const bestiary = [
         "name": "Almudron",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2040569941",
         "kiranicoId": "2040569941",
-        "monsterId": 18,
+        "monsterId": 5,
         "hitzones": [
             {
                 "name": "Head",
@@ -257,7 +257,7 @@ export const bestiary = [
         "name": "Anjanath",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1743214542",
         "kiranicoId": "1743214542",
-        "monsterId": 19,
+        "monsterId": 6,
         "hitzones": [
             {
                 "name": "Snout",
@@ -377,7 +377,7 @@ export const bestiary = [
         "name": "Apex Arzuros",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1192999830",
         "kiranicoId": "1192999830",
-        "monsterId": 20,
+        "monsterId": 7,
         "hitzones": [
             {
                 "name": "Head",
@@ -511,7 +511,7 @@ export const bestiary = [
         "name": "Apex Diablos",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/36049421",
         "kiranicoId": "36049421",
-        "monsterId": 21,
+        "monsterId": 8,
         "hitzones": [
             {
                 "name": "Horn",
@@ -771,7 +771,7 @@ export const bestiary = [
         "name": "Apex Mizutsune",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2043189560",
         "kiranicoId": "2043189560",
-        "monsterId": 22,
+        "monsterId": 9,
         "hitzones": [
             {
                 "name": "Head",
@@ -1409,7 +1409,7 @@ export const bestiary = [
         "name": "Apex Rathalos",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/99050216",
         "kiranicoId": "99050216",
-        "monsterId": 23,
+        "monsterId": 10,
         "hitzones": [
             {
                 "name": "Head",
@@ -1613,7 +1613,7 @@ export const bestiary = [
         "name": "Apex Rathian",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/453915339",
         "kiranicoId": "453915339",
-        "monsterId": 24,
+        "monsterId": 11,
         "hitzones": [
             {
                 "name": "Head",
@@ -1658,7 +1658,7 @@ export const bestiary = [
                 "none": 100
             },
             {
-                "name": "Body",
+                "name": "\u80f4_\u64cd\u7adc\u5618\u30a2\u30bf\u30ea\u7528",
                 "state": "0",
                 "sever": "24",
                 "blunt": "24",
@@ -1775,7 +1775,7 @@ export const bestiary = [
         "name": "Apex Zinogre",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1150792755",
         "kiranicoId": "1150792755",
-        "monsterId": 25,
+        "monsterId": 12,
         "hitzones": [
             {
                 "name": "Head",
@@ -2119,7 +2119,7 @@ export const bestiary = [
         "name": "Arzuros",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1374346390",
         "kiranicoId": "1374346390",
-        "monsterId": 26,
+        "monsterId": 13,
         "hitzones": [
             {
                 "name": "Head",
@@ -2211,7 +2211,7 @@ export const bestiary = [
         "name": "Astalos",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1237729819",
         "kiranicoId": "1237729819",
-        "monsterId": 0,
+        "monsterId": 14,
         "hitzones": [
             {
                 "name": "Crest",
@@ -2429,7 +2429,7 @@ export const bestiary = [
         "name": "Aurora Somnacanth",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/88482199",
         "kiranicoId": "88482199",
-        "monsterId": 1,
+        "monsterId": 15,
         "hitzones": [
             {
                 "name": "Head",
@@ -2549,7 +2549,7 @@ export const bestiary = [
         "name": "Barioth",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/614678208",
         "kiranicoId": "614678208",
-        "monsterId": 27,
+        "monsterId": 16,
         "hitzones": [
             {
                 "name": "Head",
@@ -2697,7 +2697,7 @@ export const bestiary = [
         "name": "Barroth",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/643686022",
         "kiranicoId": "643686022",
-        "monsterId": 28,
+        "monsterId": 17,
         "hitzones": [
             {
                 "name": "Head",
@@ -2985,7 +2985,7 @@ export const bestiary = [
         "name": "Basarios",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/274815918",
         "kiranicoId": "274815918",
-        "monsterId": 29,
+        "monsterId": 18,
         "hitzones": [
             {
                 "name": "Head",
@@ -3371,7 +3371,7 @@ export const bestiary = [
         "name": "Bazelgeuse",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/321844636",
         "kiranicoId": "321844636",
-        "monsterId": 30,
+        "monsterId": 19,
         "hitzones": [
             {
                 "name": "Head",
@@ -3547,7 +3547,7 @@ export const bestiary = [
         "name": "Bishaten",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1935814960",
         "kiranicoId": "1935814960",
-        "monsterId": 31,
+        "monsterId": 20,
         "hitzones": [
             {
                 "name": "Head",
@@ -3639,7 +3639,7 @@ export const bestiary = [
         "name": "Blood Orange Bishaten",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/447894064",
         "kiranicoId": "447894064",
-        "monsterId": 2,
+        "monsterId": 21,
         "hitzones": [
             {
                 "name": "Head",
@@ -3731,7 +3731,7 @@ export const bestiary = [
         "name": "Chameleos",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/138201299",
         "kiranicoId": "138201299",
-        "monsterId": 32,
+        "monsterId": 22,
         "hitzones": [
             {
                 "name": "Head",
@@ -3935,7 +3935,7 @@ export const bestiary = [
         "name": "Crimson Glow Valstrax",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/815111868",
         "kiranicoId": "815111868",
-        "monsterId": 33,
+        "monsterId": 23,
         "hitzones": [
             {
                 "name": "Head",
@@ -4503,7 +4503,7 @@ export const bestiary = [
         "name": "Daimyo Hermitaur",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/19196313",
         "kiranicoId": "19196313",
-        "monsterId": 3,
+        "monsterId": 24,
         "hitzones": [
             {
                 "name": "Head",
@@ -4777,7 +4777,7 @@ export const bestiary = [
         "name": "Diablos",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/485829389",
         "kiranicoId": "485829389",
-        "monsterId": 34,
+        "monsterId": 25,
         "hitzones": [
             {
                 "name": "Horn",
@@ -4911,7 +4911,7 @@ export const bestiary = [
         "name": "Espinas",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/141986722",
         "kiranicoId": "141986722",
-        "monsterId": 4,
+        "monsterId": 26,
         "hitzones": [
             {
                 "name": "Head",
@@ -5171,7 +5171,7 @@ export const bestiary = [
         "name": "Furious Rajang",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1326634525",
         "kiranicoId": "1326634525",
-        "monsterId": 5,
+        "monsterId": 27,
         "hitzones": [
             {
                 "name": "Head",
@@ -5188,7 +5188,7 @@ export const bestiary = [
                 "none": 100
             },
             {
-                "name": "Torso",
+                "name": "\u80f4\u4f53(\u64cd\u7adc\u53d7\u4ed8\u7528)",
                 "state": "0",
                 "sever": "45",
                 "blunt": "45",
@@ -5277,7 +5277,7 @@ export const bestiary = [
         "name": "Gaismagorm",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/261970829",
         "kiranicoId": "261970829",
-        "monsterId": 6,
+        "monsterId": 28,
         "hitzones": [
             {
                 "name": "Head",
@@ -5411,7 +5411,7 @@ export const bestiary = [
         "name": "Garangolm",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/247196652",
         "kiranicoId": "247196652",
-        "monsterId": 7,
+        "monsterId": 29,
         "hitzones": [
             {
                 "name": "Head",
@@ -5654,10 +5654,214 @@ export const bestiary = [
         ]
     },
     {
+        "name": "Gold Rathian",
+        "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1518179787",
+        "kiranicoId": "1518179787",
+        "monsterId": 0,
+        "hitzones": [
+            {
+                "name": "Head",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "22",
+                "fire": "0",
+                "water": "5",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "1",
+                "sever": "55",
+                "blunt": "60",
+                "pierce": "45",
+                "fire": "0",
+                "water": "15",
+                "ice": "10",
+                "thunder": "20",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "2",
+                "sever": "55",
+                "blunt": "60",
+                "pierce": "45",
+                "fire": "0",
+                "water": "15",
+                "ice": "10",
+                "thunder": "20",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "3",
+                "sever": "65",
+                "blunt": "70",
+                "pierce": "50",
+                "fire": "0",
+                "water": "20",
+                "ice": "15",
+                "thunder": "25",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "22",
+                "fire": "0",
+                "water": "5",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "1",
+                "sever": "40",
+                "blunt": "40",
+                "pierce": "30",
+                "fire": "0",
+                "water": "15",
+                "ice": "15",
+                "thunder": "20",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "2",
+                "sever": "38",
+                "blunt": "38",
+                "pierce": "30",
+                "fire": "0",
+                "water": "10",
+                "ice": "10",
+                "thunder": "15",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "3",
+                "sever": "45",
+                "blunt": "45",
+                "pierce": "35",
+                "fire": "0",
+                "water": "20",
+                "ice": "15",
+                "thunder": "25",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "\u80f4_\u64cd\u7adc\u5618\u30a2\u30bf\u30ea\u7528",
+                "state": "0",
+                "sever": "25",
+                "blunt": "30",
+                "pierce": "30",
+                "fire": "5",
+                "water": "10",
+                "ice": "10",
+                "thunder": "15",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Back",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "15",
+                "fire": "0",
+                "water": "5",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Wing",
+                "state": "0",
+                "sever": "35",
+                "blunt": "35",
+                "pierce": "35",
+                "fire": "0",
+                "water": "15",
+                "ice": "10",
+                "thunder": "15",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Leg",
+                "state": "0",
+                "sever": "44",
+                "blunt": "44",
+                "pierce": "45",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail",
+                "state": "0",
+                "sever": "20",
+                "blunt": "20",
+                "pierce": "45",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail Tip",
+                "state": "0",
+                "sever": "45",
+                "blunt": "45",
+                "pierce": "45",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            }
+        ]
+    },
+    {
         "name": "Gore Magala",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1161896781",
         "kiranicoId": "1161896781",
-        "monsterId": 8,
+        "monsterId": 30,
         "hitzones": [
             {
                 "name": "Head",
@@ -5791,7 +5995,7 @@ export const bestiary = [
         "name": "Goss Harag",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2069053547",
         "kiranicoId": "2069053547",
-        "monsterId": 35,
+        "monsterId": 31,
         "hitzones": [
             {
                 "name": "Head",
@@ -5995,7 +6199,7 @@ export const bestiary = [
         "name": "Great Baggi",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/718470492",
         "kiranicoId": "718470492",
-        "monsterId": 36,
+        "monsterId": 32,
         "hitzones": [
             {
                 "name": "Head",
@@ -6031,7 +6235,7 @@ export const bestiary = [
         "name": "Great Izuchi",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1681174536",
         "kiranicoId": "1681174536",
-        "monsterId": 37,
+        "monsterId": 33,
         "hitzones": [
             {
                 "name": "Head",
@@ -6109,7 +6313,7 @@ export const bestiary = [
         "name": "Great Wroggi",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1460759793",
         "kiranicoId": "1460759793",
-        "monsterId": 38,
+        "monsterId": 34,
         "hitzones": [
             {
                 "name": "Head",
@@ -6145,7 +6349,7 @@ export const bestiary = [
         "name": "Jyuratodus",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1755961030",
         "kiranicoId": "1755961030",
-        "monsterId": 39,
+        "monsterId": 35,
         "hitzones": [
             {
                 "name": "Head",
@@ -6349,7 +6553,7 @@ export const bestiary = [
         "name": "Khezu",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/395307913",
         "kiranicoId": "395307913",
-        "monsterId": 40,
+        "monsterId": 36,
         "hitzones": [
             {
                 "name": "Head",
@@ -6483,7 +6687,7 @@ export const bestiary = [
         "name": "Kulu-Ya-Ku",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1875928865",
         "kiranicoId": "1875928865",
-        "monsterId": 41,
+        "monsterId": 37,
         "hitzones": [
             {
                 "name": "Head",
@@ -6659,7 +6863,7 @@ export const bestiary = [
         "name": "Kushala Daora",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/257661234",
         "kiranicoId": "257661234",
-        "monsterId": 42,
+        "monsterId": 38,
         "hitzones": [
             {
                 "name": "Head",
@@ -6779,7 +6983,7 @@ export const bestiary = [
         "name": "Lagombi",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1389104311",
         "kiranicoId": "1389104311",
-        "monsterId": 43,
+        "monsterId": 39,
         "hitzones": [
             {
                 "name": "Head",
@@ -6924,10 +7128,172 @@ export const bestiary = [
         ]
     },
     {
+        "name": "Lucent Nargacuga",
+        "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1661782447",
+        "kiranicoId": "1661782447",
+        "monsterId": 1,
+        "hitzones": [
+            {
+                "name": "Head",
+                "state": "0",
+                "sever": "55",
+                "blunt": "60",
+                "pierce": "45",
+                "fire": "0",
+                "water": "5",
+                "ice": "20",
+                "thunder": "0",
+                "dragon": "10",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "1",
+                "sever": "65",
+                "blunt": "70",
+                "pierce": "47",
+                "fire": "0",
+                "water": "10",
+                "ice": "25",
+                "thunder": "0",
+                "dragon": "15",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Neck/Back",
+                "state": "0",
+                "sever": "30",
+                "blunt": "30",
+                "pierce": "15",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "0",
+                "dragon": "10",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Abdomen",
+                "state": "0",
+                "sever": "25",
+                "blunt": "40",
+                "pierce": "30",
+                "fire": "0",
+                "water": "10",
+                "ice": "20",
+                "thunder": "0",
+                "dragon": "15",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Cutwing",
+                "state": "0",
+                "sever": "21",
+                "blunt": "24",
+                "pierce": "21",
+                "fire": "0",
+                "water": "10",
+                "ice": "30",
+                "thunder": "0",
+                "dragon": "15",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Foreleg",
+                "state": "0",
+                "sever": "38",
+                "blunt": "43",
+                "pierce": "30",
+                "fire": "0",
+                "water": "5",
+                "ice": "20",
+                "thunder": "0",
+                "dragon": "10",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Hind Leg",
+                "state": "0",
+                "sever": "30",
+                "blunt": "30",
+                "pierce": "25",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "0",
+                "dragon": "10",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail",
+                "state": "0",
+                "sever": "40",
+                "blunt": "35",
+                "pierce": "45",
+                "fire": "0",
+                "water": "5",
+                "ice": "10",
+                "thunder": "0",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail",
+                "state": "1",
+                "sever": "50",
+                "blunt": "60",
+                "pierce": "50",
+                "fire": "0",
+                "water": "10",
+                "ice": "25",
+                "thunder": "0",
+                "dragon": "15",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail Tip",
+                "state": "0",
+                "sever": "40",
+                "blunt": "35",
+                "pierce": "50",
+                "fire": "0",
+                "water": "5",
+                "ice": "10",
+                "thunder": "0",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail Tip",
+                "state": "1",
+                "sever": "50",
+                "blunt": "60",
+                "pierce": "60",
+                "fire": "0",
+                "water": "10",
+                "ice": "25",
+                "thunder": "0",
+                "dragon": "15",
+                "stun": "0",
+                "none": 100
+            }
+        ]
+    },
+    {
         "name": "Lunagaron",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/232963023",
         "kiranicoId": "232963023",
-        "monsterId": 9,
+        "monsterId": 40,
         "hitzones": [
             {
                 "name": "Head",
@@ -7229,7 +7595,7 @@ export const bestiary = [
         "name": "Magma Almudron",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/15778133",
         "kiranicoId": "15778133",
-        "monsterId": 10,
+        "monsterId": 41,
         "hitzones": [
             {
                 "name": "Head",
@@ -7447,7 +7813,7 @@ export const bestiary = [
         "name": "Magnamalo",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1921564947",
         "kiranicoId": "1921564947",
-        "monsterId": 44,
+        "monsterId": 42,
         "hitzones": [
             {
                 "name": "Head",
@@ -7609,7 +7975,7 @@ export const bestiary = [
         "name": "Malzeno",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/50943022",
         "kiranicoId": "50943022",
-        "monsterId": 11,
+        "monsterId": 43,
         "hitzones": [
             {
                 "name": "Head",
@@ -7757,7 +8123,7 @@ export const bestiary = [
         "name": "Mizutsune",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1251979832",
         "kiranicoId": "1251979832",
-        "monsterId": 45,
+        "monsterId": 44,
         "hitzones": [
             {
                 "name": "Head",
@@ -8395,7 +8761,7 @@ export const bestiary = [
         "name": "Nargacuga",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1047302063",
         "kiranicoId": "1047302063",
-        "monsterId": 46,
+        "monsterId": 45,
         "hitzones": [
             {
                 "name": "Head",
@@ -8557,7 +8923,7 @@ export const bestiary = [
         "name": "Narwa the Allmother",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/664702249",
         "kiranicoId": "664702249",
-        "monsterId": 47,
+        "monsterId": 46,
         "hitzones": [
             {
                 "name": "Head",
@@ -8803,7 +9169,7 @@ export const bestiary = [
         "name": "Pukei-Pukei",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1636956044",
         "kiranicoId": "1636956044",
-        "monsterId": 48,
+        "monsterId": 47,
         "hitzones": [
             {
                 "name": "Tongue",
@@ -8909,7 +9275,7 @@ export const bestiary = [
         "name": "Pyre Rakna-Kadaki",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/102732212",
         "kiranicoId": "102732212",
-        "monsterId": 12,
+        "monsterId": 48,
         "hitzones": [
             {
                 "name": "Head",
@@ -9074,7 +9440,7 @@ export const bestiary = [
                 "none": 100
             },
             {
-                "name": "Torso",
+                "name": "\u80f4\u4f53(\u64cd\u7adc\u53d7\u4ed8\u7528)",
                 "state": "0",
                 "sever": "45",
                 "blunt": "45",
@@ -9448,7 +9814,7 @@ export const bestiary = [
                 "none": 100
             },
             {
-                "name": "Body",
+                "name": "\u80f4_\u64cd\u7adc\u5618\u30a2\u30bf\u30ea\u7528",
                 "state": "0",
                 "sever": "35",
                 "blunt": "30",
@@ -9643,7 +10009,7 @@ export const bestiary = [
         "name": "Scorned Magnamalo",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/857304595",
         "kiranicoId": "857304595",
-        "monsterId": 13,
+        "monsterId": 54,
         "hitzones": [
             {
                 "name": "Head",
@@ -9886,10 +10252,186 @@ export const bestiary = [
         ]
     },
     {
+        "name": "Seething Bazelgeuse",
+        "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1572835996",
+        "kiranicoId": "1572835996",
+        "monsterId": 2,
+        "hitzones": [
+            {
+                "name": "Head",
+                "state": "0",
+                "sever": "64",
+                "blunt": "80",
+                "pierce": "45",
+                "fire": "0",
+                "water": "10",
+                "ice": "25",
+                "thunder": "20",
+                "dragon": "15",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "1",
+                "sever": "64",
+                "blunt": "80",
+                "pierce": "45",
+                "fire": "0",
+                "water": "10",
+                "ice": "25",
+                "thunder": "20",
+                "dragon": "15",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Abdomen",
+                "state": "0",
+                "sever": "45",
+                "blunt": "45",
+                "pierce": "25",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "10",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Abdomen",
+                "state": "1",
+                "sever": "45",
+                "blunt": "45",
+                "pierce": "25",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "10",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Back",
+                "state": "0",
+                "sever": "30",
+                "blunt": "30",
+                "pierce": "15",
+                "fire": "0",
+                "water": "0",
+                "ice": "10",
+                "thunder": "5",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Back",
+                "state": "1",
+                "sever": "30",
+                "blunt": "30",
+                "pierce": "15",
+                "fire": "0",
+                "water": "0",
+                "ice": "10",
+                "thunder": "5",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Leg",
+                "state": "0",
+                "sever": "36",
+                "blunt": "34",
+                "pierce": "25",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "10",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Leg",
+                "state": "1",
+                "sever": "36",
+                "blunt": "34",
+                "pierce": "25",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "10",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Wing",
+                "state": "0",
+                "sever": "44",
+                "blunt": "44",
+                "pierce": "35",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "10",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Wing",
+                "state": "1",
+                "sever": "44",
+                "blunt": "44",
+                "pierce": "35",
+                "fire": "0",
+                "water": "5",
+                "ice": "15",
+                "thunder": "10",
+                "dragon": "5",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail",
+                "state": "0",
+                "sever": "70",
+                "blunt": "65",
+                "pierce": "55",
+                "fire": "0",
+                "water": "5",
+                "ice": "25",
+                "thunder": "15",
+                "dragon": "10",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail",
+                "state": "1",
+                "sever": "70",
+                "blunt": "65",
+                "pierce": "55",
+                "fire": "0",
+                "water": "5",
+                "ice": "25",
+                "thunder": "15",
+                "dragon": "10",
+                "stun": "0",
+                "none": 100
+            }
+        ]
+    },
+    {
         "name": "Seregios",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1280901767",
         "kiranicoId": "1280901767",
-        "monsterId": 14,
+        "monsterId": 55,
         "hitzones": [
             {
                 "name": "Head",
@@ -10009,7 +10551,7 @@ export const bestiary = [
         "name": "Shagaru Magala",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1176146786",
         "kiranicoId": "1176146786",
-        "monsterId": 15,
+        "monsterId": 56,
         "hitzones": [
             {
                 "name": "Head",
@@ -10143,7 +10685,7 @@ export const bestiary = [
         "name": "Shogun Ceanataur",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/67000766",
         "kiranicoId": "67000766",
-        "monsterId": 16,
+        "monsterId": 57,
         "hitzones": [
             {
                 "name": "Head",
@@ -10246,10 +10788,214 @@ export const bestiary = [
         ]
     },
     {
+        "name": "Silver Rathalos",
+        "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1532413416",
+        "kiranicoId": "1532413416",
+        "monsterId": 3,
+        "hitzones": [
+            {
+                "name": "Head",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "15",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "5",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "1",
+                "sever": "55",
+                "blunt": "60",
+                "pierce": "45",
+                "fire": "0",
+                "water": "15",
+                "ice": "10",
+                "thunder": "15",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "2",
+                "sever": "55",
+                "blunt": "60",
+                "pierce": "45",
+                "fire": "0",
+                "water": "25",
+                "ice": "10",
+                "thunder": "20",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Head",
+                "state": "3",
+                "sever": "65",
+                "blunt": "70",
+                "pierce": "50",
+                "fire": "0",
+                "water": "30",
+                "ice": "20",
+                "thunder": "25",
+                "dragon": "0",
+                "stun": "100",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "15",
+                "fire": "0",
+                "water": "5",
+                "ice": "5",
+                "thunder": "5",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "1",
+                "sever": "40",
+                "blunt": "40",
+                "pierce": "30",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "2",
+                "sever": "38",
+                "blunt": "38",
+                "pierce": "30",
+                "fire": "0",
+                "water": "15",
+                "ice": "10",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Neck",
+                "state": "3",
+                "sever": "45",
+                "blunt": "45",
+                "pierce": "35",
+                "fire": "0",
+                "water": "25",
+                "ice": "10",
+                "thunder": "20",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Back",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "20",
+                "fire": "0",
+                "water": "20",
+                "ice": "5",
+                "thunder": "15",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Abdomen",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "20",
+                "fire": "0",
+                "water": "15",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Tail",
+                "state": "0",
+                "sever": "22",
+                "blunt": "22",
+                "pierce": "45",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "5",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Wing",
+                "state": "0",
+                "sever": "50",
+                "blunt": "45",
+                "pierce": "40",
+                "fire": "0",
+                "water": "25",
+                "ice": "10",
+                "thunder": "15",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "Leg",
+                "state": "0",
+                "sever": "38",
+                "blunt": "38",
+                "pierce": "32",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            },
+            {
+                "name": "\u5e0c\u5c11\u7528\u5148\u7aef",
+                "state": "0",
+                "sever": "55",
+                "blunt": "50",
+                "pierce": "45",
+                "fire": "0",
+                "water": "10",
+                "ice": "5",
+                "thunder": "10",
+                "dragon": "0",
+                "stun": "0",
+                "none": 100
+            }
+        ]
+    },
+    {
         "name": "Somnacanth",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2146828439",
         "kiranicoId": "2146828439",
-        "monsterId": 54,
+        "monsterId": 58,
         "hitzones": [
             {
                 "name": "Head",
@@ -10369,7 +11115,7 @@ export const bestiary = [
         "name": "Teostra",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/200239249",
         "kiranicoId": "200239249",
-        "monsterId": 55,
+        "monsterId": 59,
         "hitzones": [
             {
                 "name": "Head",
@@ -10713,7 +11459,7 @@ export const bestiary = [
         "name": "Tetranadon",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2099040502",
         "kiranicoId": "2099040502",
-        "monsterId": 56,
+        "monsterId": 60,
         "hitzones": [
             {
                 "name": "Head",
@@ -10833,7 +11579,7 @@ export const bestiary = [
         "name": "Thunder Serpent Narwa",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1695408169",
         "kiranicoId": "1695408169",
-        "monsterId": 57,
+        "monsterId": 61,
         "hitzones": [
             {
                 "name": "Head",
@@ -11079,7 +11825,7 @@ export const bestiary = [
         "name": "Tigrex",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/808327178",
         "kiranicoId": "808327178",
-        "monsterId": 58,
+        "monsterId": 62,
         "hitzones": [
             {
                 "name": "Head",
@@ -11185,7 +11931,7 @@ export const bestiary = [
         "name": "Tobi-Kadachi",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1770194663",
         "kiranicoId": "1770194663",
-        "monsterId": 59,
+        "monsterId": 63,
         "hitzones": [
             {
                 "name": "Head",
@@ -11369,7 +12115,7 @@ export const bestiary = [
         "name": "Volvidon",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1403354196",
         "kiranicoId": "1403354196",
-        "monsterId": 60,
+        "monsterId": 64,
         "hitzones": [
             {
                 "name": "Head",
@@ -11475,7 +12221,7 @@ export const bestiary = [
         "name": "Wind Serpent Ibushi",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/2054819914",
         "kiranicoId": "2054819914",
-        "monsterId": 61,
+        "monsterId": 65,
         "hitzones": [
             {
                 "name": "Head",
@@ -11679,7 +12425,7 @@ export const bestiary = [
         "name": "Zinogre",
         "kiranicoLink": "https://mhrise.kiranico.com/data/monsters/1432800563",
         "kiranicoId": "1432800563",
-        "monsterId": 62,
+        "monsterId": 66,
         "hitzones": [
             {
                 "name": "Head",
